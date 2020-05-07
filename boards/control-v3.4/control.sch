@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29103,32 +29103,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="REVISION" value="v3.4"/>
 <attribute name="SCH_DESC" value="Wheel Motor Driver"/>
 </part>
-<part name="U1" library="RoboJackets-PowerICs" deviceset="DRV8303" device="DCA"/>
+<part name="U1" library="RoboJackets-PowerICs" deviceset="DRV8303" device="DCA" override_package3d_urn="urn:adsk.eagle:package:19932367/2" override_package_urn="urn:adsk.eagle:footprint:19932368/1"/>
 <part name="SUPPLY4" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931099/3" override_package_urn="urn:adsk.eagle:footprint:19931100/1" value="1uF"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931176/2" override_package_urn="urn:adsk.eagle:footprint:19931177/1" value="1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="0.022uF 50V"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19932008/2" override_package_urn="urn:adsk.eagle:footprint:19932035/1" value="0.022uF 50V"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="2.2uF 50V"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
-<part name="Q2" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
+<part name="Q2" library="RoboJackets-Discrete" deviceset="IRFH7545" device="" override_package3d_urn="urn:adsk.eagle:package:19932393/2" override_package_urn="urn:adsk.eagle:footprint:19932394/1"/>
 <part name="Q3" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
-<part name="Q4" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
+<part name="Q4" library="RoboJackets-Discrete" deviceset="IRFH7545" device="" override_package3d_urn="urn:adsk.eagle:package:19932402/2" override_package_urn="urn:adsk.eagle:footprint:19932403/1"/>
 <part name="Q5" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
-<part name="Q6" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
+<part name="Q6" library="RoboJackets-Discrete" deviceset="IRFH7545" device="" override_package3d_urn="urn:adsk.eagle:package:19932406/2" override_package_urn="urn:adsk.eagle:footprint:19932407/1"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19932314/2" override_package_urn="urn:adsk.eagle:footprint:19932315/1" value="0.1uF 50V"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19932311/2" override_package_urn="urn:adsk.eagle:footprint:19932312/1" value="0.1uF 50V"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19932309/2" override_package_urn="urn:adsk.eagle:footprint:19932310/1" value="0.1uF 50V"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="SUPPLY6" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19932274/2" override_package_urn="urn:adsk.eagle:footprint:19932275/1" value="0.1uF 50V"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -29137,7 +29137,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
-<part name="J1" library="RoboJackets-Connectors" deviceset="MKS-1658" device=""/>
+<part name="J1" library="RoboJackets-Connectors" deviceset="MKS-1658" device="" override_package3d_urn="urn:adsk.eagle:package:19933888/2" override_package_urn="urn:adsk.eagle:footprint:19933889/1"/>
 <part name="J2" library="RoboJackets-Connectors" deviceset="4-PIN_2MM-*" device="H"/>
 <part name="C12" library="RoboJackets-Capacitors" deviceset="ECA-1HHG221" device=""/>
 <part name="C13" library="RoboJackets-Capacitors" deviceset="ECA-1HHG221" device=""/>
@@ -29818,14 +29818,14 @@ ripple current from motors</text>
 <attribute name="REVISION" value="v3.4"/>
 <attribute name="SCH_DESC" value="Dribbler Motor Driver"/>
 </part>
-<part name="U1" library="RoboJackets-PowerICs" deviceset="DRV8303" device="DCA"/>
+<part name="U1" library="RoboJackets-PowerICs" deviceset="DRV8303" device="DCA" override_package3d_urn="urn:adsk.eagle:package:19932352/2" override_package_urn="urn:adsk.eagle:footprint:19932354/1"/>
 <part name="SUPPLY4" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19933781/2" override_package_urn="urn:adsk.eagle:footprint:19933782/1" value="1uF"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0603" value="0.022uF 50V"/>
+<part name="C3" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931521/2" override_package_urn="urn:adsk.eagle:footprint:19931522/1" value="0.022uF 50V"/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="2.2uF 50V"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
@@ -29834,16 +29834,16 @@ ripple current from motors</text>
 <part name="Q4" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
 <part name="Q5" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
 <part name="Q6" library="RoboJackets-Discrete" deviceset="IRFH7545" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931534/2" override_package_urn="urn:adsk.eagle:footprint:19931535/1" value="0.1uF 50V"/>
+<part name="C7" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931528/2" override_package_urn="urn:adsk.eagle:footprint:19931529/1" value="0.1uF 50V"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19931525/2" override_package_urn="urn:adsk.eagle:footprint:19931526/1" value="0.1uF 50V"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="SUPPLY6" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0603" value="0.1uF 50V"/>
+<part name="C10" library="rcl" deviceset="C-US" device="C0603" override_package3d_urn="urn:adsk.eagle:package:19933784/2" override_package_urn="urn:adsk.eagle:footprint:19933785/1" value="0.1uF 50V"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -30452,7 +30452,7 @@ ripple current from motors</text>
 </module>
 </modules>
 <parts>
-<part name="U1" library="RoboJackets-ICs" deviceset="XC3S250E-4TQG144C" device=""/>
+<part name="U1" library="RoboJackets-ICs" deviceset="XC3S250E-4TQG144C" device="" override_package3d_urn="urn:adsk.eagle:package:19930943/2" override_package_urn="urn:adsk.eagle:footprint:19930944/1"/>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
 <attribute name="REVISION" value="v3.4"/>
 <attribute name="SCH_DESC" value="Microcontroller"/>
@@ -30479,25 +30479,25 @@ ripple current from motors</text>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="RN5" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN6" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN1" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN4" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN8" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN7" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
-<part name="RN2" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
+<part name="RN5" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931495/2" override_package_urn="urn:adsk.eagle:footprint:19931496/1" value="330"/>
+<part name="RN6" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931499/2" override_package_urn="urn:adsk.eagle:footprint:19931500/1" value="330"/>
+<part name="RN1" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931402/2" override_package_urn="urn:adsk.eagle:footprint:19931403/1" value="330"/>
+<part name="RN4" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931395/2" override_package_urn="urn:adsk.eagle:footprint:19931397/1" value="330"/>
+<part name="RN8" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931503/2" override_package_urn="urn:adsk.eagle:footprint:19931505/1" value="330"/>
+<part name="RN7" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931188/2" override_package_urn="urn:adsk.eagle:footprint:19931190/1" value="330"/>
+<part name="RN2" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931400/2" override_package_urn="urn:adsk.eagle:footprint:19931401/1" value="330"/>
 <part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k"/>
 <part name="SUPPLY24" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="FRAME5" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
 <attribute name="REVISION" value="v3.4"/>
 <attribute name="SCH_DESC" value="Power Delivery Circuits"/>
 </part>
-<part name="J6" library="RoboJackets-Connectors" deviceset="DF22-2" device=""/>
-<part name="U5" library="RoboJackets-PowerICs" deviceset="VND5E006ASPTR-E" device=""/>
+<part name="J6" library="RoboJackets-Connectors" deviceset="DF22-2" device="" override_package3d_urn="urn:adsk.eagle:package:19933876/2" override_package_urn="urn:adsk.eagle:footprint:19933877/1"/>
+<part name="U5" library="RoboJackets-PowerICs" deviceset="VND5E006ASPTR-E" device="" override_package3d_urn="urn:adsk.eagle:package:19933837/2" override_package_urn="urn:adsk.eagle:footprint:19933838/1"/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0603" override_package3d_urn="urn:adsk.eagle:package:19933822/2" override_package_urn="urn:adsk.eagle:footprint:19933823/1" value="10k"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0603" override_package3d_urn="urn:adsk.eagle:package:19933813/2" override_package_urn="urn:adsk.eagle:footprint:19933814/1" value="1k"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="R0603" override_package3d_urn="urn:adsk.eagle:package:19933825/2" override_package_urn="urn:adsk.eagle:footprint:19933826/1" value="1k"/>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
@@ -30511,7 +30511,7 @@ ripple current from motors</text>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="R31" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="D2" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
+<part name="D2" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933690/2" override_package_urn="urn:adsk.eagle:footprint:19933706/1" technology="-GREEN" value="GREEN"/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="GRM188R6YA106MA73D"/>
@@ -30528,7 +30528,7 @@ ripple current from motors</text>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF 50V"/>
 <part name="C30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="D5" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
+<part name="D5" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19932806/2" override_package_urn="urn:adsk.eagle:footprint:19932807/1" technology="-RED" value="RED"/>
 <part name="SUPPLY50" library="RoboJackets-Supplies" deviceset="+2.5V" device=""/>
 <part name="FRAME6" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
 <attribute name="REVISION" value="v3.4"/>
@@ -30548,12 +30548,12 @@ ripple current from motors</text>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY60" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY61" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
-<part name="RN3" library="RoboJackets-Resistors" deviceset="RA-8" device="" value="330"/>
+<part name="RN3" library="RoboJackets-Resistors" deviceset="RA-8" device="" override_package3d_urn="urn:adsk.eagle:package:19931405/2" override_package_urn="urn:adsk.eagle:footprint:19931406/1" value="330"/>
 <part name="J4" library="RoboJackets-Connectors" deviceset="HFW8" device="R-1ST"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="RoboJackets-Switches" deviceset="94HCB16T" device=""/>
+<part name="S1" library="RoboJackets-Switches" deviceset="94HCB16T" device="" override_package3d_urn="urn:adsk.eagle:package:19934310/2" override_package_urn="urn:adsk.eagle:footprint:19934311/1"/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="219-03*" device="" package3d_urn="urn:adsk.eagle:package:27280/1">
+<part name="S2" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="219-03*" device="" package3d_urn="urn:adsk.eagle:package:27280/1" override_package3d_urn="urn:adsk.eagle:package:19934199/2" override_package_urn="urn:adsk.eagle:footprint:27192/1">
 <attribute name="DIGIKEY" value="CT2193MST-ND"/>
 <attribute name="MPN" value="219-3MST"/>
 </part>
@@ -30573,11 +30573,11 @@ ripple current from motors</text>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
-<part name="D7" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
-<part name="D8" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
-<part name="D9" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
-<part name="D10" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
-<part name="D6" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
+<part name="D7" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933773/2" override_package_urn="urn:adsk.eagle:footprint:19933774/1" technology="-RED" value="RED"/>
+<part name="D8" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933778/2" override_package_urn="urn:adsk.eagle:footprint:19933779/1" technology="-RED" value="RED"/>
+<part name="D9" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933804/2" override_package_urn="urn:adsk.eagle:footprint:19933805/1" technology="-RED" value="RED"/>
+<part name="D10" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933800/2" override_package_urn="urn:adsk.eagle:footprint:19933801/1" technology="-RED" value="RED"/>
+<part name="D6" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933769/2" override_package_urn="urn:adsk.eagle:footprint:19933770/1" technology="-RED" value="RED"/>
 <part name="SUPPLY49" library="RoboJackets-Supplies" deviceset="+1.2V" device=""/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -30639,19 +30639,19 @@ ripple current from motors</text>
 <part name="SUPPLY11" library="RoboJackets-Supplies" deviceset="+2.5V" device=""/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330"/>
 <part name="SUPPLY20" library="RoboJackets-Supplies" deviceset="+2.5V" device=""/>
-<part name="D3" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
+<part name="D3" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933302/2" override_package_urn="urn:adsk.eagle:footprint:19933327/1" technology="-GREEN" value="GREEN"/>
 <part name="GND83" library="supply1" deviceset="GND" device=""/>
 <part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="SUPPLY54" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY66" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY68" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY56" library="supply2" deviceset="+5V" device=""/>
-<part name="XF1" library="RoboJackets-Fuses" deviceset="3557-2" device="" value="30A"/>
-<part name="D1" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
+<part name="XF1" library="RoboJackets-Fuses" deviceset="3557-2" device="" override_package3d_urn="urn:adsk.eagle:package:19934337/2" override_package_urn="urn:adsk.eagle:footprint:19934338/1" value="30A"/>
+<part name="D1" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933807/2" override_package_urn="urn:adsk.eagle:footprint:19933808/1" technology="-RED" value="RED"/>
 <part name="SUPPLY38" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY51" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY52" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="68k"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" override_package3d_urn="urn:adsk.eagle:package:19934309/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="68k"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -30676,15 +30676,15 @@ ripple current from motors</text>
 <attribute name="REVISION" value="v3.4"/>
 <attribute name="SCH_DESC" value="Miscellaneous ICs"/>
 </part>
-<part name="LED1" library="RoboJackets-ICs" deviceset="APA102" device="5050" value="APA102C-5050">
+<part name="LED1" library="RoboJackets-ICs" deviceset="APA102" device="5050" override_package3d_urn="urn:adsk.eagle:package:19934062/2" override_package_urn="urn:adsk.eagle:footprint:19934063/1" value="APA102C-5050">
 <attribute name="DIGIKEY" value="1568-1902-ND"/>
 <attribute name="MPN" value="APA1025050"/>
 </part>
-<part name="LED2" library="RoboJackets-ICs" deviceset="APA102" device="5050" value="APA102C-5050">
+<part name="LED2" library="RoboJackets-ICs" deviceset="APA102" device="5050" override_package3d_urn="urn:adsk.eagle:package:19934068/2" override_package_urn="urn:adsk.eagle:footprint:19934069/1" value="APA102C-5050">
 <attribute name="DIGIKEY" value="1568-1902-ND"/>
 <attribute name="MPN" value="APA1025050"/>
 </part>
-<part name="KIT1" library="RoboJackets-Boards" deviceset="MTRAIN" device=""/>
+<part name="KIT1" library="RoboJackets-Boards" deviceset="MTRAIN" device="" override_package3d_urn="urn:adsk.eagle:package:19934259/2" override_package_urn="urn:adsk.eagle:footprint:19934260/1"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30.1k 1%"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="160k 1%"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="43.2k"/>
@@ -30698,19 +30698,19 @@ ripple current from motors</text>
 <part name="SUPPLY30" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="LED3" library="RoboJackets-ICs" deviceset="APA102" device="5050" value="APA102C-5050">
+<part name="LED3" library="RoboJackets-ICs" deviceset="APA102" device="5050" override_package3d_urn="urn:adsk.eagle:package:19934071/2" override_package_urn="urn:adsk.eagle:footprint:19934072/1" value="APA102C-5050">
 <attribute name="DIGIKEY" value="1568-1902-ND"/>
 <attribute name="MPN" value="APA1025050"/>
 </part>
-<part name="J2" library="RoboJackets-Connectors" deviceset="HFW8" device="R-1ST"/>
+<part name="J2" library="RoboJackets-Connectors" deviceset="HFW8" device="R-1ST" override_package3d_urn="urn:adsk.eagle:package:19934251/2" override_package_urn="urn:adsk.eagle:footprint:19934252/1"/>
 <part name="J1" library="RoboJackets-Connectors" deviceset="HFW8" device="R-1ST"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="50k"/>
+<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" override_package3d_urn="urn:adsk.eagle:package:19934308/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="50k"/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-IC-Logic" library_urn="urn:adsk.eagle:library:523" deviceset="74*1G125" device="D" package3d_urn="urn:adsk.eagle:package:38806/1" technology="AHC" value="SN74AHC1G125"/>
+<part name="U2" library="SparkFun-IC-Logic" library_urn="urn:adsk.eagle:library:523" deviceset="74*1G125" device="D" package3d_urn="urn:adsk.eagle:package:38806/1" override_package3d_urn="urn:adsk.eagle:package:19934107/2" override_package_urn="urn:adsk.eagle:footprint:38782/1" technology="AHC" value="SN74AHC1G125"/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="J5" library="RoboJackets-Connectors" deviceset="2-PIN-KICKER" device="S"/>
@@ -30727,7 +30727,7 @@ ripple current from motors</text>
 <part name="C25" library="rcl" deviceset="C-US" device="C0603" value="GRM188R6YA106MA73D"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
-<part name="D4" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
+<part name="D4" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" override_package3d_urn="urn:adsk.eagle:package:19933767/2" override_package_urn="urn:adsk.eagle:footprint:19933768/1" technology="-GREEN" value="GREEN"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="U4" library="RoboJackets-PowerICs" deviceset="MPM3620GQV-P" device="">
@@ -35662,6 +35662,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
