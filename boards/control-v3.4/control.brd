@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="GND" color="13" fill="1" visible="no" active="yes"/>
 <layer number="3" name="3v3" color="11" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Inner-signal" color="1" fill="4" visible="no" active="no"/>
@@ -24,18 +24,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="5v" color="20" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Vbatt" color="32" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="0" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="0" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -184,7 +184,7 @@
 <layer number="255" name="INPROGRESS" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzI0QyMDIwMDUwNjI5NTAwMjMwMQ" f3durn="urn:adsk.wipprod:dm.lineage:4N0ltw3wT--6JSMPriEubA" pcbguid="58d6fd56-0b2a-4054-a8c5-5bd9d9397749" lastpulledtime="" lastsyncedchangeguid="037aaeea-809c-8a32-45a2-3d57c5d881c9"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzI0QyMDIwMDUwNjI5NTAwMjMwMQ" f3durn="urn:adsk.wipprod:dm.lineage:4N0ltw3wT--6JSMPriEubA" pcbguid="58d6fd56-0b2a-4054-a8c5-5bd9d9397749" lastpulledtime="" lastsyncedchangeguid="037aaeea-809c-8a32-45a2-3d57c5d881c9" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="26be396f-a206-31b3-901c-12a53223b68e" lastpushedtime="2020-05-10T16:20:30Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="34.5" y1="-40" x2="-33.5" y2="-40" width="0" layer="20"/>
 <wire x1="-68.25" y1="-5.25" x2="-68.25" y2="52" width="0" layer="20"/>
@@ -2431,7 +2431,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 <packages3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="2">
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model" library_version="3">
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R0603"/>
@@ -12865,11 +12865,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="2.635" y="-2.115" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="2.135" y="-5.155" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="C23" library="rcl" package="C0603" value="0.1uF" x="-38.15" y="49.375" smashed="yes" rot="MR0">
+<element name="C23" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="-38.15" y="49.375" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-33.515" y="48.76" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-37.515" y="47.47" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="C24" library="rcl" package="C0603" value="GRM188R6YA106MA73D" x="-0.75" y="-18" smashed="yes" rot="MR0">
+<element name="C24" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023769/2" override_package_urn="urn:adsk.eagle:footprint:20023770/1" value="GRM188R6YA106MA73D" x="-0.75" y="-18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="0.865" y="-17.635" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="-0.115" y="-19.905" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
@@ -12891,7 +12891,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" value="RED" x="-5.365" y="-26.095" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" value="GREEN" x="-6" y="-28" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="DD:C1" library="rcl" package="C0603" value="1uF" x="-37.75" y="31.75" smashed="yes" rot="MR180">
+<element name="DD:C1" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023185/2" override_package_urn="urn:adsk.eagle:footprint:20023186/1" value="1uF" x="-37.75" y="31.75" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-36.135" y="31.365" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="-38.385" y="33.655" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
@@ -12919,41 +12919,41 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-43.615" y="43.3" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="-44.865" y="45.655" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="DD:C9" library="rcl" package="C0603" value="2.2uF 50V" x="-29" y="40" smashed="yes" rot="MR180">
+<element name="DD:C9" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023175/2" override_package_urn="urn:adsk.eagle:footprint:20023176/1" value="2.2uF 50V" x="-29" y="40" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-27.385" y="40.115" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="-29.635" y="41.905" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="DD:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="34" smashed="yes" rot="MR180">
+<element name="DD:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999582/2" override_package_urn="urn:adsk.eagle:footprint:19999583/1" value="IRFH7545" x="-47.75" y="34" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="34" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="34" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-48.25" y="31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="DD:Q2" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="34" smashed="yes" rot="R180">
+<element name="DD:Q2" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999847/2" override_package_urn="urn:adsk.eagle:footprint:19999848/1" value="IRFH7545" x="-47.75" y="34" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-43.75" y="36.25" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="DD:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="40.5" smashed="yes" rot="MR180">
+<element name="DD:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999577/2" override_package_urn="urn:adsk.eagle:footprint:19999578/1" value="IRFH7545" x="-47.75" y="40.5" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="40.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="40.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-48.25" y="38" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="DD:Q4" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="40.5" smashed="yes" rot="R180">
+<element name="DD:Q4" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999840/2" override_package_urn="urn:adsk.eagle:footprint:19999841/1" value="IRFH7545" x="-47.75" y="40.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="40.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-43.75" y="42.5" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="DD:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="47" smashed="yes" rot="MR180">
+<element name="DD:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999575/2" override_package_urn="urn:adsk.eagle:footprint:19999576/1" value="IRFH7545" x="-47.75" y="47" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="47" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="47" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-48.25" y="44.5" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="DD:Q6" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-47.75" y="47" smashed="yes" rot="R180">
+<element name="DD:Q6" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999838/2" override_package_urn="urn:adsk.eagle:footprint:19999839/1" value="IRFH7545" x="-47.75" y="47" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-47.75" y="47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-47.75" y="47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-42.75" y="45" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="DD:R1" library="rcl" package="R0603" value="10k" x="-29" y="42.25" smashed="yes" rot="MR0">
+<element name="DD:R1" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023156/2" override_package_urn="urn:adsk.eagle:footprint:20023157/1" value="10k" x="-29" y="42.25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-23.25" y="41.635" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-28.365" y="40.345" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
@@ -12962,7 +12962,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="DRV8303DCAR" x="-33.5" y="39.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-31.25" y="47.5" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="IC1" library="RoboJackets-ICs" package="SSOP-28" value="MCP23017-E/SS" x="-37.05" y="57.15" smashed="yes" rot="MR0">
+<element name="IC1" library="RoboJackets-ICs" package="SSOP-28" override_package3d_urn="urn:adsk.eagle:package:20000180/2" override_package_urn="urn:adsk.eagle:footprint:20000182/1" value="MCP23017-E/SS" x="-37.05" y="57.15" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="MCP23017-E/SS-ND" x="-37.05" y="57.15" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MCP23017-E/SS" x="-37.05" y="57.15" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="-34.4" y="50.785" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -12973,15 +12973,15 @@ Your Eurocircuits Team
 <attribute name="MPN" value="DF22-2P-7.92DS(35)" x="9.25" y="-20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.25" y="-18" size="1" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="R17" library="rcl" package="R0603" value="100k" x="5.75" y="-13.5" smashed="yes" rot="MR0">
+<element name="R17" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023761/2" override_package_urn="urn:adsk.eagle:footprint:20023762/1" value="100k" x="5.75" y="-13.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.5" y="-13" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="6.385" y="-15.405" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="R31" library="rcl" package="R0603" value="1k" x="-6" y="-37" smashed="yes" rot="MR0">
+<element name="R31" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023772/2" override_package_urn="urn:adsk.eagle:footprint:20023773/1" value="1k" x="-6" y="-37" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-1.5" y="-37.5" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-5.365" y="-38.905" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k" x="7" y="33.75" smashed="yes" rot="MR180">
+<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:20023196/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="4.7k" x="7" y="33.75" smashed="yes" rot="MR180">
 <attribute name="NAME" x="8.865" y="34.365" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="6.365" y="35.655" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
@@ -12997,11 +12997,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="3.385" y="-17.615" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="6.655" y="-15.635" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R16" library="rcl" package="R0603" value="270k" x="5.25" y="-16.25" smashed="yes" rot="MR270">
+<element name="R16" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023765/2" override_package_urn="urn:adsk.eagle:footprint:20023766/1" value="270k" x="5.25" y="-16.25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="6.5" y="-16" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="7.155" y="-15.615" size="1" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="RN9" library="RoboJackets-Resistors" package="RA-8_2506" value="330" x="-25.95" y="49.55" smashed="yes" rot="MR90">
+<element name="RN9" library="RoboJackets-Resistors" package="RA-8_2506" override_package3d_urn="urn:adsk.eagle:package:20000167/2" override_package_urn="urn:adsk.eagle:footprint:20000168/1" value="330" x="-25.95" y="49.55" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="742C163331JPCT-ND" x="-25.95" y="49.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="742C163331JP" x="-25.95" y="49.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="-24.176" y="47.922" size="1" layer="26" font="vector" ratio="15" rot="MR90"/>
@@ -13049,7 +13049,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="15.143009375" y="9.634196875" size="1" layer="25" font="vector" ratio="15" rot="R225"/>
 <attribute name="VALUE" x="13.589725" y="14.187484375" size="1" layer="27" font="vector" ratio="15" rot="R225"/>
 </element>
-<element name="S3" library="RoboJackets-Switches" package="34EWMSP12M6RT" value="34EWMSP12M6RT" x="55" y="35" smashed="yes" rot="R270">
+<element name="S3" library="RoboJackets-Switches" package="34EWMSP12M6RT" override_package3d_urn="urn:adsk.eagle:package:19999701/2" override_package_urn="urn:adsk.eagle:footprint:19999702/1" value="34EWMSP12M6RT" x="55" y="35" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="GH7540CT-ND" x="55" y="35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="34EWMSP12M6RT" x="55" y="35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="52.5" y="34" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
@@ -13065,14 +13065,14 @@ Your Eurocircuits Team
 <attribute name="MPN" value="VND5E006ASPTR-E" x="-0.25" y="-5.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="5.25" y="-1.5" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U6" library="RoboJackets-PowerICs" package="SOT-23-5" value="MCP1824T-1202E/OT" x="5.25" y="-9" smashed="yes" rot="MR0">
+<element name="U6" library="RoboJackets-PowerICs" package="SOT-23-5" override_package3d_urn="urn:adsk.eagle:package:20023214/2" override_package_urn="urn:adsk.eagle:footprint:20023215/1" value="MCP1824T-1202E/OT" x="5.25" y="-9" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="MCP1824T-1202E/OTCT-ND" x="5.25" y="-9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MCP1824T-1202E/OT" x="5.25" y="-9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="7.222" y="-8.472" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="2.202" y="-10.778" size="1" layer="28" font="vector" ratio="15" rot="MR90"/>
 <attribute name="VOLTAGE" value="1.2V" x="5.25" y="-9" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U7" library="RoboJackets-PowerICs" package="SOT-23-5" value="MCP1824T-2502E/OT" x="1.5" y="-9" smashed="yes" rot="MR0">
+<element name="U7" library="RoboJackets-PowerICs" package="SOT-23-5" override_package3d_urn="urn:adsk.eagle:package:20023700/2" override_package_urn="urn:adsk.eagle:footprint:20023701/1" value="MCP1824T-2502E/OT" x="1.5" y="-9" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="MCP1824T-2502E/OTCT-ND" x="1.5" y="-9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="MCP1824T-2502E/OT" x="1.5" y="-9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="0.472" y="-11.278" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -13107,11 +13107,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-41.8" y="19.615" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="-46.865" y="20.905" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="M1:C9" library="rcl" package="C0603" value="2.2uF 50V" x="-28.75" y="13" smashed="yes" rot="MR180">
+<element name="M1:C9" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023188/2" override_package_urn="urn:adsk.eagle:footprint:20023189/1" value="2.2uF 50V" x="-28.75" y="13" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-30.6" y="11.865" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="-29.385" y="14.905" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="M1:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-49.75" y="9.25" smashed="yes" rot="MR180">
+<element name="M1:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999605/2" override_package_urn="urn:adsk.eagle:footprint:19999606/1" value="IRFH7545" x="-49.75" y="9.25" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-49.75" y="9.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="9.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-49.75" y="6.75" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -13121,7 +13121,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="9.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-45.75" y="11.5" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="M1:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-49.75" y="15.75" smashed="yes" rot="MR180">
+<element name="M1:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999601/2" override_package_urn="urn:adsk.eagle:footprint:19999602/1" value="IRFH7545" x="-49.75" y="15.75" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-49.75" y="15.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="15.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-50.25" y="13.25" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -13131,7 +13131,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="15.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-45.75" y="17.75" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="M1:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-49.75" y="22.25" smashed="yes" rot="MR180">
+<element name="M1:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999596/2" override_package_urn="urn:adsk.eagle:footprint:19999597/1" value="IRFH7545" x="-49.75" y="22.25" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-49.75" y="22.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="22.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-50.25" y="19.75" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
@@ -13141,7 +13141,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-49.75" y="22.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-45.75" y="24.25" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="M1:R1" library="rcl" package="R0603" value="10k" x="-28.75" y="15.25" smashed="yes" rot="MR0">
+<element name="M1:R1" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023162/2" override_package_urn="urn:adsk.eagle:footprint:20023163/1" value="10k" x="-28.75" y="15.25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-30.635" y="17.3" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="-28.115" y="13.345" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
@@ -13178,11 +13178,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-35.701975" y="-12.4" size="1" layer="25" font="vector" ratio="15" rot="R225"/>
 <attribute name="VALUE" x="-35.498028125" y="-9.60395" size="1" layer="27" font="vector" ratio="15" rot="R225"/>
 </element>
-<element name="M2:C9" library="rcl" package="C0603" value="2.2uF 50V" x="-18" y="-2.75" smashed="yes" rot="MR315">
+<element name="M2:C9" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023188/2" override_package_urn="urn:adsk.eagle:footprint:20023189/1" value="2.2uF 50V" x="-18" y="-2.75" smashed="yes" rot="MR315">
 <attribute name="NAME" x="-19" y="-4.351971875" size="1" layer="26" font="vector" ratio="15" rot="MR315"/>
 <attribute name="VALUE" x="-16.203946875" y="-3.648025" size="1" layer="28" font="vector" ratio="15" rot="MR315"/>
 </element>
-<element name="M2:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-28.35" y="-20.4" smashed="yes" rot="MR135">
+<element name="M2:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999605/2" override_package_urn="urn:adsk.eagle:footprint:19999606/1" value="IRFH7545" x="-28.35" y="-20.4" smashed="yes" rot="MR135">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-28.35" y="-20.4" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-28.35" y="-20.4" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="-27.05710625" y="-22.642640625" size="1" layer="26" font="vector" ratio="15" rot="MR135"/>
@@ -13192,7 +13192,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-28.35" y="-20.4" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="-27.057103125" y="-16.15735625" size="1" layer="25" font="vector" ratio="15" rot="R315"/>
 </element>
-<element name="M2:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-33.4" y="-15.3" smashed="yes" rot="MR135">
+<element name="M2:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999601/2" override_package_urn="urn:adsk.eagle:footprint:19999602/1" value="IRFH7545" x="-33.4" y="-15.3" smashed="yes" rot="MR135">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-33.4" y="-15.3" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-33.4" y="-15.3" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="-32.107109375" y="-17.542646875" size="1" layer="26" font="vector" ratio="15" rot="MR135"/>
@@ -13202,7 +13202,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-33.4" y="-15.3" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="-28.44289375" y="-13.292640625" size="1" layer="25" font="vector" ratio="15" rot="R135"/>
 </element>
-<element name="M2:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="-38.5" y="-10.25" smashed="yes" rot="MR135">
+<element name="M2:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999596/2" override_package_urn="urn:adsk.eagle:footprint:19999597/1" value="IRFH7545" x="-38.5" y="-10.25" smashed="yes" rot="MR135">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="-38.5" y="-10.25" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="-38.5" y="-10.25" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="-37.20710625" y="-12.492646875" size="1" layer="26" font="vector" ratio="15" rot="MR135"/>
@@ -13212,7 +13212,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="-38.5" y="-10.25" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="NAME" x="-33.542890625" y="-8.242640625" size="1" layer="25" font="vector" ratio="15" rot="R135"/>
 </element>
-<element name="M2:R1" library="rcl" package="R0603" value="10k" x="-19.5" y="-1.25" smashed="yes" rot="MR135">
+<element name="M2:R1" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023162/2" override_package_urn="urn:adsk.eagle:footprint:20023163/1" value="10k" x="-19.5" y="-1.25" smashed="yes" rot="MR135">
 <attribute name="NAME" x="-24" y="-5.148025" size="1" layer="26" font="vector" ratio="15" rot="MR135"/>
 <attribute name="VALUE" x="-21.29605" y="-0.351971875" size="1" layer="28" font="vector" ratio="15" rot="MR135"/>
 </element>
@@ -13249,11 +13249,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="34.2" y="-15.151975" size="1" layer="25" font="vector" ratio="15" rot="R315"/>
 <attribute name="VALUE" x="31.403946875" y="-14.448028125" size="1" layer="27" font="vector" ratio="15" rot="R315"/>
 </element>
-<element name="M3:C9" library="rcl" package="C0603" value="2.2uF 50V" x="31.5" y="-0.25" smashed="yes" rot="MR225">
+<element name="M3:C9" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023188/2" override_package_urn="urn:adsk.eagle:footprint:20023189/1" value="2.2uF 50V" x="31.5" y="-0.25" smashed="yes" rot="MR225">
 <attribute name="NAME" x="35.398028125" y="-4.25" size="1" layer="26" font="vector" ratio="15" rot="MR45"/>
 <attribute name="VALUE" x="32.398025" y="1.54605" size="1" layer="28" font="vector" ratio="15" rot="MR225"/>
 </element>
-<element name="M3:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="41.35" y="-7.9" smashed="yes" rot="MR45">
+<element name="M3:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999605/2" override_package_urn="urn:adsk.eagle:footprint:19999606/1" value="IRFH7545" x="41.35" y="-7.9" smashed="yes" rot="MR45">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="41.35" y="-7.9" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="41.35" y="-7.9" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="43.59264375" y="-6.60710625" size="1" layer="26" font="vector" ratio="15" rot="MR45"/>
@@ -13263,7 +13263,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="41.35" y="-7.9" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="37.10735625" y="-6.357103125" size="1" layer="25" font="vector" ratio="15" rot="R45"/>
 </element>
-<element name="M3:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="36.75" y="-12.5" smashed="yes" rot="MR45">
+<element name="M3:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999601/2" override_package_urn="urn:adsk.eagle:footprint:19999602/1" value="IRFH7545" x="36.75" y="-12.5" smashed="yes" rot="MR45">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="36.75" y="-12.5" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="36.75" y="-12.5" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="38.992646875" y="-11.207103125" size="1" layer="26" font="vector" ratio="15" rot="MR45"/>
@@ -13273,7 +13273,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="36.75" y="-12.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="32.50735625" y="-10.957103125" size="1" layer="25" font="vector" ratio="15" rot="R45"/>
 </element>
-<element name="M3:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="32.15" y="-17.1" smashed="yes" rot="MR45">
+<element name="M3:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999596/2" override_package_urn="urn:adsk.eagle:footprint:19999597/1" value="IRFH7545" x="32.15" y="-17.1" smashed="yes" rot="MR45">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="32.15" y="-17.1" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="32.15" y="-17.1" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="34.39264375" y="-15.80710625" size="1" layer="26" font="vector" ratio="15" rot="MR45"/>
@@ -13283,7 +13283,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="32.15" y="-17.1" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="27.907359375" y="-15.557109375" size="1" layer="25" font="vector" ratio="15" rot="R45"/>
 </element>
-<element name="M3:R1" library="rcl" package="R0603" value="10k" x="30" y="-1.75" smashed="yes" rot="MR45">
+<element name="M3:R1" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023162/2" override_package_urn="urn:adsk.eagle:footprint:20023163/1" value="10k" x="30" y="-1.75" smashed="yes" rot="MR45">
 <attribute name="NAME" x="33.648025" y="-5.75" size="1" layer="26" font="vector" ratio="15" rot="MR45"/>
 <attribute name="VALUE" x="29.101971875" y="-3.546053125" size="1" layer="28" font="vector" ratio="15" rot="MR45"/>
 </element>
@@ -13320,11 +13320,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="41.615" y="17.635" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="46.865" y="16.095" size="1" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="M4:C9" library="rcl" package="C0603" value="2.2uF 50V" x="36" y="29.5" smashed="yes" rot="MR180">
+<element name="M4:C9" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023188/2" override_package_urn="urn:adsk.eagle:footprint:20023189/1" value="2.2uF 50V" x="36" y="29.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="37.615" y="29.865" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="35.365" y="31.405" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="M4:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="49.75" y="27.75" smashed="yes" rot="MR0">
+<element name="M4:Q1" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999605/2" override_package_urn="urn:adsk.eagle:footprint:19999606/1" value="IRFH7545" x="49.75" y="27.75" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="49.75" y="27.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="27.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="50.25" y="30.25" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13334,7 +13334,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="27.75" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.75" y="25.75" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="M4:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="49.75" y="21.25" smashed="yes" rot="MR0">
+<element name="M4:Q3" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999601/2" override_package_urn="urn:adsk.eagle:footprint:19999602/1" value="IRFH7545" x="49.75" y="21.25" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="49.75" y="21.25" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="21.25" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="50.25" y="23.75" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13344,7 +13344,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="21.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.75" y="19.25" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="M4:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" value="IRFH7545" x="49.75" y="14.75" smashed="yes" rot="MR0">
+<element name="M4:Q5" library="RoboJackets-Discrete" package="PQFN_5X6_E" override_package3d_urn="urn:adsk.eagle:package:19999596/2" override_package_urn="urn:adsk.eagle:footprint:19999597/1" value="IRFH7545" x="49.75" y="14.75" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="IRFH7545TRPBFCT-ND" x="49.75" y="14.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="14.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="50.25" y="17.25" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13354,7 +13354,7 @@ Your Eurocircuits Team
 <attribute name="MPN" value="IRFH7545TRPBF" x="49.75" y="14.75" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.75" y="12.75" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="M4:R1" library="rcl" package="R0603" value="10k" x="36" y="27.25" smashed="yes" rot="MR0">
+<element name="M4:R1" library="rcl" package="R0603" override_package3d_urn="urn:adsk.eagle:package:20023162/2" override_package_urn="urn:adsk.eagle:footprint:20023163/1" value="10k" x="36" y="27.25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.365" y="27.615" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="36.635" y="25.345" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
@@ -13369,7 +13369,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-13.26225" y="7.606984375" size="1" layer="25" font="vector" ratio="15" rot="R135"/>
 <attribute name="VALUE" x="-8.7089625" y="9.41026875" size="1" layer="27" font="vector" ratio="15" rot="R135"/>
 </element>
-<element name="J4" library="RoboJackets-Connectors" package="HFW8R-1ST" value="HFW8R-1ST" x="63.75" y="47.5" smashed="yes" rot="MR270">
+<element name="J4" library="RoboJackets-Connectors" package="HFW8R-1ST" override_package3d_urn="urn:adsk.eagle:package:20000151/2" override_package_urn="urn:adsk.eagle:footprint:20000152/1" value="HFW8R-1ST" x="63.75" y="47.5" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="609-1788-1-ND" x="63.75" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="HFW8R-1STE1LF" x="63.75" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="59.25" y="51.75" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13400,27 +13400,27 @@ Your Eurocircuits Team
 <attribute name="NAME" x="65.56" y="14.11" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="58.055" y="12.19" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="M1:J2" library="RoboJackets-Connectors" package="2MM-4-H" value="4-PIN_2MM-H" x="-58.25" y="1.35" smashed="yes" rot="R270">
+<element name="M1:J2" library="RoboJackets-Connectors" package="2MM-4-H" override_package3d_urn="urn:adsk.eagle:package:19962642/2" override_package_urn="urn:adsk.eagle:footprint:19962643/1" value="4-PIN_2MM-H" x="-58.25" y="1.35" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="WM18933-ND" x="-58.25" y="1.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="0353630460" x="-58.25" y="1.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-60.25" y="1.35" size="1" layer="25" font="vector" ratio="15" rot="SR270" align="bottom-center"/>
 </element>
-<element name="M2:J2" library="RoboJackets-Connectors" package="2MM-4-H" value="4-PIN_2MM-H" x="-30.025" y="-29.875" smashed="yes">
+<element name="M2:J2" library="RoboJackets-Connectors" package="2MM-4-H" override_package3d_urn="urn:adsk.eagle:package:19962642/2" override_package_urn="urn:adsk.eagle:footprint:19962643/1" value="4-PIN_2MM-H" x="-30.025" y="-29.875" smashed="yes">
 <attribute name="DIGIKEY" value="WM18933-ND" x="-30.025" y="-29.875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="0353630460" x="-30.025" y="-29.875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-30.20175625" y="-31.79439375" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 </element>
-<element name="M3:J2" library="RoboJackets-Connectors" package="2MM-4-H" value="4-PIN_2MM-H" x="52.25" y="-9.25" smashed="yes" rot="R45">
+<element name="M3:J2" library="RoboJackets-Connectors" package="2MM-4-H" override_package3d_urn="urn:adsk.eagle:package:19962642/2" override_package_urn="urn:adsk.eagle:footprint:19962643/1" value="4-PIN_2MM-H" x="52.25" y="-9.25" smashed="yes" rot="R45">
 <attribute name="DIGIKEY" value="WM18933-ND" x="52.25" y="-9.25" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MPN" value="0353630460" x="52.25" y="-9.25" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="53.982215625" y="-10.482225" size="1" layer="25" font="vector" ratio="15" rot="R45" align="bottom-center"/>
 </element>
-<element name="M4:J2" library="RoboJackets-Connectors" package="2MM-4-H" value="4-PIN_2MM-H" x="60.25" y="-1.9" smashed="yes" rot="R90">
+<element name="M4:J2" library="RoboJackets-Connectors" package="2MM-4-H" override_package3d_urn="urn:adsk.eagle:package:19962642/2" override_package_urn="urn:adsk.eagle:footprint:19962643/1" value="4-PIN_2MM-H" x="60.25" y="-1.9" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="WM18933-ND" x="60.25" y="-1.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="0353630460" x="60.25" y="-1.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.75" y="-1.9" size="1" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 </element>
-<element name="DD:J1" library="RoboJackets-Connectors" package="2MM-8-H" value="8-PIN_2MM-H" x="-59.75" y="43" smashed="yes" rot="R270">
+<element name="DD:J1" library="RoboJackets-Connectors" package="2MM-8-H" override_package3d_urn="urn:adsk.eagle:package:19999827/2" override_package_urn="urn:adsk.eagle:footprint:19999828/1" value="8-PIN_2MM-H" x="-59.75" y="43" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="WM18937-ND" x="-59.75" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="0353630860" x="-59.75" y="43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-61.75" y="39.25" size="1" layer="25" font="vector" ratio="15" rot="SR270"/>
@@ -13434,19 +13434,19 @@ Your Eurocircuits Team
 <attribute name="OC_NEWARK" value="unknown" x="-32" y="54.375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-38.31" y="57.375" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="68k 1%" x="30.25" y="52.25" smashed="yes" rot="R90">
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999692/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="68k 1%" x="30.25" y="52.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.865" y="49.135" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="32.155" y="51.615" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k 1%" x="27.5" y="54" smashed="yes" rot="R180">
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999621/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="10k 1%" x="27.5" y="54" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.135" y="55.865" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="28.135" y="55.905" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k 1%" x="21.25" y="52.25" smashed="yes" rot="R90">
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999686/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="10k 1%" x="21.25" y="52.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.135" y="53.615" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="23.155" y="51.615" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k 1%" x="24" y="51.75" smashed="yes">
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999684/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="10k 1%" x="24" y="51.75" smashed="yes">
 <attribute name="NAME" x="22.615" y="49.385" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="23.365" y="49.845" size="1" layer="27" font="vector" ratio="15"/>
 </element>
@@ -13565,7 +13565,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="9.115" y="13.885" size="1" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="6.595" y="15.365" size="1" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="X1" library="RoboJackets-FreqGen" package="ASV" value="ASV-18.432MHZ-EJ-T" x="2.25" y="38.75" smashed="yes" rot="MR180">
+<element name="X1" library="RoboJackets-FreqGen" package="ASV" override_package3d_urn="urn:adsk.eagle:package:20024221/2" override_package_urn="urn:adsk.eagle:footprint:20024223/1" value="ASV-18.432MHZ-EJ-T" x="2.25" y="38.75" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="535-9314-1-ND" x="2.25" y="38.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="ASV-18.432MHZ-EJ-T" x="2.25" y="38.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-2.25" y="38.5" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13575,11 +13575,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="5.615" y="43.615" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="3.115" y="45.155" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k" x="10.75" y="16" smashed="yes" rot="MR90">
+<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:20023201/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="4.7k" x="10.75" y="16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="11.115" y="13.885" size="1" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="8.845" y="15.365" size="1" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="330" x="-10.75" y="32.5" smashed="yes" rot="MR270">
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:20023194/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="330" x="-10.75" y="32.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-11.885" y="33.635" size="1" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="-8.845" y="33.135" size="1" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
@@ -13590,7 +13590,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="-5.365" y="-32.845" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" value="GREEN" x="-6" y="-34.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="-6" y="-34.75" smashed="yes" rot="MR180">
+<element name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="-6" y="-34.75" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-1.5" y="-35.25" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-6.635" y="-32.845" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
@@ -13605,11 +13605,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="53.365" y="47.635" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="56.155" y="47.115" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" override_package3d_urn="urn:adsk.eagle:package:19934309/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="68k" x="5" y="2.75" smashed="yes" rot="R90">
+<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19934309/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="68k" x="5" y="2.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.59" y="6.615" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="6.905" y="2.115" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="9.5" y="2.75" smashed="yes" rot="R270">
+<element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999616/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="10k" x="9.5" y="2.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.135" y="6.385" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="7.595" y="3.385" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -13617,15 +13617,15 @@ Your Eurocircuits Team
 <attribute name="NAME" x="6.885" y="7.385" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="5.345" y="3.385" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" value="" x="0" y="40.96" smashed="yes"/>
-<element name="U$3" library="RoboJackets-Aesthetics" package="MOTOR-1" value="" x="-58.75" y="26.31" smashed="yes" rot="R270"/>
-<element name="U$4" library="RoboJackets-Aesthetics" package="DRIBBLER" value="" x="-57.75" y="48.5" smashed="yes" rot="R270"/>
-<element name="U$5" library="RoboJackets-Aesthetics" package="MOTOR-2" value="" x="-51.75" y="-10.19" smashed="yes" rot="R315"/>
-<element name="U$6" library="RoboJackets-Aesthetics" package="MOTOR-3" value="" x="35.25" y="-26.44" smashed="yes" rot="R45"/>
-<element name="U$7" library="RoboJackets-Aesthetics" package="MOTOR-4" value="" x="58.75" y="10.06" smashed="yes" rot="R90"/>
-<element name="U$9" library="RoboJackets-Aesthetics" package="KICKER" value="" x="66.25" y="42.56" smashed="yes" rot="R90"/>
-<element name="U$11" library="RoboJackets-Aesthetics" package="ROBOBUZZ_1.0X2" value="" x="-12.5" y="33.5" smashed="yes"/>
-<element name="U3" library="RoboJackets-PowerICs" package="MPM3620GQV-P" value="MPM3620GQV-P" x="-6" y="-19.5" smashed="yes" rot="MR90">
+<element name="U$2" library="RoboJackets-Aesthetics" package="ROBOJACKETS" override_package3d_urn="urn:adsk.eagle:package:20000090/2" override_package_urn="urn:adsk.eagle:footprint:20000091/1" value="" x="0" y="40.96" smashed="yes"/>
+<element name="U$3" library="RoboJackets-Aesthetics" package="MOTOR-1" override_package3d_urn="urn:adsk.eagle:package:20000062/2" override_package_urn="urn:adsk.eagle:footprint:20000063/1" value="" x="-58.75" y="26.31" smashed="yes" rot="R270"/>
+<element name="U$4" library="RoboJackets-Aesthetics" package="DRIBBLER" override_package3d_urn="urn:adsk.eagle:package:19999895/2" override_package_urn="urn:adsk.eagle:footprint:19999896/1" value="" x="-57.75" y="48.5" smashed="yes" rot="R270"/>
+<element name="U$5" library="RoboJackets-Aesthetics" package="MOTOR-2" override_package3d_urn="urn:adsk.eagle:package:20000077/2" override_package_urn="urn:adsk.eagle:footprint:20000078/1" value="" x="-51.75" y="-10.19" smashed="yes" rot="R315"/>
+<element name="U$6" library="RoboJackets-Aesthetics" package="MOTOR-3" override_package3d_urn="urn:adsk.eagle:package:20000142/2" override_package_urn="urn:adsk.eagle:footprint:20000143/1" value="" x="35.25" y="-26.44" smashed="yes" rot="R45"/>
+<element name="U$7" library="RoboJackets-Aesthetics" package="MOTOR-4" override_package3d_urn="urn:adsk.eagle:package:20000128/2" override_package_urn="urn:adsk.eagle:footprint:20000129/1" value="" x="58.75" y="10.06" smashed="yes" rot="R90"/>
+<element name="U$9" library="RoboJackets-Aesthetics" package="KICKER" override_package3d_urn="urn:adsk.eagle:package:20000117/2" override_package_urn="urn:adsk.eagle:footprint:20000119/1" value="" x="66.25" y="42.56" smashed="yes" rot="R90"/>
+<element name="U$11" library="RoboJackets-Aesthetics" package="ROBOBUZZ_1.0X2" override_package3d_urn="urn:adsk.eagle:package:19999900/2" override_package_urn="urn:adsk.eagle:footprint:19999902/1" value="" x="-12.5" y="33.5" smashed="yes"/>
+<element name="U3" library="RoboJackets-PowerICs" package="MPM3620GQV-P" override_package3d_urn="urn:adsk.eagle:package:20024197/2" override_package_urn="urn:adsk.eagle:footprint:20024198/1" value="MPM3620GQV-P" x="-6" y="-19.5" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="1589-1252-1-ND" x="-6" y="-19.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="MPM3620GQV-P" x="-6" y="-19.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="-9.25" y="-20" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
@@ -13637,11 +13637,11 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="-6.3" y="-13" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="-7.57" y="-10.46" size="1" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k" x="12.25" y="50" smashed="yes" rot="R90">
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999620/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="4.7k" x="12.25" y="50" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.615" y="52.865" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="14.155" y="49.365" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k" x="9.75" y="50" smashed="yes" rot="R90">
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999618/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="4.7k" x="9.75" y="50" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.615" y="52.865" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="11.655" y="49.365" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
@@ -13657,7 +13657,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-22.96" y="67.21" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="-21.44" y="68.46" size="1" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="KIT1" library="RoboJackets-Boards" package="MTRAIN-KIT" override_package3d_urn="urn:adsk.eagle:package:19934259/2" override_package_urn="urn:adsk.eagle:footprint:19934260/1" value="MTRAIN" x="22.5" y="57.5" smashed="yes" rot="R270"/>
+<element name="KIT1" library="RoboJackets-Boards" package="MTRAIN-KIT" override_package3d_urn="urn:adsk.eagle:package:19934259/4" override_package_urn="urn:adsk.eagle:footprint:19934260/1" value="MTRAIN" x="22.5" y="57.5" smashed="yes" rot="R270"/>
 <element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30.1k 1%" x="-7" y="-23.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-11.435" y="-23.535" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="POPULARITY" value="77" x="-7" y="-23.5" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -13682,70 +13682,70 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="-0.75" y="-21.25" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="-0.115" y="-23.155" size="1" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="U$1" library="RoboJackets-Aesthetics" package="ERR-DRIB" value="" x="-55" y="34.5" smashed="yes" rot="R270"/>
-<element name="U$8" library="RoboJackets-Aesthetics" package="ERR-M1" value="" x="-51.5" y="-4.5" smashed="yes" rot="R270"/>
-<element name="U$12" library="RoboJackets-Aesthetics" package="ERR-M2" value="" x="-35" y="-27" smashed="yes" rot="R315"/>
-<element name="U$13" library="RoboJackets-Aesthetics" package="ERR-M3" value="" x="49" y="-4.5" smashed="yes" rot="R45"/>
-<element name="U$14" library="RoboJackets-Aesthetics" package="ERR-M4" value="" x="54" y="-0.5" smashed="yes" rot="R90"/>
-<element name="U$15" library="RoboJackets-Aesthetics" package="ERR-KICK" value="" x="56" y="48" smashed="yes" rot="R90"/>
-<element name="F1" library="RoboJackets-Fuses" package="FUSC2113X75" package3d_urn="urn:adsk.eagle:package:8760197/1" value="0805L200SLTHYR" x="-7.5" y="-9.25" smashed="yes" rot="MR90">
+<element name="U$1" library="RoboJackets-Aesthetics" package="ERR-DRIB" override_package3d_urn="urn:adsk.eagle:package:19999890/2" override_package_urn="urn:adsk.eagle:footprint:19999891/1" value="" x="-55" y="34.5" smashed="yes" rot="R270"/>
+<element name="U$8" library="RoboJackets-Aesthetics" package="ERR-M1" override_package3d_urn="urn:adsk.eagle:package:20000070/2" override_package_urn="urn:adsk.eagle:footprint:20000071/1" value="" x="-51.5" y="-4.5" smashed="yes" rot="R270"/>
+<element name="U$12" library="RoboJackets-Aesthetics" package="ERR-M2" override_package3d_urn="urn:adsk.eagle:package:20000084/2" override_package_urn="urn:adsk.eagle:footprint:20000085/1" value="" x="-35" y="-27" smashed="yes" rot="R315"/>
+<element name="U$13" library="RoboJackets-Aesthetics" package="ERR-M3" override_package3d_urn="urn:adsk.eagle:package:20000139/2" override_package_urn="urn:adsk.eagle:footprint:20000140/1" value="" x="49" y="-4.5" smashed="yes" rot="R45"/>
+<element name="U$14" library="RoboJackets-Aesthetics" package="ERR-M4" override_package3d_urn="urn:adsk.eagle:package:20000132/2" override_package_urn="urn:adsk.eagle:footprint:20000133/1" value="" x="54" y="-0.5" smashed="yes" rot="R90"/>
+<element name="U$15" library="RoboJackets-Aesthetics" package="ERR-KICK" override_package3d_urn="urn:adsk.eagle:package:20000109/2" override_package_urn="urn:adsk.eagle:footprint:20000110/1" value="" x="56" y="48" smashed="yes" rot="R90"/>
+<element name="F1" library="RoboJackets-Fuses" package="FUSC2113X75" package3d_urn="urn:adsk.eagle:package:8760197/1" override_package3d_urn="urn:adsk.eagle:package:20024148/2" override_package_urn="urn:adsk.eagle:footprint:20024149/1" value="0805L200SLTHYR" x="-7.5" y="-9.25" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-9.7909" y="-9.25" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-9.2091" y="-9.25" size="1.27" layer="28" rot="MR90" align="top-center"/>
 </element>
-<element name="M1:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="-43.125" y="58.625" smashed="yes" rot="R90">
+<element name="M1:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962664/2" override_package_urn="urn:adsk.eagle:footprint:19962665/1" value="ECA-1HHG221" x="-43.125" y="58.625" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="P5572-ND" x="-43.125" y="58.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="-43.125" y="58.625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-45.49" y="55.8592" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M2:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="-42.125" y="27.5" smashed="yes" rot="R180">
+<element name="M2:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962664/2" override_package_urn="urn:adsk.eagle:footprint:19962665/1" value="ECA-1HHG221" x="-42.125" y="27.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="P5572-ND" x="-42.125" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="-42.125" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-37.3592" y="30.635" size="1" layer="25" font="vector" ratio="15" rot="SR180"/>
 </element>
-<element name="M3:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="-12.5" y="-22.5" smashed="yes" rot="R270">
+<element name="M3:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962664/2" override_package_urn="urn:adsk.eagle:footprint:19962665/1" value="ECA-1HHG221" x="-12.5" y="-22.5" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="P5572-ND" x="-12.5" y="-22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="-12.5" y="-22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-20.135" y="-25.7342" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M4:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="28.5" y="13" smashed="yes" rot="R180">
+<element name="M4:C12" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962664/2" override_package_urn="urn:adsk.eagle:footprint:19962665/1" value="ECA-1HHG221" x="28.5" y="13" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="P5572-ND" x="28.5" y="13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="28.5" y="13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.7658" y="13.135" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M1:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="43.5" y="8" smashed="yes">
+<element name="M1:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962678/2" override_package_urn="urn:adsk.eagle:footprint:19962679/1" value="ECA-1HHG221" x="43.5" y="8" smashed="yes">
 <attribute name="DIGIKEY" value="P5572-ND" x="43.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="43.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="46.7342" y="6.365" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M2:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="50" y="38" smashed="yes">
+<element name="M2:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962678/2" override_package_urn="urn:adsk.eagle:footprint:19962679/1" value="ECA-1HHG221" x="50" y="38" smashed="yes">
 <attribute name="DIGIKEY" value="P5572-ND" x="50" y="38" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="50" y="38" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.7342" y="41.865" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M3:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="33" y="38.5" smashed="yes" rot="R180">
+<element name="M3:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962678/2" override_package_urn="urn:adsk.eagle:footprint:19962679/1" value="ECA-1HHG221" x="33" y="38.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="P5572-ND" x="33" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="33" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.2658" y="42.635" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="M4:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="-39" y="4.5" smashed="yes" rot="R90">
+<element name="M4:C13" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962678/2" override_package_urn="urn:adsk.eagle:footprint:19962679/1" value="ECA-1HHG221" x="-39" y="4.5" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="P5572-ND" x="-39" y="4.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="-39" y="4.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-41.364996875" y="1.7342" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="DD:C4" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" value="ECA-1HHG221" x="-26" y="27.25" smashed="yes">
+<element name="DD:C4" library="RoboJackets-Capacitors" package="CAP_PAN_10X12.5" override_package3d_urn="urn:adsk.eagle:package:19962673/2" override_package_urn="urn:adsk.eagle:footprint:19962674/1" value="ECA-1HHG221" x="-26" y="27.25" smashed="yes">
 <attribute name="DIGIKEY" value="P5572-ND" x="-26" y="27.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ECA-1HHG221" x="-26" y="27.25" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-30.2658" y="24.615" size="1" layer="25" font="vector" ratio="15" rot="SR0"/>
 </element>
-<element name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0" x="-8" y="-6" smashed="yes" rot="MR0">
+<element name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="-8" y="-6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-9.865" y="-6.365" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-7.365" y="-7.905" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0" x="6.5" y="-6" smashed="yes" rot="MR180">
+<element name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="6.5" y="-6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="7.865" y="-5.635" size="1" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="5.865" y="-4.095" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0" x="1.5" y="-6" smashed="yes" rot="MR0">
+<element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="1.5" y="-6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.135" y="-5.365" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="2.135" y="-7.905" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -13760,12 +13760,12 @@ Your Eurocircuits Team
 <attribute name="MPN" value="HFW8R-1STE1LF" x="-12" y="59.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-7.5" y="53.6" size="2" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J1" library="RoboJackets-Connectors" package="HFW8R-1ST" value="HFW8R-1ST" x="-10" y="59.1" smashed="yes" rot="MR180">
+<element name="J1" library="RoboJackets-Connectors" package="HFW8R-1ST" override_package3d_urn="urn:adsk.eagle:package:20000148/2" override_package_urn="urn:adsk.eagle:footprint:20000149/1" value="HFW8R-1ST" x="-10" y="59.1" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="609-1788-1-ND" x="-10" y="59.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="HFW8R-1STE1LF" x="-10" y="59.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="-12" y="53.6" size="2" layer="26" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" override_package3d_urn="urn:adsk.eagle:package:19934308/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="50k" x="-25" y="64.5" smashed="yes" rot="R180">
+<element name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19934308/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="50k" x="-25" y="64.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-18.865" y="65.135" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="-24.365" y="66.405" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -13774,30 +13774,30 @@ Your Eurocircuits Team
 <attribute name="PROD_ID" value="IC-11920" x="-30.375" y="64.25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-27.835" y="64.25" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
-<element name="J5" library="RoboJackets-Connectors" package="B2P_SMALL" value="2-PIN-KICKERS" x="-50.5" y="58.5" smashed="yes" rot="R90">
+<element name="J5" library="RoboJackets-Connectors" package="B2P_SMALL" override_package3d_urn="urn:adsk.eagle:package:19999825/2" override_package_urn="urn:adsk.eagle:footprint:19999826/1" value="2-PIN-KICKERS" x="-50.5" y="58.5" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="455-1648-ND" x="-50.5" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B2PS-VH(LF)(SN)" x="-50.5" y="58.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-50.31" y="65.5" size="1" layer="25" font="vector" ratio="10" align="bottom-center"/>
 </element>
-<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k" x="43.5" y="54.75" smashed="yes" rot="R270">
+<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999700/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="10k" x="43.5" y="54.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.135" y="52.885" size="1" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="41.595" y="55.385" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k" x="41.25" y="54.75" smashed="yes" rot="R90">
+<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999622/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="100k" x="41.25" y="54.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.615" y="56.615" size="1" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="43.155" y="54.115" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k" x="45.75" y="54.75" smashed="yes" rot="R270">
+<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" override_package3d_urn="urn:adsk.eagle:package:19999623/2" override_package_urn="urn:adsk.eagle:footprint:23044/1" value="100k" x="45.75" y="54.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.385" y="52.885" size="1" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="43.845" y="55.385" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="Q1" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS806NH6327XTSA1" x="37" y="55" smashed="yes" rot="R270">
+<element name="Q1" library="RoboJackets-Discrete" package="SOT-23-3" override_package3d_urn="urn:adsk.eagle:package:20000105/2" override_package_urn="urn:adsk.eagle:footprint:20000106/1" value="BSS806NH6327XTSA1" x="37" y="55" smashed="yes" rot="R270">
 <attribute name="NAME" x="36" y="57" size="1" layer="25" ratio="15"/>
 </element>
-<element name="Q2" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS806NH6327XTSA1" x="39" y="51" smashed="yes" rot="R180">
+<element name="Q2" library="RoboJackets-Discrete" package="SOT-23-3" override_package3d_urn="urn:adsk.eagle:package:20000097/2" override_package_urn="urn:adsk.eagle:footprint:20000099/1" value="BSS806NH6327XTSA1" x="39" y="51" smashed="yes" rot="R180">
 <attribute name="NAME" x="41" y="52" size="1" layer="25" ratio="15" rot="R270"/>
 </element>
-<element name="C25" library="rcl" package="C0603" value="GRM188R6YA106MA73D" x="-17.5" y="-29" smashed="yes" rot="MR90">
+<element name="C25" library="rcl" package="C0603" override_package3d_urn="urn:adsk.eagle:package:20023783/2" override_package_urn="urn:adsk.eagle:footprint:20023784/1" value="GRM188R6YA106MA73D" x="-17.5" y="-29" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-17.365" y="-27.135" size="1" layer="26" font="vector" ratio="15" rot="MR90"/>
 <attribute name="VALUE" x="-19.405" y="-29.635" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -13807,11 +13807,11 @@ Your Eurocircuits Team
 <attribute name="NAME" x="-5.365" y="-32.885" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-5.365" y="-30.345" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="-6" y="-32.25" smashed="yes" rot="MR180">
+<element name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="-6" y="-32.25" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-1.515" y="-32.715" size="1" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="-6.635" y="-30.345" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="U4" library="RoboJackets-PowerICs" package="MPM3620GQV-P" value="MPM3620GQV-P" x="-22" y="-30" smashed="yes" rot="MR90">
+<element name="U4" library="RoboJackets-PowerICs" package="MPM3620GQV-P" override_package3d_urn="urn:adsk.eagle:package:20024213/2" override_package_urn="urn:adsk.eagle:footprint:20024214/1" value="MPM3620GQV-P" x="-22" y="-30" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="1589-1252-1-ND" x="-23" y="-42" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="MPM3620GQV-P" x="-23" y="-42" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="-26.25" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR90"/>
@@ -13847,22 +13847,22 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="-15.5" y="-17.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="-12.595" y="-28.365" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="F2" library="RoboJackets-Fuses" package="FUSC2113X75" package3d_urn="urn:adsk.eagle:package:8760197/1" value="0805L200SLTHYR" x="-21" y="-22" smashed="yes" rot="MR135">
+<element name="F2" library="RoboJackets-Fuses" package="FUSC2113X75" package3d_urn="urn:adsk.eagle:package:8760197/1" override_package3d_urn="urn:adsk.eagle:package:20024189/2" override_package_urn="urn:adsk.eagle:footprint:20024190/1" value="0805L200SLTHYR" x="-21" y="-22" smashed="yes" rot="MR135">
 <attribute name="NAME" x="-19.79148125" y="-23.20851875" size="1" layer="26" font="vector" ratio="15" rot="MR135" align="bottom-center"/>
 <attribute name="VALUE" x="-22.208515625" y="-20.791484375" size="1.27" layer="28" rot="MR135" align="top-center"/>
 </element>
-<element name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0" x="-17.5" y="-18.5" smashed="yes" rot="MR135">
+<element name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="-17.5" y="-18.5" smashed="yes" rot="MR135">
 <attribute name="NAME" x="-17" y="-20.398028125" size="1" layer="26" font="vector" ratio="15" rot="MR135"/>
 <attribute name="VALUE" x="-19.29605" y="-17.601975" size="1.27" layer="28" rot="MR135"/>
 </element>
-<element name="KIT2" library="RoboJackets-Boards" package="IMU-KIT" value="IMUIMU-KIT" x="2.223" y="57.5" smashed="yes" rot="R90">
+<element name="KIT2" library="RoboJackets-Boards" package="IMU-KIT" override_package3d_urn="urn:adsk.eagle:package:19999880/2" override_package_urn="urn:adsk.eagle:footprint:19999882/1" value="IMUIMU-KIT" x="2.223" y="57.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="8.843" y="49.88" size="1" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C26" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF 50V" x="-1.6" y="-24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-2.235" y="-23.365" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="0.305" y="-23.365" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="J3" library="RoboJackets-Connectors" package="2MM-6-H" value="6-PIN_2MM-H" x="-24.7" y="56.4" smashed="yes" rot="MR180">
+<element name="J3" library="RoboJackets-Connectors" package="2MM-6-H" override_package3d_urn="urn:adsk.eagle:package:20024127/2" override_package_urn="urn:adsk.eagle:footprint:20024128/1" value="6-PIN_2MM-H" x="-24.7" y="56.4" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-23.7" y="53.9" size="1" layer="26" font="vector" ratio="10" rot="MR180" align="bottom-center"/>
 <attribute name="PINS" value="6" x="-24.7" y="56.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PIN_PITCH" value="2.0 mm" x="-24.7" y="56.4" size="1.778" layer="28" rot="MR180" display="off"/>
