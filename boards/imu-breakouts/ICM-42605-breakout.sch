@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -7879,33 +7879,36 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="3.81" drill="1.02"/>
-<pad name="2" x="-6.35" y="1.27" drill="1.02"/>
-<pad name="3" x="-6.35" y="-1.27" drill="1.02"/>
-<pad name="4" x="-6.35" y="-3.81" drill="1.02"/>
-<pad name="5" x="6.35" y="-3.81" drill="1.02" rot="R180"/>
-<pad name="6" x="6.35" y="-1.27" drill="1.02" rot="R180"/>
-<pad name="7" x="6.35" y="1.27" drill="1.02" rot="R180"/>
-<pad name="8" x="6.35" y="3.81" drill="1.02" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<pad name="1" x="-6.35" y="3.81" drill="1.016"/>
+<pad name="2" x="-6.35" y="1.27" drill="1.016"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1.016"/>
+<pad name="4" x="-6.35" y="-3.81" drill="1.016"/>
+<pad name="5" x="6.35" y="-3.81" drill="1.016"/>
+<pad name="6" x="6.35" y="-1.27" drill="1.016"/>
+<pad name="7" x="6.35" y="1.27" drill="1.016"/>
+<pad name="8" x="6.35" y="3.81" drill="1.016"/>
+<text x="-7.62" y="6.62" size="1" layer="25">&gt;NAME</text>
 <circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
+<text x="-7.62" y="-6.62" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="IMU">
 <description>IMU</description>
-<pin name="GND" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="INT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="NC" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="+3.3V" x="12.7" y="7.62" length="middle" rot="R180"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<pin name="MOSI" x="-15.24" y="7.62" length="middle"/>
-<pin name="MISO" x="-15.24" y="2.54" length="middle"/>
-<pin name="SCK" x="-15.24" y="-2.54" length="middle"/>
-<pin name="!CS!" x="-15.24" y="-7.62" length="middle"/>
+<pin name="GND" x="13.97" y="-7.62" length="middle" rot="R180"/>
+<pin name="INT" x="13.97" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC" x="13.97" y="2.54" length="middle" rot="R180"/>
+<pin name="+3.3V" x="13.97" y="7.62" length="middle" rot="R180"/>
+<wire x1="8.89" y1="10.16" x2="8.89" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-10.16" x2="-8.89" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-10.16" x2="-8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="10.16" x2="8.89" y2="10.16" width="0.254" layer="94"/>
+<pin name="MOSI" x="-13.97" y="7.62" length="middle"/>
+<pin name="MISO" x="-13.97" y="2.54" length="middle"/>
+<pin name="SCK" x="-13.97" y="-2.54" length="middle"/>
+<pin name="!CS!" x="-13.97" y="-7.62" length="middle"/>
+<text x="-8.89" y="-10.668" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-8.89" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7942,7 +7945,7 @@ Source: AVX .. aphvc.pdf</description>
 In this library you will find circuit elements that are used for getting measurements as sensory input.
 &lt;/p&gt;</description>
 <packages>
-<package name="ICM-442605-2530091">
+<package name="ICM-442605-2530091" urn="urn:adsk.eagle:footprint:20340430/1">
 <smd name="P$1" x="-1.1625" y="0.75" dx="0.475" dy="0.25" layer="1"/>
 <smd name="P$2" x="-1.1625" y="0.25" dx="0.475" dy="0.25" layer="1"/>
 <smd name="P$3" x="-1.1625" y="-0.25" dx="0.475" dy="0.25" layer="1"/>
@@ -7961,8 +7964,6 @@ In this library you will find circuit elements that are used for getting measure
 <wire x1="1.7" y1="-1.4" x2="1.7" y2="1.4" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.4" x2="-1.7" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="1.4" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
-<circle x="-1.9892" y="1.6892" radius="0.0632" width="0.25" layer="21"/>
-<circle x="2.492" y="0" radius="0.2" width="0.1" layer="51"/>
 <wire x1="2.492" y1="0.197459375" x2="2.492" y2="1.397459375" width="0.1" layer="51"/>
 <wire x1="2.2892" y1="1.197459375" x2="2.492" y2="1.397459375" width="0.1" layer="51"/>
 <wire x1="2.492" y1="1.397459375" x2="2.6892" y2="1.197459375" width="0.1" layer="51"/>
@@ -7975,6 +7976,8 @@ In this library you will find circuit elements that are used for getting measure
 <wire x1="3.1892" y1="0.3" x2="3.1892" y2="-0.3" width="0.1" layer="51" curve="-161.075356"/>
 <wire x1="3.2892" y1="-0.402540625" x2="3.1892" y2="-0.3" width="0.1" layer="51"/>
 <wire x1="3.1892" y1="-0.3" x2="3.1892" y2="-0.202540625" width="0.1" layer="51"/>
+<circle x="-1.9892" y="1.6892" radius="0.0632" width="0.25" layer="21"/>
+<circle x="2.492" y="0" radius="0.2" width="0.1" layer="51"/>
 <text x="2.492" y="1.5" size="0.254" layer="51" font="vector" ratio="12" align="bottom-center">Y</text>
 <text x="3.992" y="0" size="0.254" layer="51" font="vector" ratio="12" align="center-left">X</text>
 <text x="2.492" y="-0.3" size="0.254" layer="51" font="vector" ratio="12" align="top-center">Z</text>
@@ -7982,6 +7985,13 @@ In this library you will find circuit elements that are used for getting measure
 <text x="-2" y="-2" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="ICM-442605-2530091" urn="urn:adsk.eagle:package:20340429/2" type="model">
+<packageinstances>
+<packageinstance name="ICM-442605-2530091"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ICM-42605">
 <pin name="MISO(SDO/AD0)" x="-25.4" y="10.16" length="middle"/>
@@ -8028,6 +8038,9 @@ In this library you will find circuit elements that are used for getting measure
 <connect gate="G$1" pin="VDD" pad="P$8"/>
 <connect gate="G$1" pin="VDDIO" pad="P$5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20340429/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_LINK" value="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-42605/1428-1152-1-ND/9953675"/>
@@ -8062,7 +8075,7 @@ In this library you will find circuit elements that are used for getting measure
 <part name="KIT1" library="RoboJackets-Boards" deviceset="IMU" device="IMU-KIT"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
-<part name="U3" library="RoboJackets-Sensors" deviceset="ICM-42605" device=""/>
+<part name="U3" library="RoboJackets-Sensors" deviceset="ICM-42605" device="" package3d_urn="urn:adsk.eagle:package:20340429/2"/>
 <part name="SUPPLY4" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="SUPPLY6" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
@@ -8139,7 +8152,7 @@ In this library you will find circuit elements that are used for getting measure
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="KIT1" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="147.32" x2="62.23" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -8176,7 +8189,7 @@ In this library you will find circuit elements that are used for getting measure
 <segment>
 <pinref part="SUPPLY2" gate="P" pin="+3.3V"/>
 <pinref part="KIT1" gate="G$1" pin="+3.3V"/>
-<wire x1="66.04" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="162.56" x2="62.23" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
@@ -8204,7 +8217,7 @@ In this library you will find circuit elements that are used for getting measure
 <net name="MOSI" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="MOSI"/>
-<wire x1="33.02" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="27.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -8218,7 +8231,7 @@ In this library you will find circuit elements that are used for getting measure
 <net name="MISO" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="MISO"/>
-<wire x1="33.02" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
 <label x="27.94" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -8230,7 +8243,7 @@ In this library you will find circuit elements that are used for getting measure
 <net name="CLK" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="SCK"/>
-<wire x1="33.02" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <label x="27.94" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -8245,7 +8258,7 @@ In this library you will find circuit elements that are used for getting measure
 <segment>
 <label x="66.04" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="KIT1" gate="G$1" pin="INT"/>
-<wire x1="60.96" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="INT1(INT)"/>
@@ -8256,7 +8269,7 @@ In this library you will find circuit elements that are used for getting measure
 <net name="!CS!" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="!CS!"/>
-<wire x1="33.02" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <label x="27.94" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>

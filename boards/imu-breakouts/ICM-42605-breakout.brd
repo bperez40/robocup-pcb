@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -181,6 +181,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzIzIwMjAwNTEwMjk2NDM2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:uCw9H2k5Rae1ZCOXCVSDXA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f76bd892-a2da-46a4-a104-5053add9c86b" lastsyncedrevisionid="f76bd892-a2da-46a4-a104-5053add9c86b" lastboardhashguid="02177ecb-9c2f-56c7-6b84-e5ea92a8960e" lastpushedtime="2020-05-18T19:52:58Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0" layer="20"/>
 <wire x1="7.62" y1="-6.35" x2="7.62" y2="6.35" width="0" layer="20"/>
@@ -191,6 +192,7 @@
 <text x="0" y="2" size="1.5" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">2019</text>
 <text x="0" y="-1" size="1" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IMU
 Breakout v1.0</text>
+<dimension x1="-6.35" y1="3.81" x2="6.35" y2="3.81" x3="0" y3="-1" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1276,16 +1278,17 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="3.81" drill="1.02"/>
-<pad name="2" x="-6.35" y="1.27" drill="1.02"/>
-<pad name="3" x="-6.35" y="-1.27" drill="1.02"/>
-<pad name="4" x="-6.35" y="-3.81" drill="1.02"/>
-<pad name="5" x="6.35" y="-3.81" drill="1.02" rot="R180"/>
-<pad name="6" x="6.35" y="-1.27" drill="1.02" rot="R180"/>
-<pad name="7" x="6.35" y="1.27" drill="1.02" rot="R180"/>
-<pad name="8" x="6.35" y="3.81" drill="1.02" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<pad name="1" x="-6.35" y="3.81" drill="1.016"/>
+<pad name="2" x="-6.35" y="1.27" drill="1.016"/>
+<pad name="3" x="-6.35" y="-1.27" drill="1.016"/>
+<pad name="4" x="-6.35" y="-3.81" drill="1.016"/>
+<pad name="5" x="6.35" y="-3.81" drill="1.016"/>
+<pad name="6" x="6.35" y="-1.27" drill="1.016"/>
+<pad name="7" x="6.35" y="1.27" drill="1.016"/>
+<pad name="8" x="6.35" y="3.81" drill="1.016"/>
+<text x="-7.62" y="6.62" size="1" layer="25">&gt;NAME</text>
 <circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
+<text x="-7.62" y="-6.62" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1297,7 +1300,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 In this library you will find circuit elements that are used for getting measurements as sensory input.
 &lt;/p&gt;</description>
 <packages>
-<package name="ICM-442605-2530091">
+<package name="ICM-442605-2530091" urn="urn:adsk.eagle:footprint:20340430/1">
 <smd name="P$1" x="-1.1625" y="0.75" dx="0.475" dy="0.25" layer="1"/>
 <smd name="P$2" x="-1.1625" y="0.25" dx="0.475" dy="0.25" layer="1"/>
 <smd name="P$3" x="-1.1625" y="-0.25" dx="0.475" dy="0.25" layer="1"/>
@@ -1316,8 +1319,6 @@ In this library you will find circuit elements that are used for getting measure
 <wire x1="1.7" y1="-1.4" x2="1.7" y2="1.4" width="0.127" layer="21"/>
 <wire x1="1.7" y1="1.4" x2="-1.7" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="1.4" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
-<circle x="-1.9892" y="1.6892" radius="0.0632" width="0.25" layer="21"/>
-<circle x="2.492" y="0" radius="0.2" width="0.1" layer="51"/>
 <wire x1="2.492" y1="0.197459375" x2="2.492" y2="1.397459375" width="0.1" layer="51"/>
 <wire x1="2.2892" y1="1.197459375" x2="2.492" y2="1.397459375" width="0.1" layer="51"/>
 <wire x1="2.492" y1="1.397459375" x2="2.6892" y2="1.197459375" width="0.1" layer="51"/>
@@ -1330,6 +1331,8 @@ In this library you will find circuit elements that are used for getting measure
 <wire x1="3.1892" y1="0.3" x2="3.1892" y2="-0.3" width="0.1" layer="51" curve="-161.075356"/>
 <wire x1="3.2892" y1="-0.402540625" x2="3.1892" y2="-0.3" width="0.1" layer="51"/>
 <wire x1="3.1892" y1="-0.3" x2="3.1892" y2="-0.202540625" width="0.1" layer="51"/>
+<circle x="-1.9892" y="1.6892" radius="0.0632" width="0.25" layer="21"/>
+<circle x="2.492" y="0" radius="0.2" width="0.1" layer="51"/>
 <text x="2.492" y="1.5" size="0.254" layer="51" font="vector" ratio="12" align="bottom-center">Y</text>
 <text x="3.992" y="0" size="0.254" layer="51" font="vector" ratio="12" align="center-left">X</text>
 <text x="2.492" y="-0.3" size="0.254" layer="51" font="vector" ratio="12" align="top-center">Z</text>
@@ -1337,6 +1340,13 @@ In this library you will find circuit elements that are used for getting measure
 <text x="-2" y="-2" size="1" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="ICM-442605-2530091" urn="urn:adsk.eagle:package:20340429/2" type="model">
+<packageinstances>
+<packageinstance name="ICM-442605-2530091"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1566,7 +1576,7 @@ Your Eurocircuits Team
 </autorouter>
 <elements>
 <element name="KIT1" library="RoboJackets-Boards" package="IMU-KIT" value="IMUIMU-KIT" x="0" y="0" smashed="yes"/>
-<element name="U3" library="RoboJackets-Sensors" package="ICM-442605-2530091" value="ICM-42605" x="0" y="-1" smashed="yes" rot="R90">
+<element name="U3" library="RoboJackets-Sensors" package="ICM-442605-2530091" package3d_urn="urn:adsk.eagle:package:20340429/2" value="ICM-42605" x="0" y="-1" smashed="yes" rot="R90">
 <attribute name="DIGIKEY_LINK" value="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-42605/1428-1152-1-ND/9953675" x="0" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PN" value="1428-1152-1-ND" x="0" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="InvenSense" x="0" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1706,6 +1716,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
