@@ -197,7 +197,7 @@ In this library you will find all the connectors used on any of our boards.
 <wire x1="-2.75" y1="-4.45" x2="4" y2="-4.45" width="0.127" layer="21"/>
 <text x="0.595" y="1.855" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="2MM-2-H">
+<package name="2MM-2-H" urn="urn:adsk.eagle:footprint:20333638/1">
 <wire x1="-3" y1="2" x2="-3" y2="-8" width="0.127" layer="21"/>
 <wire x1="-3" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
 <wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
@@ -215,7 +215,7 @@ In this library you will find all the connectors used on any of our boards.
 <pad name="1" x="-1" y="0" drill="0.8" shape="square" rot="R180"/>
 <text x="-4" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="2MM-3-H">
+<package name="2MM-3-H" urn="urn:adsk.eagle:footprint:20333595/1">
 <wire x1="-5" y1="2" x2="-5" y2="-8" width="0.127" layer="21"/>
 <wire x1="-5" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
 <wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
@@ -976,16 +976,16 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="4.825" y1="-17.6" x2="-4.825" y2="-17.6" width="0.127" layer="51"/>
 <text x="-5.715" y="2.54" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
-<package name="B2PS-CENTERED">
+<package name="B2PS-CENTERED" urn="urn:adsk.eagle:footprint:20334975/1">
 <wire x1="-4" y1="0" x2="-4" y2="-4" width="0.2" layer="21"/>
 <wire x1="4" y1="-4" x2="4" y2="0" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="-4" y2="-7.2" width="0.2" layer="21"/>
-<pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
-<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
-<text x="0" y="1.85" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <wire x1="4" y1="-7.2" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-7.2" x2="4" y2="-7.2" width="0.2" layer="21"/>
+<pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
+<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
+<text x="0" y="1.85" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="HDR_2X3">
 <wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
@@ -1158,7 +1158,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 </package>
-<package name="1X2">
+<package name="1X2" urn="urn:adsk.eagle:footprint:20332504/1">
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
@@ -1560,6 +1560,26 @@ rfk_1850.pdf</description>
 <package3d name="TC2050-IDC-NL" urn="urn:adsk.eagle:package:20308059/2" type="empty">
 <packageinstances>
 <packageinstance name="TC2050-IDC-NL"/>
+</packageinstances>
+</package3d>
+<package3d name="1X2" urn="urn:adsk.eagle:package:20332503/2" type="empty">
+<packageinstances>
+<packageinstance name="1X2"/>
+</packageinstances>
+</package3d>
+<package3d name="2MM-3-H" urn="urn:adsk.eagle:package:20333593/2" type="model">
+<packageinstances>
+<packageinstance name="2MM-3-H"/>
+</packageinstances>
+</package3d>
+<package3d name="2MM-2-H" urn="urn:adsk.eagle:package:20333637/2" type="model">
+<packageinstances>
+<packageinstance name="2MM-2-H"/>
+</packageinstances>
+</package3d>
+<package3d name="B2PS-CENTERED" urn="urn:adsk.eagle:package:20334974/3" type="model">
+<packageinstances>
+<packageinstance name="B2PS-CENTERED"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2181,6 +2201,9 @@ rfk_1850.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20333637/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PINS" value="2"/>
@@ -2213,6 +2236,9 @@ rfk_1850.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20333593/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PINS" value="3"/>
@@ -2617,6 +2643,9 @@ Power Connector
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20334974/3"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="455-1648-ND" constant="no"/>
@@ -3070,6 +3099,9 @@ XT-60 Power Connector
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20332503/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>

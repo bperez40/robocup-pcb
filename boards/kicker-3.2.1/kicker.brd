@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,10 +47,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -184,7 +184,7 @@
 <layer number="255" name="255robobuzz" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzIzIwMjAwNTEwMjk2NDM2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:bApwmYTeRDOcGd9WB7I7_A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="de476c36-aeee-4fd3-a95c-3f22f49adfe0" lastsyncedrevisionid="de476c36-aeee-4fd3-a95c-3f22f49adfe0" lastboardhashguid="49dd4e8c-8750-90eb-330d-49a7c6250bee" lastpushedtime="2020-05-18T00:31:41Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzIzIwMjAwNTEwMjk2NDM2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:dHCNYvSJT2CcQXRELVtdCg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="24806fd6-ff17-49d7-b793-ddc1c859ba89" lastsyncedrevisionid="24806fd6-ff17-49d7-b793-ddc1c859ba89" lastboardhashguid="ac14486a-161f-2bab-8e93-cf04eba13860" lastpushedtime="2020-05-18T17:49:40Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="-30" y1="33" x2="-29" y2="34" width="0" layer="20" curve="-90"/>
 <wire x1="-29" y1="34" x2="29" y2="34" width="0" layer="20"/>
@@ -349,9 +349,8 @@ D. Yang: dyang316@gatech.edu</text>
 In this library you will find the larger circuit elements that are used to control many areas of a system. This usually includes microcontrollers, but ICs usually cover a wide range of chips.
 &lt;/p&gt;</description>
 <packages>
-<package name="TSSOP-20_EP">
+<package name="TSSOP-20_EP" urn="urn:adsk.eagle:footprint:20338202/1">
 <smd name="1" x="-2.775" y="2.925" dx="1.05" dy="0.45" layer="1"/>
-<text x="-2" y="3.5" size="1" layer="25">&gt;NAME</text>
 <smd name="2" x="-2.775" y="2.275" dx="1.05" dy="0.45" layer="1"/>
 <smd name="3" x="-2.775" y="1.625" dx="1.05" dy="0.45" layer="1"/>
 <smd name="4" x="-2.775" y="0.975" dx="1.05" dy="0.45" layer="1"/>
@@ -371,14 +370,15 @@ In this library you will find the larger circuit elements that are used to contr
 <smd name="18" x="2.775" y="1.625" dx="1.05" dy="0.45" layer="1"/>
 <smd name="19" x="2.775" y="2.275" dx="1.05" dy="0.45" layer="1"/>
 <smd name="20" x="2.775" y="2.925" dx="1.05" dy="0.45" layer="1"/>
+<smd name="PAD" x="0" y="0" dx="2.74" dy="3.86" layer="1"/>
+<text x="-2" y="3.5" size="1" layer="25">&gt;NAME</text>
 <wire x1="-2.25" y1="3.3" x2="-1.75" y2="3.3" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="3.3" x2="2.25" y2="3.3" width="0.2" layer="21"/>
 <wire x1="2.25" y1="-3.3" x2="-1.75" y2="-3.3" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-3.3" x2="-2.25" y2="-3.3" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-3.3" x2="-1.75" y2="3.3" width="0.2" layer="21"/>
-<smd name="PAD" x="0" y="0" dx="2.74" dy="3.86" layer="1"/>
 </package>
-<package name="QFP80P1200X1200X120-44" urn="urn:adsk.eagle:footprint:4066415/1" locally_modified="yes">
+<package name="QFP80P1200X1200X120-44" urn="urn:adsk.eagle:footprint:20332647/1">
 <description>44-QFP, 0.8 mm pitch, 12 mm span, 10 X 10 X 1.2 mm body
 &lt;p&gt;44-pin QFP package with 0.8 mm pitch, 12 mm lead span1 X 12 mm lead span2 with body size 10 X 10 X 1.2 mm&lt;/p&gt;</description>
 <circle x="-5.7656" y="4.7775" radius="0.25" width="0" layer="21"/>
@@ -441,7 +441,7 @@ In this library you will find the larger circuit elements that are used to contr
 <text x="0" y="7.1162" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-7.1162" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOP63P574X165-16">
+<package name="SOP63P574X165-16" urn="urn:adsk.eagle:footprint:20332692/1">
 <description>16-SOP, 0.64 mm pitch, 5.74 mm span, 4.90 X 3.91 X 1.65 mm body
 &lt;p&gt;16-pin SOP package with 0.64 mm pitch, 5.74 mm span with body size 4.90 X 3.91 X 1.65 mm&lt;/p&gt;</description>
 <circle x="-2.6383" y="2.9336" radius="0.25" width="0" layer="21"/>
@@ -472,11 +472,23 @@ In this library you will find the larger circuit elements that are used to contr
 </package>
 </packages>
 <packages3d>
-<package3d name="QFP80P1200X1200X120-44" urn="urn:adsk.eagle:package:4066407/1" locally_modified="yes" type="model">
+<package3d name="QFP80P1200X1200X120-44" urn="urn:adsk.eagle:package:20332646/2" type="model">
 <description>44-QFP, 0.8 mm pitch, 12 mm span, 10 X 10 X 1.2 mm body
 &lt;p&gt;44-pin QFP package with 0.8 mm pitch, 12 mm lead span1 X 12 mm lead span2 with body size 10 X 10 X 1.2 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="QFP80P1200X1200X120-44"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP63P574X165-16" urn="urn:adsk.eagle:package:20332691/2" type="model">
+<description>16-SOP, 0.64 mm pitch, 5.74 mm span, 4.90 X 3.91 X 1.65 mm body
+&lt;p&gt;16-pin SOP package with 0.64 mm pitch, 5.74 mm span with body size 4.90 X 3.91 X 1.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP63P574X165-16"/>
+</packageinstances>
+</package3d>
+<package3d name="TSSOP-20_EP" urn="urn:adsk.eagle:package:20338201/2" type="model">
+<packageinstances>
+<packageinstance name="TSSOP-20_EP"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -489,7 +501,7 @@ In this library you will find the larger circuit elements that are used to contr
 In this library you will find diodes and other circuit protection elements.
 &lt;/p&gt;</description>
 <packages>
-<package name="DO214AA">
+<package name="DO214AA" urn="urn:adsk.eagle:footprint:20339409/1">
 <description>&lt;b&gt;DIODE&lt;/b&gt;</description>
 <wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.254" layer="51"/>
 <wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.254" layer="51"/>
@@ -505,7 +517,7 @@ In this library you will find diodes and other circuit protection elements.
 <rectangle x1="2.5" y1="-0.7" x2="2.75" y2="0.65" layer="51"/>
 <rectangle x1="-1.4" y1="-1.05" x2="-1.1" y2="1.05" layer="21"/>
 </package>
-<package name="TO460P990X239-3" urn="urn:adsk.eagle:footprint:4100274/1">
+<package name="TO460P990X239-3" urn="urn:adsk.eagle:footprint:20333101/1">
 <description>3-TO, DPAK, 4.6 mm pitch, 9.905 mm span, 6.54 X 6.095 X 2.39 mm body
 &lt;p&gt;3-pin TO, DPAK package with 4.6 mm pitch, 9.905 mm span with body size 6.54 X 6.095 X 2.39 mm&lt;/p&gt;</description>
 <circle x="-4.2409" y="3.2909" radius="0.25" width="0" layer="21"/>
@@ -524,7 +536,7 @@ In this library you will find diodes and other circuit protection elements.
 <text x="0" y="4.1759" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESM5226X262" urn="urn:adsk.eagle:footprint:4103917/1">
+<package name="RESM5226X262" urn="urn:adsk.eagle:footprint:20339436/1">
 <description>MOLDED BODY, 5.21 X 2.605 X 2.62 mm body
 &lt;p&gt;MOLDED BODY package with body size 5.21 X 2.605 X 2.62 mm&lt;/p&gt;</description>
 <wire x1="-2.795" y1="1.46" x2="2.795" y2="1.46" width="0.12" layer="21"/>
@@ -538,7 +550,7 @@ In this library you will find diodes and other circuit protection elements.
 <text x="0" y="2.095" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.095" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOD123-W">
+<package name="SOD123-W" urn="urn:adsk.eagle:footprint:20337155/1">
 <description>&lt;b&gt;PTVSxS1UR&lt;/b&gt;&lt;p&gt;
 Source: https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf ..SOD123-W 22.2V Voltage Suppressor. Data Sheet
 Digi-Key: 1727-5865-1-ND</description>
@@ -555,14 +567,28 @@ Digi-Key: 1727-5865-1-ND</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO460P990X239-3" urn="urn:adsk.eagle:package:4100272/1" type="model">
+<package3d name="TO460P990X239-3" urn="urn:adsk.eagle:package:20333100/2" type="model">
 <description>3-TO, DPAK, 4.6 mm pitch, 9.905 mm span, 6.54 X 6.095 X 2.39 mm body
 &lt;p&gt;3-pin TO, DPAK package with 4.6 mm pitch, 9.905 mm span with body size 6.54 X 6.095 X 2.39 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="TO460P990X239-3"/>
 </packageinstances>
 </package3d>
-<package3d name="RESM5226X262" urn="urn:adsk.eagle:package:4103916/1" type="model">
+<package3d name="SOD123-W" urn="urn:adsk.eagle:package:20337153/2" type="model">
+<description>&lt;b&gt;PTVSxS1UR&lt;/b&gt;&lt;p&gt;
+Source: https://assets.nexperia.com/documents/data-sheet/PTVSXS1UR_SER.pdf ..SOD123-W 22.2V Voltage Suppressor. Data Sheet
+Digi-Key: 1727-5865-1-ND</description>
+<packageinstances>
+<packageinstance name="SOD123-W"/>
+</packageinstances>
+</package3d>
+<package3d name="DO214AA" urn="urn:adsk.eagle:package:20339408/2" type="model">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="DO214AA"/>
+</packageinstances>
+</package3d>
+<package3d name="RESM5226X262" urn="urn:adsk.eagle:package:20339435/2" type="model">
 <description>MOLDED BODY, 5.21 X 2.605 X 2.62 mm body
 &lt;p&gt;MOLDED BODY package with body size 5.21 X 2.605 X 2.62 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -579,13 +605,13 @@ Digi-Key: 1727-5865-1-ND</description>
 In this library you will find MOSFETs and other circuit elements commonly used for switching signals between HIGH and LOW.
 &lt;/p&gt;</description>
 <packages>
-<package name="DPAK">
+<package name="DPAK" urn="urn:adsk.eagle:footprint:20339318/1">
 <smd name="FIN" x="0" y="0" dx="7" dy="7" layer="1"/>
 <smd name="1" x="-2.3" y="-6.25" dx="1.5" dy="2.5" layer="1"/>
 <smd name="3" x="2.3" y="-6.25" dx="1.5" dy="2.5" layer="1"/>
 <text x="-3.5" y="4" size="1" layer="25">&gt;NAME</text>
 </package>
-<package name="SOT-23-3">
+<package name="SOT-23-3" urn="urn:adsk.eagle:footprint:20000106/1">
 <smd name="3" x="0" y="1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
 <smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
 <smd name="2" x="0.95" y="-1.2" dx="1" dy="0.7" layer="1" rot="R90"/>
@@ -596,7 +622,7 @@ In this library you will find MOSFETs and other circuit elements commonly used f
 <wire x1="0.55" y1="0.8" x2="1.45" y2="0.8" width="0.2" layer="21"/>
 <text x="-2" y="-1" size="1" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="D2PAK">
+<package name="D2PAK" urn="urn:adsk.eagle:footprint:20027596/1">
 <description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
 INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
@@ -620,7 +646,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
 </package>
-<package name="TO460P950X150-3" urn="urn:adsk.eagle:footprint:4089488/1">
+<package name="TO460P950X150-3" urn="urn:adsk.eagle:footprint:20337755/1">
 <description>3-TO, DPAK, 4.6 mm pitch, 9.5 mm span, 6.5 X 7.3 X 1.5 mm body
 &lt;p&gt;3-pin TO, DPAK package with 4.6 mm pitch, 9.5 mm span with body size 6.5 X 7.3 X 1.5 mm&lt;/p&gt;</description>
 <circle x="-4.4" y="3.1899" radius="0.25" width="0" layer="21"/>
@@ -639,7 +665,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="0" y="4.0749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT95P240X110-3" urn="urn:adsk.eagle:footprint:4254589/1">
+<package name="SOT95P240X110-3" urn="urn:adsk.eagle:footprint:20335111/1">
 <description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.1 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.1 mm&lt;/p&gt;</description>
 <circle x="-1.1573" y="1.7586" radius="0.25" width="0" layer="21"/>
@@ -657,7 +683,7 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="TO264">
+<package name="TO264" urn="urn:adsk.eagle:footprint:20335175/1">
 <wire x1="10.16" y1="24.13" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="-2.54" x2="-10.16" y2="24.13" width="0.127" layer="21"/>
@@ -673,18 +699,42 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO460P950X150-3" urn="urn:adsk.eagle:package:4087657/1" type="model">
+<package3d name="SOT95P240X110-3L" urn="urn:adsk.eagle:package:20000105/4" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT-23-3"/>
+</packageinstances>
+</package3d>
+<package3d name="TO264" urn="urn:adsk.eagle:package:20335174/3" type="box">
+<packageinstances>
+<packageinstance name="TO264"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P240X110-3" urn="urn:adsk.eagle:package:20335110/2" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.1 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.1 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P240X110-3"/>
+</packageinstances>
+</package3d>
+<package3d name="TO460P950X150-3" urn="urn:adsk.eagle:package:20337754/2" type="model">
 <description>3-TO, DPAK, 4.6 mm pitch, 9.5 mm span, 6.5 X 7.3 X 1.5 mm body
 &lt;p&gt;3-pin TO, DPAK package with 4.6 mm pitch, 9.5 mm span with body size 6.5 X 7.3 X 1.5 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="TO460P950X150-3"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT95P240X110-3" urn="urn:adsk.eagle:package:4254587/1" type="model">
-<description>3-SOT23, 0.95 mm pitch, 2.4 mm span, 2.9 X 1.3 X 1.1 mm body
-&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.4 mm span with body size 2.9 X 1.3 X 1.1 mm&lt;/p&gt;</description>
+<package3d name="D2PAK" urn="urn:adsk.eagle:package:20027594/3" type="model">
+<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
+INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 <packageinstances>
-<packageinstance name="SOT95P240X110-3"/>
+<packageinstance name="D2PAK"/>
+</packageinstances>
+</package3d>
+<package3d name="DPAK" urn="urn:adsk.eagle:package:20339316/2" type="model">
+<packageinstances>
+<packageinstance name="DPAK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -697,21 +747,23 @@ INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
 In this library you will find all the connectors used on any of our boards.
 &lt;/p&gt;</description>
 <packages>
-<package name="B2PS-CENTERED">
+<package name="B2PS-CENTERED" urn="urn:adsk.eagle:footprint:20334975/1">
 <wire x1="-4" y1="0" x2="-4" y2="-4" width="0.2" layer="21"/>
 <wire x1="4" y1="-4" x2="4" y2="0" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="-4" y2="-7.2" width="0.2" layer="21"/>
-<pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
-<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
-<text x="0" y="1.85" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <wire x1="4" y1="-7.2" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-4" x2="4" y2="-4" width="0.2" layer="21"/>
 <wire x1="-4" y1="-7.2" x2="4" y2="-7.2" width="0.2" layer="21"/>
+<pad name="2" x="1.98" y="0" drill="1.65" rot="R180"/>
+<pad name="1" x="-1.98" y="0" drill="1.65" shape="square" rot="R180"/>
+<text x="0" y="1.85" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="HFW8R-1ST">
+<package name="HFW8R-1ST" urn="urn:adsk.eagle:footprint:20000152/1">
 <wire x1="5.3" y1="2.75" x2="5.3" y2="-2.75" width="0.2" layer="21"/>
 <wire x1="5.3" y1="-2.75" x2="-5.3" y2="-2.75" width="0.2" layer="21"/>
 <wire x1="-5.3" y1="-2.75" x2="-5.3" y2="2.75" width="0.2" layer="21"/>
+<wire x1="-5.3" y1="2.75" x2="-5" y2="2.75" width="0.2" layer="21"/>
+<wire x1="5" y1="2.75" x2="5.3" y2="2.75" width="0.2" layer="21"/>
 <smd name="6" x="1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="LEG1" x="-4.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
 <smd name="LEG2" x="4.5" y="1.15" dx="4.2" dy="0.7" layer="1" rot="R90"/>
@@ -720,14 +772,12 @@ In this library you will find all the connectors used on any of our boards.
 <smd name="3" x="-1.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="2" x="-2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="1" x="-3.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<text x="-5.5" y="-2.5" size="1" layer="25" rot="R90">&gt;NAME</text>
-<circle x="-4.25" y="3.75" radius="0.25" width="0" layer="25"/>
-<wire x1="-5.3" y1="2.75" x2="-5" y2="2.75" width="0.2" layer="21"/>
-<wire x1="5" y1="2.75" x2="5.3" y2="2.75" width="0.2" layer="21"/>
 <smd name="7" x="2.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="8" x="3.5" y="3.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<text x="-5.5" y="-2.5" size="1" layer="25" rot="R90">&gt;NAME</text>
+<circle x="-4.25" y="3.75" radius="0.25" width="0" layer="25"/>
 </package>
-<package name="1X2">
+<package name="1X2" urn="urn:adsk.eagle:footprint:20332504/1">
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
@@ -747,7 +797,7 @@ In this library you will find all the connectors used on any of our boards.
 <pad name="2" x="1.27" y="0" drill="1.016" diameter="2" shape="octagon" rot="R90"/>
 <text x="-2.5" y="1.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="2MM-3-H">
+<package name="2MM-3-H" urn="urn:adsk.eagle:footprint:20333595/1">
 <wire x1="-5" y1="2" x2="-5" y2="-8" width="0.127" layer="21"/>
 <wire x1="-5" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
 <wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
@@ -757,7 +807,7 @@ In this library you will find all the connectors used on any of our boards.
 <pad name="3" x="2" y="0" drill="0.8" rot="R180"/>
 <text x="0" y="2.5" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="2MM-2-H">
+<package name="2MM-2-H" urn="urn:adsk.eagle:footprint:20333638/1">
 <wire x1="-3" y1="2" x2="-3" y2="-8" width="0.127" layer="21"/>
 <wire x1="-3" y1="-8" x2="5" y2="-8" width="0.127" layer="21"/>
 <wire x1="5" y1="-8" x2="5" y2="2" width="0.127" layer="21"/>
@@ -767,6 +817,33 @@ In this library you will find all the connectors used on any of our boards.
 <text x="1" y="2.5" size="1" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="HFW8R-1ST" urn="urn:adsk.eagle:package:20000151/2" type="model">
+<packageinstances>
+<packageinstance name="HFW8R-1ST"/>
+</packageinstances>
+</package3d>
+<package3d name="1X2" urn="urn:adsk.eagle:package:20332503/2" type="empty">
+<packageinstances>
+<packageinstance name="1X2"/>
+</packageinstances>
+</package3d>
+<package3d name="2MM-3-H" urn="urn:adsk.eagle:package:20333593/2" type="model">
+<packageinstances>
+<packageinstance name="2MM-3-H"/>
+</packageinstances>
+</package3d>
+<package3d name="2MM-2-H" urn="urn:adsk.eagle:package:20333637/2" type="model">
+<packageinstances>
+<packageinstance name="2MM-2-H"/>
+</packageinstances>
+</package3d>
+<package3d name="B2PS-CENTERED" urn="urn:adsk.eagle:package:20334974/3" type="model">
+<packageinstances>
+<packageinstance name="B2PS-CENTERED"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="RoboJackets-LEDs">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
@@ -776,7 +853,7 @@ In this library you will find all the connectors used on any of our boards.
 In this library you will find LEDs and other visual output devices.
 &lt;/p&gt;</description>
 <packages>
-<package name="CHIP-LED0603">
+<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:20143365/1">
 <wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
 <wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
@@ -792,6 +869,13 @@ In this library you will find LEDs and other visual output devices.
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:20143364/2" type="model">
+<packageinstances>
+<packageinstance name="CHIP-LED0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="RoboJackets-Resistors">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
@@ -801,7 +885,7 @@ In this library you will find LEDs and other visual output devices.
 In this library you will find resistors. If you are looking for a common package, use the default &lt;b&gt;rcl &lt;/b&gt;library provided with EAGLE instead of looking here.
 &lt;/p&gt;</description>
 <packages>
-<package name="TO508P1539X450-3" urn="urn:adsk.eagle:footprint:4103957/1">
+<package name="TO508P1539X450-3" urn="urn:adsk.eagle:footprint:20339485/1">
 <description>3-TO, DPAK, 5.08 mm pitch, 15.39 mm span, 10.1 X 8.8 X 4.5 mm body
 &lt;p&gt;3-pin TO, DPAK package with 5.08 mm pitch, 15.39 mm span with body size 10.1 X 8.8 X 4.5 mm&lt;/p&gt;</description>
 <circle x="-6.145" y="3.8299" radius="0.25" width="0" layer="21"/>
@@ -820,7 +904,7 @@ In this library you will find resistors. If you are looking for a common package
 <text x="0" y="6.0249" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-6.0249" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RA-8_2506">
+<package name="RA-8_2506" urn="urn:adsk.eagle:footprint:20027716/1">
 <description>&lt;b&gt;Chip Resistor Array&lt;/b&gt;&lt;p&gt;
 Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</description>
 <wire x1="-3.15" y1="0.75" x2="-3.05" y2="0.75" width="0.1016" layer="51"/>
@@ -859,6 +943,40 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <wire x1="-2.9" y1="-0.6" x2="-3.05" y2="-0.75" width="0.1016" layer="51"/>
 <wire x1="3.15" y1="-0.45" x2="-3.15" y2="-0.45" width="0.1016" layer="51"/>
 <wire x1="-3.15" y1="0.45" x2="3.15" y2="0.45" width="0.1016" layer="51"/>
+<wire x1="-1.75" y1="0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.75" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="0.75" x2="-1.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-1.3" y1="0.6" x2="-1.1" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="0.6" x2="-0.95" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="-0.75" x2="-1.1" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="-0.6" x2="-1.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.3" y1="-0.6" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="0.75" x2="-0.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-0.65" y1="-0.75" x2="-0.95" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.65" y1="0.75" x2="-0.5" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-0.5" y1="0.6" x2="-0.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="0.6" x2="-0.15" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-0.15" y1="-0.75" x2="-0.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="-0.6" x2="-0.5" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.5" y1="-0.6" x2="-0.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.15" y1="0.75" x2="0.15" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.15" y1="-0.75" x2="-0.15" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.15" y1="0.75" x2="0.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="0.6" x2="0.5" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.5" y1="0.6" x2="0.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.65" y1="-0.75" x2="0.5" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.5" y1="-0.6" x2="0.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="-0.6" x2="0.15" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.65" y1="0.75" x2="0.95" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="-0.75" x2="0.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="0.75" x2="1.1" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.1" y1="0.6" x2="1.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="0.6" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.75" x2="1.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="-0.6" x2="1.1" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.1" y1="-0.6" x2="0.95" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.75" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.75" y1="-0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
 <smd name="1" x="-2.8" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
 <smd name="2" x="-2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
 <smd name="7" x="2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
@@ -867,6 +985,14 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <smd name="10" x="2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <smd name="15" x="-2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <smd name="16" x="-2.8" y="0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="3" x="-1.2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="14" x="-1.2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="4" x="-0.4" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="13" x="-0.4" y="0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="5" x="0.4" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="12" x="0.4" y="0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="6" x="1.2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
+<smd name="11" x="1.2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <text x="-3.378" y="1.524" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.378" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
 <polygon width="0.1016" layer="51">
@@ -933,16 +1059,6 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <vertex x="-2.9" y="0.575"/>
 <vertex x="-2.7" y="0.575"/>
 </polygon>
-<wire x1="-1.75" y1="0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.75" x2="-1.75" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="0.75" x2="-1.3" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="-1.3" y1="0.6" x2="-1.1" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="0.6" x2="-0.95" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-0.95" y1="-0.75" x2="-1.1" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="-0.6" x2="-1.3" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-1.3" y1="-0.6" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="3" x="-1.2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
-<smd name="14" x="-1.2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <polygon width="0.1016" layer="51">
 <vertex x="-1.4" y="-0.675"/>
 <vertex x="-1.4" y="-0.45"/>
@@ -959,16 +1075,6 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <vertex x="-1.3" y="0.575"/>
 <vertex x="-1.1" y="0.575"/>
 </polygon>
-<wire x1="-0.95" y1="0.75" x2="-0.65" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-0.65" y1="-0.75" x2="-0.95" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-0.65" y1="0.75" x2="-0.5" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="-0.5" y1="0.6" x2="-0.3" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="-0.3" y1="0.6" x2="-0.15" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-0.15" y1="-0.75" x2="-0.3" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-0.3" y1="-0.6" x2="-0.5" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="-0.5" y1="-0.6" x2="-0.65" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="4" x="-0.4" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
-<smd name="13" x="-0.4" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <polygon width="0.1016" layer="51">
 <vertex x="-0.6" y="-0.675"/>
 <vertex x="-0.6" y="-0.45"/>
@@ -985,16 +1091,6 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <vertex x="-0.5" y="0.575"/>
 <vertex x="-0.3" y="0.575"/>
 </polygon>
-<wire x1="-0.15" y1="0.75" x2="0.15" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="0.15" y1="-0.75" x2="-0.15" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="0.15" y1="0.75" x2="0.3" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="0.3" y1="0.6" x2="0.5" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="0.6" x2="0.65" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="0.65" y1="-0.75" x2="0.5" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="-0.6" x2="0.3" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="0.3" y1="-0.6" x2="0.15" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="5" x="0.4" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
-<smd name="12" x="0.4" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <polygon width="0.1016" layer="51">
 <vertex x="0.2" y="-0.675"/>
 <vertex x="0.2" y="-0.45"/>
@@ -1011,16 +1107,6 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <vertex x="0.3" y="0.575"/>
 <vertex x="0.5" y="0.575"/>
 </polygon>
-<wire x1="0.65" y1="0.75" x2="0.95" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="0.95" y1="-0.75" x2="0.65" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="0.95" y1="0.75" x2="1.1" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="0.6" x2="1.3" y2="0.6" width="0.1016" layer="51"/>
-<wire x1="1.3" y1="0.6" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.45" y1="-0.75" x2="1.3" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="1.3" y1="-0.6" x2="1.1" y2="-0.6" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="-0.6" x2="0.95" y2="-0.75" width="0.1016" layer="51"/>
-<smd name="6" x="1.2" y="-0.8" dx="0.5" dy="0.9" layer="1"/>
-<smd name="11" x="1.2" y="0.8" dx="0.5" dy="0.9" layer="1"/>
 <polygon width="0.1016" layer="51">
 <vertex x="1" y="-0.675"/>
 <vertex x="1" y="-0.45"/>
@@ -1037,10 +1123,8 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 <vertex x="1.1" y="0.575"/>
 <vertex x="1.3" y="0.575"/>
 </polygon>
-<wire x1="1.45" y1="0.75" x2="1.75" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.75" y1="-0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
 </package>
-<package name="PVG3G">
+<package name="PVG3G" urn="urn:adsk.eagle:footprint:20334846/1">
 <smd name="P$1" x="1.15" y="-1.75" dx="0.75" dy="0.8" layer="1" thermals="no"/>
 <smd name="P$2" x="0" y="1.75" dx="0.8" dy="1" layer="1" rot="R90" thermals="no"/>
 <smd name="P$3" x="-1.15" y="-1.75" dx="0.75" dy="0.8" layer="1" thermals="no"/>
@@ -1053,7 +1137,19 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 </package>
 </packages>
 <packages3d>
-<package3d name="TO508P1539X450-3" urn="urn:adsk.eagle:package:4103950/1" type="model">
+<package3d name="RA-8_2506" urn="urn:adsk.eagle:package:20027715/2" type="model">
+<description>&lt;b&gt;Chip Resistor Array&lt;/b&gt;&lt;p&gt;
+Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</description>
+<packageinstances>
+<packageinstance name="RA-8_2506"/>
+</packageinstances>
+</package3d>
+<package3d name="PVG3G" urn="urn:adsk.eagle:package:20334845/2" type="model">
+<packageinstances>
+<packageinstance name="PVG3G"/>
+</packageinstances>
+</package3d>
+<package3d name="TO508P1539X450-3" urn="urn:adsk.eagle:package:20339484/2" type="model">
 <description>3-TO, DPAK, 5.08 mm pitch, 15.39 mm span, 10.1 X 8.8 X 4.5 mm body
 &lt;p&gt;3-pin TO, DPAK package with 5.08 mm pitch, 15.39 mm span with body size 10.1 X 8.8 X 4.5 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1070,7 +1166,7 @@ Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</descrip
 In this library you will find integrated circuits (ICs) that are directly involved with controlling a circuit's power requirements.
 &lt;/p&gt;</description>
 <packages>
-<package name="SOIC-8">
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:20334913/1">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
 body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
@@ -1092,7 +1188,7 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="-3" y="-2" size="1" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:4254491/1">
+<package name="SOT95P280X145-5" urn="urn:adsk.eagle:footprint:20339509/1">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.9 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.9 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <circle x="-1.3538" y="1.7586" radius="0.25" width="0" layer="21"/>
@@ -1219,23 +1315,30 @@ body 3.9 mm/JEDEC MS-012AA</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:4254489/1" type="model">
+<package3d name="MPM3620GQV-P" urn="urn:adsk.eagle:package:20143621/3" type="box">
+<packageinstances>
+<packageinstance name="MPM3620GQV-P"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC-8" urn="urn:adsk.eagle:package:20334908/2" type="model">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+body 3.9 mm/JEDEC MS-012AA</description>
+<packageinstances>
+<packageinstance name="SOIC-8"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X145-5" urn="urn:adsk.eagle:package:20339508/2" type="model">
 <description>5-SOT23, 0.95 mm pitch, 2.8 mm span, 2.9 X 1.6 X 1.45 mm body
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.8 mm span with body size 2.9 X 1.6 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-5"/>
 </packageinstances>
 </package3d>
-<package3d name="MPM3620GQV-P" urn="urn:adsk.eagle:package:20143621/3" type="box">
-<packageinstances>
-<packageinstance name="MPM3620GQV-P"/>
-</packageinstances>
-</package3d>
 </packages3d>
 </library>
 <library name="RoboJackets-Fuses">
 <packages>
-<package name="3557-2">
+<package name="3557-2" urn="urn:adsk.eagle:footprint:19934338/1">
 <pad name="1" x="-6.735" y="1.7" drill="1.75"/>
 <pad name="2" x="-6.735" y="-1.7" drill="1.75"/>
 <pad name="4" x="6.735" y="1.7" drill="1.75"/>
@@ -1247,6 +1350,13 @@ body 3.9 mm/JEDEC MS-012AA</description>
 <text x="-10" y="-4.75" size="1" layer="21">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="3557-2" urn="urn:adsk.eagle:package:19934337/2" type="model">
+<packageinstances>
+<packageinstance name="3557-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="RoboJackets-Switches">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
@@ -1256,29 +1366,29 @@ body 3.9 mm/JEDEC MS-012AA</description>
 In this library you will find switches and other mechanical assisted circuit elements that are used for controlling connections among wires.
 &lt;/p&gt;</description>
 <packages>
-<package name="CSS-121XB">
+<package name="CSS-121XB" urn="urn:adsk.eagle:footprint:20332730/1">
 <wire x1="4.425" y1="-0.1" x2="4.425" y2="2.9" width="0.2" layer="21"/>
 <wire x1="-4.425" y1="2.9" x2="-4.425" y2="-0.1" width="0.2" layer="21"/>
-<smd name="1" x="-3" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="-1" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="1" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
 <wire x1="-3.825" y1="2.9" x2="-4.425" y2="2.9" width="0.2" layer="21"/>
 <wire x1="4.425" y1="2.9" x2="1.825" y2="2.9" width="0.2" layer="21"/>
-<rectangle x1="-1.75" y1="-2.1" x2="-0.25" y2="-0.1" layer="21"/>
-<pad name="LEG1" x="-3.15" y="0" drill="0.8" diameter="1.2" shape="octagon"/>
-<pad name="LEG4" x="3.15" y="0" drill="0.8" diameter="1.2" shape="octagon"/>
 <wire x1="-4.425" y1="-0.1" x2="-4.075" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="4.075" y1="-0.1" x2="4.425" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="-2.175" y1="-0.1" x2="2.175" y2="-0.1" width="0.2" layer="21"/>
+<smd name="1" x="-3" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1" y="3.75" dx="2.5" dy="1" layer="1" rot="R90"/>
+<rectangle x1="-1.75" y1="-2.1" x2="-0.25" y2="-0.1" layer="21"/>
+<pad name="LEG1" x="-3.15" y="0" drill="0.8" diameter="1.2" shape="octagon"/>
+<pad name="LEG4" x="3.15" y="0" drill="0.8" diameter="1.2" shape="octagon"/>
 <text x="-5" y="0" size="1" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="HDP001R">
+<package name="HDP001R" urn="urn:adsk.eagle:footprint:20332449/1">
 <smd name="C" x="-3.65" y="0" dx="1.7" dy="1.6" layer="1"/>
 <smd name="D" x="3.65" y="0" dx="1.7" dy="1.6" layer="1"/>
-<hole x="0" y="1.2" drill="1.1"/>
-<hole x="0" y="-1.2" drill="1.1"/>
 <smd name="A" x="-1.75" y="-3.85" dx="1.8" dy="1.5" layer="1"/>
 <smd name="B" x="1.75" y="-3.85" dx="1.8" dy="1.5" layer="1"/>
+<hole x="0" y="1.2" drill="1.1"/>
+<hole x="0" y="-1.2" drill="1.1"/>
 <wire x1="-2.85" y1="2.25" x2="2.85" y2="2.25" width="0.5" layer="21"/>
 <wire x1="2.85" y1="-2.65" x2="-2.85" y2="-2.65" width="0.5" layer="21"/>
 <wire x1="-2.85" y1="-2.65" x2="-2.85" y2="-1.25" width="0.5" layer="21"/>
@@ -1288,6 +1398,18 @@ In this library you will find switches and other mechanical assisted circuit ele
 <text x="3.5" y="-1.5" size="1" layer="25" rot="R270">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="HDP001R" urn="urn:adsk.eagle:package:20332448/2" type="model">
+<packageinstances>
+<packageinstance name="HDP001R"/>
+</packageinstances>
+</package3d>
+<package3d name="CSS-121XB" urn="urn:adsk.eagle:package:20332728/2" type="model">
+<packageinstances>
+<packageinstance name="CSS-121XB"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -2386,45 +2508,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
-<package name="E7,5-18" urn="urn:adsk.eagle:footprint:22882/1" library_version="3">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 7.62 mm, diameter 18 mm</description>
-<wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.905" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.905" x2="-0.254" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.905" x2="-0.254" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.905" x2="-0.889" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.493" y1="0" x2="-5.969" y2="0" width="0.1524" layer="21"/>
-<wire x1="-6.731" y1="-0.762" x2="-6.731" y2="0.762" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="8.89" width="0.1524" layer="21"/>
-<pad name="-" x="3.81" y="0" drill="1.016" diameter="3.1496" shape="octagon"/>
-<pad name="+" x="-3.81" y="0" drill="1.016" diameter="3.1496"/>
-<text x="8.001" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
-</package>
-<package name="EB25D" urn="urn:adsk.eagle:footprint:22885/1" library_version="3">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 10.16 mm, diameter 25 mm</description>
-<wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
-<wire x1="-1.5748" y1="0" x2="-1.5748" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-1.5748" y1="2.54" x2="-0.4318" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-0.4318" y1="2.54" x2="-0.4318" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="-0.4318" y1="-2.54" x2="-1.5748" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="-1.5748" y1="-2.54" x2="-1.5748" y2="0" width="0.254" layer="21"/>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.254" layer="21"/>
-<wire x1="-2.794" y1="2.54" x2="-2.794" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-2.159" y1="1.905" x2="-3.429" y2="1.905" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="12.7" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="8.89" width="0.254" layer="21"/>
-<pad name="+" x="-5.08" y="0" drill="2.0066" diameter="4.5974"/>
-<pad name="-" x="5.08" y="0" drill="2.0066" diameter="4.5974" shape="octagon"/>
-<text x="9.6774" y="9.525" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.0546" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
-</package>
 <package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="3">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
@@ -2523,20 +2606,6 @@ grid 10.16 mm, diameter 25 mm</description>
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="E7,5-18" urn="urn:adsk.eagle:package:23379/1" type="box" library_version="3">
-<description>ELECTROLYTIC CAPACITOR
-grid 7.62 mm, diameter 18 mm</description>
-<packageinstances>
-<packageinstance name="E7,5-18"/>
-</packageinstances>
-</package3d>
-<package3d name="EB25D" urn="urn:adsk.eagle:package:23399/1" type="box" library_version="3">
-<description>ELECTROLYTIC CAPACITOR
-grid 10.16 mm, diameter 25 mm</description>
-<packageinstances>
-<packageinstance name="EB25D"/>
 </packageinstances>
 </package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
@@ -12546,7 +12615,7 @@ In this library you will find logos and images specific to RoboJackets. The part
 In this library you will find inductors. If you are looking for a common package, use the default &lt;b&gt;rcl &lt;/b&gt;library provided with EAGLE instead of looking here.
 &lt;/p&gt;</description>
 <packages>
-<package name="DA2034">
+<package name="DA2034" urn="urn:adsk.eagle:footprint:20337059/1">
 <circle x="-12" y="9.5" radius="0.5" width="0" layer="21"/>
 <wire x1="10.5" y1="10.5" x2="-10.5" y2="10.5" width="0.127" layer="21"/>
 <wire x1="-10.5" y1="10.5" x2="-10.5" y2="-10.5" width="0.127" layer="21"/>
@@ -12567,6 +12636,78 @@ In this library you will find inductors. If you are looking for a common package
 <text x="-10.5" y="10.5" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="DA2034" urn="urn:adsk.eagle:package:20337058/2" type="model">
+<packageinstances>
+<packageinstance name="DA2034"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="RoboJackets-Capacitors">
+<description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
+&lt;hr&gt;
+&lt;h1&gt;RoboJackets EAGLE Libraries - Capacitors&lt;/h1&gt;&lt;/br&gt;
+&lt;p&gt;
+In this library you will find uncommon capacitors. If you are looking for a common package, use the default &lt;b&gt;rcl &lt;/b&gt;library provided with EAGLE instead of looking here.
+&lt;/p&gt;</description>
+<packages>
+<package name="E7,5-18" urn="urn:adsk.eagle:footprint:22882/1">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 7.62 mm, diameter 18 mm</description>
+<wire x1="0.635" y1="0" x2="2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-2.032" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.905" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.905" x2="-0.254" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.905" x2="-0.254" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.905" x2="-0.889" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-7.493" y1="0" x2="-5.969" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.731" y1="-0.762" x2="-6.731" y2="0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="8.89" width="0.1524" layer="21"/>
+<pad name="-" x="3.81" y="0" drill="1.016" diameter="3.1496" shape="octagon"/>
+<pad name="+" x="-3.81" y="0" drill="1.016" diameter="3.1496"/>
+<text x="8.001" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.2926" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.905" x2="0.889" y2="1.905" layer="21"/>
+</package>
+<package name="EB25D" urn="urn:adsk.eagle:footprint:22885/1">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 10.16 mm, diameter 25 mm</description>
+<wire x1="-2.54" y1="0" x2="-1.5748" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.5748" y1="0" x2="-1.5748" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-1.5748" y1="2.54" x2="-0.4318" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-0.4318" y1="2.54" x2="-0.4318" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-0.4318" y1="-2.54" x2="-1.5748" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-1.5748" y1="-2.54" x2="-1.5748" y2="0" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.794" y1="2.54" x2="-2.794" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-2.159" y1="1.905" x2="-3.429" y2="1.905" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="12.7" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="8.89" width="0.254" layer="21"/>
+<pad name="+" x="-5.08" y="0" drill="2.0066" diameter="4.5974"/>
+<pad name="-" x="5.08" y="0" drill="2.0066" diameter="4.5974" shape="octagon"/>
+<text x="9.6774" y="9.525" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.0546" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.3302" y1="-2.54" x2="1.6002" y2="2.54" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="E7,5-18" urn="urn:adsk.eagle:package:20337790/3" type="model">
+<description>ELECTROLYTIC CAPACITOR
+grid 7.62 mm, diameter 18 mm</description>
+<packageinstances>
+<packageinstance name="E7,5-18"/>
+</packageinstances>
+</package3d>
+<package3d name="EB25D" urn="urn:adsk.eagle:package:20339197/2" type="model">
+<description>ELECTROLYTIC CAPACITOR
+grid 10.16 mm, diameter 25 mm</description>
+<packageinstances>
+<packageinstance name="EB25D"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -12796,22 +12937,22 @@ Your Eurocircuits Team
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="RoboJackets-Connectors" package="B2PS-CENTERED" value="B2PS-VH(LF)(SN)" x="-14.6" y="72.5" smashed="yes" rot="R270">
+<element name="J1" library="RoboJackets-Connectors" package="B2PS-CENTERED" package3d_urn="urn:adsk.eagle:package:20334974/3" override_package3d_urn="urn:adsk.eagle:package:20338102/2" override_package_urn="urn:adsk.eagle:footprint:20334975/1" value="B2PS-VH(LF)(SN)" x="-14.6" y="72.5" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="455-1648-ND" x="-14.6" y="72.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B2PS-VH(LF)(SN)" x="-14.6" y="72.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-11.503803125" y="68.932228125" size="1" layer="25" font="vector" rot="R270" align="top-right"/>
 </element>
-<element name="J3" library="RoboJackets-Connectors" package="B2PS-CENTERED" value="B2PS-VH(LF)(SN)" x="27" y="44" smashed="yes" rot="MR270">
+<element name="J3" library="RoboJackets-Connectors" package="B2PS-CENTERED" package3d_urn="urn:adsk.eagle:package:20334974/3" value="B2PS-VH(LF)(SN)" x="27" y="44" smashed="yes" rot="MR270">
 <attribute name="DIGIKEY" value="455-1648-ND" x="27" y="44" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="B2PS-VH(LF)(SN)" x="27" y="44" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="27.5" y="38.5" size="1" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="J2" library="RoboJackets-Connectors" package="B2PS-CENTERED" value="B2PS-VH(LF)(SN)" x="-17" y="44" smashed="yes" rot="MR90">
+<element name="J2" library="RoboJackets-Connectors" package="B2PS-CENTERED" package3d_urn="urn:adsk.eagle:package:20334974/3" value="B2PS-VH(LF)(SN)" x="-17" y="44" smashed="yes" rot="MR90">
 <attribute name="DIGIKEY" value="455-1648-ND" x="-17" y="44" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="B2PS-VH(LF)(SN)" x="-17" y="44" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="-17.5" y="38.5" size="1" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="D15" library="RoboJackets-LEDs" package="CHIP-LED0603" value="GREEN" x="10.7" y="75.65" smashed="yes" rot="R90">
+<element name="D15" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="GREEN" x="10.7" y="75.65" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="160-1446-1-ND" x="10.7" y="75.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LTST-C191KGKT" x="10.7" y="75.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.8" y="69.45" size="1" layer="25" font="vector" rot="SR180" align="top-right"/>
@@ -12885,21 +13026,21 @@ Your Eurocircuits Team
 <attribute name="POPULARITY" value="77" x="-8.1" y="65.8" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-8.1" y="65.8" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Q6" library="RoboJackets-Discrete" package="DPAK" value="AOD1N60" x="1.5" y="55.5" smashed="yes" rot="MR180">
+<element name="Q6" library="RoboJackets-Discrete" package="DPAK" package3d_urn="urn:adsk.eagle:package:20339316/2" value="AOD1N60" x="1.5" y="55.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-2.25" y="53.75" size="1" layer="26" font="vector" rot="MR270"/>
 </element>
-<element name="U4" library="RoboJackets-PowerICs" package="SOIC-8" value="IX4427N" x="25.75" y="61" smashed="yes" rot="R90">
+<element name="U4" library="RoboJackets-PowerICs" package="SOIC-8" package3d_urn="urn:adsk.eagle:package:20334908/2" value="IX4427N" x="25.75" y="61" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.5" y="58" size="1" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="J4" library="RoboJackets-Connectors" package="HFW8R-1ST" value="HFW8R-1ST" x="67" y="39" smashed="yes" rot="R90">
+<element name="J4" library="RoboJackets-Connectors" package="HFW8R-1ST" package3d_urn="urn:adsk.eagle:package:20000151/2" value="HFW8R-1ST" x="67" y="39" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="609-1788-1-ND" x="67" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="HFW8R-1STE1LF" x="67" y="39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="68.5" y="32" size="1" layer="25" font="vector"/>
 </element>
-<element name="D7" library="RoboJackets-Diodes" package="DO214AA" value="3SMBJ5929B-TP" x="1.5" y="65" smashed="yes" rot="MR180">
+<element name="D7" library="RoboJackets-Diodes" package="DO214AA" package3d_urn="urn:adsk.eagle:package:20339408/2" value="3SMBJ5929B-TP" x="1.5" y="65" smashed="yes" rot="MR180">
 <attribute name="NAME" x="3.5" y="66.5" size="1" layer="26" font="vector" rot="MR0"/>
 </element>
-<element name="Q5" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS127" x="-5" y="65" smashed="yes" rot="MR90">
+<element name="Q5" library="RoboJackets-Discrete" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:20000105/4" value="BSS127" x="-5" y="65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-2.2" y="63.15" size="1" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="51" x="36" y="58.9" smashed="yes" rot="R45">
@@ -12926,10 +13067,10 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="57.2" y="-5.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="57.835" y="-3.495" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Q2" library="RoboJackets-Discrete" package="D2PAK" value="IRFS4227" x="-58.5" y="6.7" smashed="yes">
+<element name="Q2" library="RoboJackets-Discrete" package="D2PAK" package3d_urn="urn:adsk.eagle:package:20027594/3" value="IRFS4227" x="-58.5" y="6.7" smashed="yes">
 <attribute name="NAME" x="-62.5" y="0.2" size="1" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="S1" library="RoboJackets-Switches" package="CSS-121XB" value="CSS-121XB" x="65" y="51" smashed="yes" rot="R135">
+<element name="S1" library="RoboJackets-Switches" package="CSS-121XB" package3d_urn="urn:adsk.eagle:package:20332728/2" value="CSS-121XB" x="65" y="51" smashed="yes" rot="R135">
 <attribute name="NAME" x="69.8" y="46.1" size="1" layer="25" font="vector" rot="R135"/>
 </element>
 <element name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="59.35" y="45.85" smashed="yes" rot="R225">
@@ -12950,13 +13091,13 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="-4.75" y="59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="-2.21" y="59.635" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="S2" library="RoboJackets-Switches" package="HDP001R" value="HDP001R" x="67.5" y="1.5" smashed="yes" rot="R270">
+<element name="S2" library="RoboJackets-Switches" package="HDP001R" package3d_urn="urn:adsk.eagle:package:20332448/2" value="HDP001R" x="67.5" y="1.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="66" y="-2" size="1" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="S3" library="RoboJackets-Switches" package="HDP001R" value="HDP001R" x="67.5" y="-9" smashed="yes" rot="R270">
+<element name="S3" library="RoboJackets-Switches" package="HDP001R" package3d_urn="urn:adsk.eagle:package:20332448/2" value="HDP001R" x="67.5" y="-9" smashed="yes" rot="R270">
 <attribute name="NAME" x="66" y="-12.5" size="1" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="S4" library="RoboJackets-Switches" package="HDP001R" value="HDP001R" x="67.5" y="-19.5" smashed="yes" rot="R270">
+<element name="S4" library="RoboJackets-Switches" package="HDP001R" package3d_urn="urn:adsk.eagle:package:20332448/2" value="HDP001R" x="67.5" y="-19.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="66" y="-23" size="1" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="RC0603FR-07102KL" x="51.5" y="-26" smashed="yes">
@@ -12977,13 +13118,13 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="55.5" y="-26" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.865" y="-28.54" size="1.27" layer="27"/>
 </element>
-<element name="J7" library="RoboJackets-Connectors" package="1X2" value="!BTN_KCK_PRE_EXT" x="58" y="-9.5" smashed="yes" rot="R270">
+<element name="J7" library="RoboJackets-Connectors" package="1X2" package3d_urn="urn:adsk.eagle:package:20332503/2" value="!BTN_KCK_PRE_EXT" x="58" y="-9.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.1" y="-13.4" size="1" layer="25" font="vector"/>
 </element>
-<element name="J8" library="RoboJackets-Connectors" package="1X2" value="!BTN_CHP_PRE_EXT" x="58" y="1" smashed="yes" rot="R270">
+<element name="J8" library="RoboJackets-Connectors" package="1X2" package3d_urn="urn:adsk.eagle:package:20332503/2" value="!BTN_CHP_PRE_EXT" x="58" y="1" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.1" y="-2.9" size="1" layer="25" font="vector"/>
 </element>
-<element name="J9" library="RoboJackets-Connectors" package="1X2" value="!BTN_CHG_PRE_EXT" x="58" y="-20" smashed="yes" rot="R270">
+<element name="J9" library="RoboJackets-Connectors" package="1X2" package3d_urn="urn:adsk.eagle:package:20332503/2" value="!BTN_CHG_PRE_EXT" x="58" y="-20" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.1" y="-23.9" size="1" layer="25" font="vector"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="110k 1%" x="23.5" y="59.9" smashed="yes" rot="MR90">
@@ -12996,7 +13137,7 @@ Your Eurocircuits Team
 <attribute name="POPULARITY" value="77" x="21.2" y="59.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="21.2" y="59.9" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="U3" library="RoboJackets-ICs" package="TSSOP-20_EP" value="LT3751FE" x="-55.6" y="-12.6" smashed="yes" rot="R90">
+<element name="U3" library="RoboJackets-ICs" package="TSSOP-20_EP" package3d_urn="urn:adsk.eagle:package:20338201/2" value="LT3751FE" x="-55.6" y="-12.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="-51" y="-16" size="1" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="294k 1%" x="-64.1" y="-19.5" smashed="yes" rot="R90">
@@ -13039,12 +13180,12 @@ Your Eurocircuits Team
 <attribute name="POPULARITY" value="6" x="-45.9" y="-8.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.9" y="-8.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="XF1" library="RoboJackets-Fuses" package="3557-2" value="15A" x="-21.3" y="63.9" smashed="yes" rot="R180">
+<element name="XF1" library="RoboJackets-Fuses" package="3557-2" package3d_urn="urn:adsk.eagle:package:19934337/2" value="15A" x="-21.3" y="63.9" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="36-3557-2-ND" x="-21.3" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="3557-2" x="-21.3" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-31.55" y="60.4" size="1" layer="21" font="vector" rot="R90"/>
 </element>
-<element name="U5" library="RoboJackets-ICs" package="QFP80P1200X1200X120-44" package3d_urn="urn:adsk.eagle:package:4066407/1" value="AT32ATQFP44" x="52.1" y="16" smashed="yes" rot="R270">
+<element name="U5" library="RoboJackets-ICs" package="QFP80P1200X1200X120-44" package3d_urn="urn:adsk.eagle:package:20332646/2" value="AT32ATQFP44" x="52.1" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.6088" y="20.75" size="1" layer="25" font="vector" rot="R90" align="top-left"/>
 <attribute name="VALUE" x="44.9838" y="16" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
@@ -13060,25 +13201,25 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="46.6" y="46.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.965" y="44.195" size="1.27" layer="27"/>
 </element>
-<element name="D8" library="RoboJackets-LEDs" package="CHIP-LED0603" value="GREEN" x="43.6" y="49.5" smashed="yes">
+<element name="D8" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="GREEN" x="43.6" y="49.5" smashed="yes">
 <attribute name="DIGIKEY" value="160-1446-1-ND" x="43.6" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LTST-C191KGKT" x="43.6" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="42.74" y="51.885" size="1" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.505" y="48.865" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D10" library="RoboJackets-LEDs" package="CHIP-LED0603" value="GREEN" x="45.4" y="49.5" smashed="yes">
+<element name="D10" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="GREEN" x="45.4" y="49.5" smashed="yes">
 <attribute name="DIGIKEY" value="160-1446-1-ND" x="45.4" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LTST-C191KGKT" x="45.4" y="49.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.86" y="52.915" size="1" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="47.305" y="48.865" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D19" library="RoboJackets-LEDs" package="CHIP-LED0603" value="RED" x="10.7" y="72.7" smashed="yes" rot="R90">
+<element name="D19" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="RED" x="10.7" y="72.7" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="160-1447-1-ND" x="-5.8" y="67.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LTST-C191KRKT" x="-5.8" y="67.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.81" y="68.215" size="1" layer="25" font="vector" rot="SR180" align="top-right"/>
 <attribute name="VALUE" x="11.335" y="74.605" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="Q9" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS127" x="18.4" y="74.5" smashed="yes" rot="R90">
+<element name="Q9" library="RoboJackets-Discrete" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:20000105/4" value="BSS127" x="18.4" y="74.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.85" y="71.55" size="1" layer="25" font="vector"/>
 </element>
 <element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330" x="14.7" y="72.7" smashed="yes">
@@ -13087,7 +13228,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="4.2" y="78.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.065" y="70.795" size="1.27" layer="27"/>
 </element>
-<element name="Q8" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS127" x="24.4" y="74.5" smashed="yes" rot="R90">
+<element name="Q8" library="RoboJackets-Discrete" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:20000105/4" value="BSS127" x="24.4" y="74.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.7" y="72.5" size="1" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="21.4" y="73.7" smashed="yes" rot="R270">
@@ -13096,7 +13237,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="21.4" y="73.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="19.495" y="74.335" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D20" library="RoboJackets-LEDs" package="CHIP-LED0603" value="YELLOW" x="4.8" y="62.9" smashed="yes" rot="R180">
+<element name="D20" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="YELLOW" x="4.8" y="62.9" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1448-1-ND" x="10.3" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KSKT" x="10.3" y="53.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.44" y="66.285" size="1" layer="25" font="vector"/>
@@ -13108,46 +13249,46 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="7.9" y="61.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="5.36" y="62.435" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D16" library="RoboJackets-LEDs" package="CHIP-LED0603" value="GREEN" x="64.1" y="18.6" smashed="yes" rot="R180">
+<element name="D16" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="GREEN" x="64.1" y="18.6" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1446-1-ND" x="69.6" y="20.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KGKT" x="69.6" y="20.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="64.565" y="20.465" size="1" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="62.195" y="19.235" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D18" library="RoboJackets-LEDs" package="CHIP-LED0603" value="RED" x="68.1" y="18.6" smashed="yes" rot="R180">
+<element name="D18" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="RED" x="68.1" y="18.6" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1447-1-ND" x="68.1" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KRKT" x="68.1" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.565" y="20.465" size="1" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="66.195" y="19.235" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D11" library="RoboJackets-LEDs" package="CHIP-LED0603" value="RED" x="29.5" y="74.5" smashed="yes" rot="R180">
+<element name="D11" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="RED" x="29.5" y="74.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1447-1-ND" x="29.5" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KRKT" x="29.5" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.51" y="72.885" size="1" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="D9" library="RoboJackets-LEDs" package="CHIP-LED0603" value="RED" x="28" y="74.5" smashed="yes" rot="R180">
+<element name="D9" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="RED" x="28" y="74.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1447-1-ND" x="28" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KRKT" x="28" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.26" y="72.885" size="1" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="D12" library="RoboJackets-LEDs" package="CHIP-LED0603" value="YELLOW" x="31" y="74.5" smashed="yes" rot="R180">
+<element name="D12" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="YELLOW" x="31" y="74.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1448-1-ND" x="31" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KSKT" x="31" y="74.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.76" y="72.885" size="1" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="Q7" library="RoboJackets-Discrete" package="SOT-23-3" value="BSS127" x="-4.8" y="74.1" smashed="yes" rot="R270">
+<element name="Q7" library="RoboJackets-Discrete" package="SOT-23-3" package3d_urn="urn:adsk.eagle:package:20000105/4" value="BSS127" x="-4.8" y="74.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="-3.8" y="70.6" size="1" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="Q1" library="RoboJackets-Discrete" package="TO460P950X150-3" package3d_urn="urn:adsk.eagle:package:4087657/1" value="ATP302ATPAK" x="-28.3" y="55.6" smashed="yes">
+<element name="Q1" library="RoboJackets-Discrete" package="TO460P950X150-3" package3d_urn="urn:adsk.eagle:package:20337754/2" value="ATP302ATPAK" x="-28.3" y="55.6" smashed="yes">
 <attribute name="NAME" x="-30.299996875" y="50.924896875" size="1" layer="25" font="vector"/>
 </element>
-<element name="D2" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:4100272/1" value="VS-5EWH06FN-M3" x="-33.6" y="41" smashed="yes" rot="R270">
+<element name="D2" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:20333100/2" value="VS-5EWH06FN-M3" x="-33.6" y="41" smashed="yes" rot="R270">
 <attribute name="NAME" x="-29.7759" y="37.5" size="1" layer="25" font="vector" rot="R90" align="top-left"/>
 </element>
-<element name="D5" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:4100272/1" value="VS-5EWH06FN-M3" x="-22.375" y="41" smashed="yes" rot="R270">
+<element name="D5" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:20333100/2" value="VS-5EWH06FN-M3" x="-22.375" y="41" smashed="yes" rot="R270">
 <attribute name="NAME" x="-18.5509" y="37.5" size="1" layer="25" font="vector" rot="R90" align="top-left"/>
 </element>
-<element name="D6" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:4100272/1" value="VS-5EWH06FN-M3" x="32.75" y="41.75" smashed="yes" rot="R270">
+<element name="D6" library="RoboJackets-Diodes" package="TO460P990X239-3" package3d_urn="urn:adsk.eagle:package:20333100/2" value="VS-5EWH06FN-M3" x="32.75" y="41.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.0259" y="39.7" size="1" layer="25" font="vector" rot="R270" align="top-left"/>
 </element>
 <element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="160" x="16.4" y="66.1" smashed="yes" rot="R90">
@@ -13174,46 +13315,38 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="23.9" y="67.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="23.265" y="69.305" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D4" library="RoboJackets-Diodes" package="RESM5226X262" package3d_urn="urn:adsk.eagle:package:4103916/1" value="SMAJ20A" x="19.6" y="65" smashed="yes" rot="MR90">
+<element name="D4" library="RoboJackets-Diodes" package="RESM5226X262" package3d_urn="urn:adsk.eagle:package:20339435/2" value="SMAJ20A" x="19.6" y="65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.155" y="59.275" size="1" layer="26" font="vector" rot="MR270" align="top-right"/>
 <attribute name="VALUE" x="17.505" y="65" size="1.27" layer="28" rot="MR90" align="top-center"/>
 </element>
-<element name="D3" library="RoboJackets-Diodes" package="RESM5226X262" package3d_urn="urn:adsk.eagle:package:4103916/1" value="SMAJ20A" x="16.4" y="65" smashed="yes" rot="MR90">
+<element name="D3" library="RoboJackets-Diodes" package="RESM5226X262" package3d_urn="urn:adsk.eagle:package:20339435/2" value="SMAJ20A" x="16.4" y="65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="13.68" y="66.25" size="1" layer="26" font="vector" rot="MR270" align="top-left"/>
 <attribute name="VALUE" x="14.305" y="65" size="1.27" layer="28" rot="MR90" align="top-center"/>
 </element>
-<element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="EB25D" package3d_urn="urn:adsk.eagle:package:23399/1" value="1000uF" x="43" y="-59.5" smashed="yes">
+<element name="C5" library="RoboJackets-Capacitors" package="EB25D" package3d_urn="urn:adsk.eagle:package:20339197/2" value="1000uF" x="43" y="-59.5" smashed="yes">
 <attribute name="NAME" x="42.1774" y="-46.35" size="1" layer="25" font="vector"/>
-<attribute name="POPULARITY" value="0" x="43" y="-59.5" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="43" y="-59.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="EB25D" package3d_urn="urn:adsk.eagle:package:23399/1" value="1000uF" x="61" y="-41" smashed="yes" rot="R270">
+<element name="C6" library="RoboJackets-Capacitors" package="EB25D" package3d_urn="urn:adsk.eagle:package:20339197/2" value="1000uF" x="61" y="-41" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.6774" y="-41.975" size="1" layer="25" font="vector" rot="R90"/>
-<attribute name="POPULARITY" value="0" x="61" y="-41" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="61" y="-41" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="EB25D" package3d_urn="urn:adsk.eagle:package:23399/1" value="1000uF" x="-43" y="-59.5" smashed="yes" rot="R180">
+<element name="C7" library="RoboJackets-Capacitors" package="EB25D" package3d_urn="urn:adsk.eagle:package:20339197/2" value="1000uF" x="-43" y="-59.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-41.5524" y="-45.275" size="1" layer="25" font="vector" rot="R180"/>
-<attribute name="POPULARITY" value="0" x="-43" y="-59.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-43" y="-59.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-37.9454" y="-53.785" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="EB25D" package3d_urn="urn:adsk.eagle:package:23399/1" value="1000uF" x="-61" y="-41" smashed="yes" rot="R270">
+<element name="C8" library="RoboJackets-Capacitors" package="EB25D" package3d_urn="urn:adsk.eagle:package:20339197/2" value="1000uF" x="-61" y="-41" smashed="yes" rot="R270">
 <attribute name="NAME" x="-46.775" y="-42.0726" size="1" layer="25" font="vector" rot="R90"/>
-<attribute name="POPULARITY" value="0" x="-61" y="-41" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-61" y="-41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-66.715" y="-35.9454" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R34" library="RoboJackets-Resistors" package="TO508P1539X450-3" package3d_urn="urn:adsk.eagle:package:4103950/1" value="1.5k 35W" x="9" y="46" smashed="yes" rot="MR180">
+<element name="R34" library="RoboJackets-Resistors" package="TO508P1539X450-3" package3d_urn="urn:adsk.eagle:package:20339484/2" value="1.5k 35W" x="9" y="46" smashed="yes" rot="MR180">
 <attribute name="NAME" x="6.5" y="39.4751" size="1" layer="26" font="vector" rot="MR180" align="top-left"/>
 <attribute name="VALUE" x="9" y="52.0249" size="1.27" layer="28" rot="MR180" align="top-center"/>
 </element>
-<element name="J6" library="RoboJackets-Connectors" package="2MM-3-H" value="3-PIN_2MM-H" x="42" y="59.5" smashed="yes" rot="R135">
+<element name="J6" library="RoboJackets-Connectors" package="2MM-3-H" package3d_urn="urn:adsk.eagle:package:20333593/2" value="3-PIN_2MM-H" x="42" y="59.5" smashed="yes" rot="R135">
 <attribute name="NAME" x="43.13223125" y="54.83223125" size="1" layer="25" font="vector" rot="R135" align="bottom-center"/>
 <attribute name="PINS" value="3" x="42" y="59.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PIN_PITCH" value="2.0 mm" x="42" y="59.5" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="J5" library="RoboJackets-Connectors" package="2MM-2-H" value="2-PIN_2MM-H" x="36" y="65.5" smashed="yes" rot="R135">
+<element name="J5" library="RoboJackets-Connectors" package="2MM-2-H" package3d_urn="urn:adsk.eagle:package:20333637/2" value="2-PIN_2MM-H" x="36" y="65.5" smashed="yes" rot="R135">
 <attribute name="NAME" x="31.325125" y="66.9393375" size="1" layer="25" font="vector" rot="R135" align="bottom-center"/>
 <attribute name="PINS" value="2" x="36" y="65.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="PIN_PITCH" value="2.0 mm" x="36" y="65.5" size="1.778" layer="27" rot="R135" display="off"/>
@@ -13224,7 +13357,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="60.8" y="19.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="61.435" y="21.105003125" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D21" library="RoboJackets-LEDs" package="CHIP-LED0603" value="BLUE" x="52" y="59.5" smashed="yes" rot="R315">
+<element name="D21" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="BLUE" x="52" y="59.5" smashed="yes" rot="R315">
 <attribute name="DIGIKEY" value="160-1647-1-ND" x="52" y="59.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="MPN" value="LTST-C191TBKT" x="52" y="59.5" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="52.375" y="61.598025" size="1" layer="25" font="vector" rot="R315"/>
@@ -13254,11 +13387,11 @@ Your Eurocircuits Team
 <element name="U$3" library="RoboJackets-Aesthetics" package="WARNING2" value="" x="31.5" y="22" smashed="yes" rot="R270"/>
 <element name="U$4" library="RoboJackets-Aesthetics" package="WARNING2" value="" x="31.5" y="-16.5" smashed="yes" rot="R270"/>
 <element name="U$5" library="RoboJackets-Aesthetics" package="ROBOBUZZ_0.6X" value="" x="45" y="-28" smashed="yes"/>
-<element name="Q10" library="RoboJackets-Discrete" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:4254587/1" value="BSS806NSOT-23-3" x="38.2" y="56" smashed="yes" rot="R45">
+<element name="Q10" library="RoboJackets-Discrete" package="SOT95P240X110-3" package3d_urn="urn:adsk.eagle:package:20335110/2" value="BSS806NSOT-23-3" x="38.2" y="56" smashed="yes" rot="R45">
 <attribute name="NAME" x="36.780440625" y="54.040878125" size="1" layer="25" font="vector" rot="R45" align="top-right"/>
 <attribute name="VALUE" x="39.758178125" y="54.44181875" size="1.27" layer="27" rot="R45" align="top-center"/>
 </element>
-<element name="U2" library="RoboJackets-PowerICs" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:4254489/1" value="15V" x="26.6" y="59.9" smashed="yes" rot="MR0">
+<element name="U2" library="RoboJackets-PowerICs" package="SOT95P280X145-5" package3d_urn="urn:adsk.eagle:package:20339508/2" value="15V" x="26.6" y="59.9" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="26.6" y="57.6964" size="1.27" layer="28" rot="MR0" align="top-center"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF 50V" x="27.7" y="63.6" smashed="yes" rot="MR90">
@@ -13273,7 +13406,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="23.5" y="63.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="21.595" y="62.565" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="D17" library="RoboJackets-LEDs" package="CHIP-LED0603" value="YELLOW" x="66.1" y="18.6" smashed="yes" rot="R180">
+<element name="D17" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="YELLOW" x="66.1" y="18.6" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1448-1-ND" x="66.1" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KSKT" x="66.1" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="66.565" y="20.465" size="1" layer="25" font="vector" rot="R90"/>
@@ -13285,11 +13418,11 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="51.8" y="7.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.165" y="5.795" size="1.27" layer="27"/>
 </element>
-<element name="Q4" library="RoboJackets-Discrete" package="TO264" value="IXGK400N30A3" x="16" y="49" smashed="yes" rot="R90">
+<element name="Q4" library="RoboJackets-Discrete" package="TO264" package3d_urn="urn:adsk.eagle:package:20335174/3" value="IXGK400N30A3" x="16" y="49" smashed="yes" rot="R90">
 <attribute name="NAME" x="-7.99" y="59.79" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-1.78" y="40.11" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="Q3" library="RoboJackets-Discrete" package="TO264" value="IXGK400N30A3" x="-5.5" y="49" smashed="yes" rot="R270">
+<element name="Q3" library="RoboJackets-Discrete" package="TO264" package3d_urn="urn:adsk.eagle:package:20335174/3" value="IXGK400N30A3" x="-5.5" y="49" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.71" y="59.89" size="1.27" layer="25"/>
 <attribute name="VALUE" x="12.28" y="57.89" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -13368,13 +13501,13 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="-52.1" y="-18.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-51.465" y="-16.295" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D13" library="RoboJackets-LEDs" package="CHIP-LED0603" value="YELLOW" x="32.5" y="74.5" smashed="yes" rot="R180">
+<element name="D13" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="YELLOW" x="32.5" y="74.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1448-1-ND" x="38" y="66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191KSKT" x="38" y="66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.01" y="72.885" size="1" layer="25" rot="R270"/>
 <attribute name="VALUE" x="36.095" y="66.635" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D14" library="RoboJackets-LEDs" package="CHIP-LED0603" value="BLUE" x="34" y="74.5" smashed="yes" rot="R180">
+<element name="D14" library="RoboJackets-LEDs" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:20143364/2" value="BLUE" x="34" y="74.5" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="160-1647-1-ND" x="39" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LTST-C191TBKT" x="39" y="68.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="32.26" y="72.885" size="1" layer="25" rot="R270"/>
@@ -13434,10 +13567,8 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="R" x="53.4" y="49.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="55.305" y="48.565" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E7,5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="560uF" x="-43.6" y="55.2" smashed="yes" rot="R45">
+<element name="C19" library="RoboJackets-Capacitors" package="E7,5-18" package3d_urn="urn:adsk.eagle:package:20337790/3" value="560uF" x="-43.6" y="55.2" smashed="yes" rot="R45">
 <attribute name="NAME" x="-49.101996875" y="47.57809375" size="1" layer="25" font="vector" rot="R135"/>
-<attribute name="POPULARITY" value="3" x="-43.6" y="55.2" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-43.6" y="55.2" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="VALUE" x="-44.156775" y="48.57256875" size="1.778" layer="27" ratio="10" rot="R45"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10uF (X7R)" x="-18.5" y="55.1" smashed="yes" rot="R135">
@@ -13464,11 +13595,11 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="-55.4" y="47.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-52.224996875" y="45.49500625" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="RoboJackets-Diodes" package="SOD123-W" value="PTVS20VS1UR" x="-16.4" y="57" smashed="yes" rot="R135">
+<element name="D1" library="RoboJackets-Diodes" package="SOD123-W" package3d_urn="urn:adsk.eagle:package:20337153/2" value="PTVS20VS1UR" x="-16.4" y="57" smashed="yes" rot="R135">
 <attribute name="NAME" x="-13.9490125" y="57.956915625" size="1" layer="25" font="vector" rot="R135"/>
 <attribute name="VALUE" x="-12.358884375" y="58.34704375" size="1.27" layer="27" rot="R135"/>
 </element>
-<element name="T1" library="RoboJackets-Inductors" package="DA2034" value="DA203X-ALDA2034" x="-54.9" y="29.4" smashed="yes" rot="R270">
+<element name="T1" library="RoboJackets-Inductors" package="DA2034" package3d_urn="urn:adsk.eagle:package:20337058/2" value="DA203X-ALDA2034" x="-54.9" y="29.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-44.4" y="39.9" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10uF (X7R)" x="-65" y="47.4" smashed="yes" rot="R90">
@@ -13513,21 +13644,21 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="64.4" y="28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="66.305" y="27.365" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U7" library="RoboJackets-ICs" package="SOP63P574X165-16" value="ADUM7441CRQZ-RL7" x="53.9" y="29.7" smashed="yes" rot="R270">
+<element name="U7" library="RoboJackets-ICs" package="SOP63P574X165-16" package3d_urn="urn:adsk.eagle:package:20332691/2" value="ADUM7441CRQZ-RL7" x="53.9" y="29.7" smashed="yes" rot="R270">
 <attribute name="DATA_RATE" value="25 Mbps" x="53.9" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY_PN" value="ADUM7441CRQZ-RL7CT-ND" x="53.9" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="ANALOG DEVICES" x="53.9" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.3186" y="35.1" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="50.5214" y="31.7" size="1" layer="27" font="vector" rot="R270" align="top-left"/>
 </element>
-<element name="U6" library="RoboJackets-ICs" package="SOP63P574X165-16" value="ADUM7441ARQZ-RL7" x="60.2" y="29.7" smashed="yes" rot="R270">
+<element name="U6" library="RoboJackets-ICs" package="SOP63P574X165-16" package3d_urn="urn:adsk.eagle:package:20332691/2" value="ADUM7441ARQZ-RL7" x="60.2" y="29.7" smashed="yes" rot="R270">
 <attribute name="DATA_RATE" value="1 Mbps" x="60.2" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY_PN" value="ADUM7441ARQZ-RL7CT-ND" x="60.2" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="ANALOG DEVICES" x="60.2" y="29.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.6186" y="35.1" size="1" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="56.8214" y="31.7" size="1" layer="27" font="vector" rot="R270" align="top-left"/>
 </element>
-<element name="RN1" library="RoboJackets-Resistors" package="RA-8_2506" value="330" x="62.1" y="10.8" smashed="yes" rot="R90">
+<element name="RN1" library="RoboJackets-Resistors" package="RA-8_2506" package3d_urn="urn:adsk.eagle:package:20027715/2" value="330" x="62.1" y="10.8" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="742C163331JPCT-ND" x="62.1" y="10.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="742C163331JP" x="62.1" y="10.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="63.478" y="7.276" size="1" layer="25" font="vector" rot="R180"/>
@@ -13545,7 +13676,7 @@ Your Eurocircuits Team
 <attribute name="SPICEPREFIX" value="C" x="60.8" y="15.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="61.435" y="17.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RV1" library="RoboJackets-Resistors" package="PVG3G" value="500" x="33.8" y="61.5" smashed="yes" rot="R45">
+<element name="RV1" library="RoboJackets-Resistors" package="PVG3G" package3d_urn="urn:adsk.eagle:package:20334845/2" value="500" x="33.8" y="61.5" smashed="yes" rot="R45">
 <attribute name="DIGIKEY_LINK" value="https://www.digikey.com/product-detail/en/bourns-inc/PVG3G501C01R00/PVG3G501C01R00CT-ND/6613133" x="33.8" y="61.5" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DIGIKEY_PN" value="PVG3G501C01R00CT-ND" x="33.8" y="61.5" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="33.8" y="61.5" size="1.778" layer="27" rot="R45" display="off"/>
@@ -16119,6 +16250,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.5" severity="warning">
 Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -132,7 +132,7 @@ For MINI Blade Fuses</description>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 </package>
-<package name="3557-2">
+<package name="3557-2" urn="urn:adsk.eagle:footprint:19934338/1">
 <pad name="1" x="-6.735" y="1.7" drill="1.75"/>
 <pad name="2" x="-6.735" y="-1.7" drill="1.75"/>
 <pad name="4" x="6.735" y="1.7" drill="1.75"/>
@@ -175,6 +175,11 @@ For MINI Blade Fuses</description>
 &lt;p&gt;Chip package with body size 2.10 X 1.35 X 0.75 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="FUSC2113X75"/>
+</packageinstances>
+</package3d>
+<package3d name="3557-2" urn="urn:adsk.eagle:package:19934337/2" type="model">
+<packageinstances>
+<packageinstance name="3557-2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -264,6 +269,9 @@ Fuse Clip 30A 500V Circuit Blade PCB
 <connect gate="G$1" pin="1" pad="1 2"/>
 <connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19934337/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="36-3557-2-ND" constant="no"/>
