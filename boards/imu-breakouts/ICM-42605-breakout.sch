@@ -7874,7 +7874,7 @@ Source: AVX .. aphvc.pdf</description>
 <library name="RoboJackets-Boards">
 <description>RoboJackets EAGLE Libraries - Boards</description>
 <packages>
-<package name="IMU-KIT">
+<package name="IMU-KIT" urn="urn:adsk.eagle:footprint:20353234/1">
 <wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
@@ -7888,10 +7888,17 @@ Source: AVX .. aphvc.pdf</description>
 <pad name="7" x="6.35" y="1.27" drill="1.016"/>
 <pad name="8" x="6.35" y="3.81" drill="1.016"/>
 <text x="-7.62" y="6.62" size="1" layer="25">&gt;NAME</text>
-<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 <text x="-7.62" y="-6.62" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="IMU-KIT" urn="urn:adsk.eagle:package:20353233/2" type="model">
+<packageinstances>
+<packageinstance name="IMU-KIT"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="IMU">
 <description>IMU</description>
@@ -7929,6 +7936,9 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="SCK" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20353233/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8072,7 +8082,7 @@ In this library you will find circuit elements that are used for getting measure
 <attribute name="SCH_DESC" value="Breakout for ICM 42605 IMU"/>
 <attribute name="TEAM" value="RoboCup SSL"/>
 </part>
-<part name="KIT1" library="RoboJackets-Boards" deviceset="IMU" device="IMU-KIT"/>
+<part name="KIT1" library="RoboJackets-Boards" deviceset="IMU" device="IMU-KIT" package3d_urn="urn:adsk.eagle:package:20353233/2" override_package3d_urn="urn:adsk.eagle:package:20353233/3" override_package_urn="urn:adsk.eagle:footprint:20353234/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="U3" library="RoboJackets-Sensors" deviceset="ICM-42605" device="" package3d_urn="urn:adsk.eagle:package:20340429/2"/>
@@ -8300,6 +8310,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 

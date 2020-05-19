@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -475,7 +475,7 @@
 <pad name="VDD" x="11.43" y="24.13" drill="1.02" rot="R180"/>
 <text x="-12.7" y="27.94" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="IMU-KIT">
+<package name="IMU-KIT" urn="urn:adsk.eagle:footprint:20353234/1">
 <wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
@@ -489,10 +489,17 @@
 <pad name="7" x="6.35" y="1.27" drill="1.016"/>
 <pad name="8" x="6.35" y="3.81" drill="1.016"/>
 <text x="-7.62" y="6.62" size="1" layer="25">&gt;NAME</text>
-<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 <text x="-7.62" y="-6.62" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="IMU-KIT" urn="urn:adsk.eagle:package:20353233/2" type="model">
+<packageinstances>
+<packageinstance name="IMU-KIT"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="MBED">
 <wire x1="-45.72" y1="25.4" x2="-8.255" y2="25.4" width="0.254" layer="94"/>
@@ -7027,6 +7034,9 @@
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="SCK" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20353233/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7036,4 +7046,16 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

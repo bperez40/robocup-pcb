@@ -181,7 +181,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzIzIwMjAwNTEwMjk2NDM2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:uCw9H2k5Rae1ZCOXCVSDXA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f76bd892-a2da-46a4-a104-5053add9c86b" lastsyncedrevisionid="f76bd892-a2da-46a4-a104-5053add9c86b" lastboardhashguid="02177ecb-9c2f-56c7-6b84-e5ea92a8960e" lastpushedtime="2020-05-18T19:52:58Z" linktopcb3d="%12"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoNzEz" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoNzEzIzIwMjAwNTEwMjk2NDM2NDc2" f3durn="urn:adsk.wipprod:dm.lineage:ucu_dVgQRz64XlYRbIqIgQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="8f9747de-f9ff-40f9-994c-9e28511008a9" lastsyncedrevisionid="8f9747de-f9ff-40f9-994c-9e28511008a9" lastboardhashguid="aa0baad9-2359-efcf-b243-aa71d7df114c" lastpushedtime="2020-05-19T12:59:44Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0" layer="20"/>
 <wire x1="7.62" y1="-6.35" x2="7.62" y2="6.35" width="0" layer="20"/>
@@ -192,7 +192,7 @@
 <text x="0" y="2" size="1.5" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">2019</text>
 <text x="0" y="-1" size="1" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IMU
 Breakout v1.0</text>
-<dimension x1="-6.35" y1="3.81" x2="6.35" y2="3.81" x3="0" y3="-1" textsize="1.778" layer="1"/>
+<text x="0" y="2" size="1.5" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">2019</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1273,7 +1273,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <library name="RoboJackets-Boards">
 <description>RoboJackets EAGLE Libraries - Boards</description>
 <packages>
-<package name="IMU-KIT">
+<package name="IMU-KIT" urn="urn:adsk.eagle:footprint:20353234/1">
 <wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
@@ -1287,10 +1287,17 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <pad name="7" x="6.35" y="1.27" drill="1.016"/>
 <pad name="8" x="6.35" y="3.81" drill="1.016"/>
 <text x="-7.62" y="6.62" size="1" layer="25">&gt;NAME</text>
-<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 <text x="-7.62" y="-6.62" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="IMU-KIT" urn="urn:adsk.eagle:package:20353233/2" type="model">
+<packageinstances>
+<packageinstance name="IMU-KIT"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="RoboJackets-Sensors">
 <description>&lt;img src="http://www.robojackets.org/wp-content/themes/RoboJackets-3.0/img/banner.png" width="600"&gt;
@@ -1575,7 +1582,7 @@ Your Eurocircuits Team
 </pass>
 </autorouter>
 <elements>
-<element name="KIT1" library="RoboJackets-Boards" package="IMU-KIT" value="IMUIMU-KIT" x="0" y="0" smashed="yes"/>
+<element name="KIT1" library="RoboJackets-Boards" package="IMU-KIT" package3d_urn="urn:adsk.eagle:package:20353233/2" override_package3d_urn="urn:adsk.eagle:package:20353233/3" override_package_urn="urn:adsk.eagle:footprint:20353234/1" value="IMUIMU-KIT" x="0" y="0" smashed="yes"/>
 <element name="U3" library="RoboJackets-Sensors" package="ICM-442605-2530091" package3d_urn="urn:adsk.eagle:package:20340429/2" value="ICM-42605" x="0" y="-1" smashed="yes" rot="R90">
 <attribute name="DIGIKEY_LINK" value="https://www.digikey.com/product-detail/en/tdk-invensense/ICM-42605/1428-1152-1-ND/9953675" x="0" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PN" value="1428-1152-1-ND" x="0" y="-1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1654,6 +1661,7 @@ Your Eurocircuits Team
 <wire x1="1.8" y1="-0.6375" x2="1" y2="0.1625" width="0.2" layer="1"/>
 <wire x1="1.5" y1="-1.5" x2="1.8" y2="-1.2" width="0.2" layer="1"/>
 <wire x1="1.8" y1="-1.2" x2="1.8" y2="-0.6375" width="0.2" layer="1"/>
+<wire x1="0.75" y1="0.1625" x2="0.75" y2="2.25" width="0.2" layer="1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="KIT1" pad="1"/>
@@ -1662,6 +1670,8 @@ Your Eurocircuits Team
 <wire x1="-5" y1="2.46" x2="-6.35" y2="3.81" width="0.2" layer="1"/>
 <wire x1="-2.5" y1="-1.5" x2="-5" y2="1" width="0.2" layer="1"/>
 <wire x1="-5" y1="1" x2="-5" y2="2.46" width="0.2" layer="1"/>
+<wire x1="-5" y1="2.46" x2="-6.35" y2="3.81" width="0.2" layer="1"/>
+<wire x1="-5" y1="2.46" x2="-6.35" y2="3.81" width="0.2" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="KIT1" pad="2"/>
@@ -1670,6 +1680,8 @@ Your Eurocircuits Team
 <wire x1="-1" y1="-3" x2="-0.75" y2="-2.75" width="0.2" layer="1"/>
 <wire x1="-6.35" y1="1.27" x2="-2.08" y2="-3" width="0.2" layer="1"/>
 <wire x1="-2.08" y1="-3" x2="-1" y2="-3" width="0.2" layer="1"/>
+<wire x1="-6.35" y1="1.27" x2="-2.08" y2="-3" width="0.2" layer="1"/>
+<wire x1="-6.35" y1="1.27" x2="-2.08" y2="-3" width="0.2" layer="1"/>
 </signal>
 <signal name="CLK">
 <contactref element="KIT1" pad="3"/>
@@ -1679,6 +1691,9 @@ Your Eurocircuits Team
 <wire x1="-0.9125" y1="-1" x2="-2" y2="-1" width="0.2" layer="1"/>
 <wire x1="-2" y1="-1" x2="-4" y2="1" width="0.2" layer="1"/>
 <via x="-4" y="1" extent="1-16" drill="0.35"/>
+<wire x1="-6.35" y1="-1.27" x2="-4.08" y2="1" width="0.2" layer="16"/>
+<wire x1="-2" y1="-1" x2="-4" y2="1" width="0.2" layer="1"/>
+<wire x1="-6.35" y1="-1.27" x2="-4.08" y2="1" width="0.2" layer="16"/>
 </signal>
 <signal name="INT">
 <contactref element="KIT1" pad="6"/>
@@ -1686,6 +1701,8 @@ Your Eurocircuits Team
 <wire x1="0.75" y1="-2.1625" x2="0.75" y2="-2.75" width="0.2" layer="1"/>
 <wire x1="0.75" y1="-2.75" x2="1" y2="-3" width="0.2" layer="1"/>
 <wire x1="1" y1="-3" x2="4.62" y2="-3" width="0.2" layer="1"/>
+<wire x1="4.62" y1="-3" x2="6.35" y2="-1.27" width="0.2" layer="1"/>
+<wire x1="4.62" y1="-3" x2="6.35" y2="-1.27" width="0.2" layer="1"/>
 <wire x1="4.62" y1="-3" x2="6.35" y2="-1.27" width="0.2" layer="1"/>
 </signal>
 <signal name="!CS!">
@@ -1731,6 +1748,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
