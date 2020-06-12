@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -64,6 +65,8 @@
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -262,7 +265,34 @@ In this library you will find inductors. If you are looking for a common package
 <wire x1="-3.5" y1="-3" x2="-3.5" y2="3" width="0.2" layer="21"/>
 <text x="-3.5" y="3.5" size="1" layer="25">&gt;NAME</text>
 </package>
+<package name="L0603" urn="urn:adsk.eagle:footprint:7784324/3" locally_modified="yes">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;0603</description>
+<smd name="1" x="-0.825" y="0" dx="0.95" dy="0.7" layer="1"/>
+<smd name="2" x="0.825" y="0" dx="0.95" dy="0.7" layer="1"/>
+<text x="-2.135" y="0.96" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.12" y="-1.82" size="1" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.5" y="0.7"/>
+<vertex x="1.5" y="0.7"/>
+<vertex x="1.5" y="-0.7"/>
+<vertex x="-1.5" y="-0.7"/>
+</polygon>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="WE-CBF_0603(W=2.6)" urn="urn:adsk.eagle:package:7784395/5" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;0603</description>
+<packageinstances>
+<packageinstance name="L0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="INDUCTOR_SINGLE">
 <pin name="P$1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -271,8 +301,8 @@ In this library you will find inductors. If you are looking for a common package
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-1.27" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="DA203X-AL">
 <circle x="-14.224" y="3.81" radius="0.254" width="0.254" layer="94"/>
@@ -490,7 +520,185 @@ In this library you will find inductors. If you are looking for a common package
 </device>
 </devices>
 </deviceset>
+<deviceset name="FERRITE_BEAD_0603" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 2.2
+&lt;br&gt;High Current: W=Width= 2.6
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.de/media/images/v2/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.de/media/images/v2/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-CBF"&gt;http://katalog.we-online.de/en/pbs/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2019-01-02&lt;br&gt;
+2019 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR_SINGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_HC" package="L0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784395/5"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792601">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792601.pdf" constant="no"/>
+<attribute name="IR1" value="1000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792601 " constant="no"/>
+<attribute name="RDC-MAX" value="0.03Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="30Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="53Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="65Ohm" constant="no"/>
+</technology>
+<technology name="_742792602">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792602.pdf" constant="no"/>
+<attribute name="IR1" value="3000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792602 " constant="no"/>
+<attribute name="RDC-MAX" value="0.04Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="60Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="110Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="110Ohm" constant="no"/>
+</technology>
+<technology name="_742792603">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792603.pdf" constant="no"/>
+<attribute name="IR1" value="4000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792603 " constant="no"/>
+<attribute name="RDC-MAX" value="0.03Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="28Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="50Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="45Ohm" constant="no"/>
+</technology>
+<technology name="_742792604">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792604.pdf" constant="no"/>
+<attribute name="IR1" value="1000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792604 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="22Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="35Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="40Ohm" constant="no"/>
+</technology>
+<technology name="_742792609">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792609.pdf" constant="no"/>
+<attribute name="IR1" value="3000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792609 " constant="no"/>
+<attribute name="RDC-MAX" value="0.04Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="30Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="40Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="40Ohm" constant="no"/>
+</technology>
+<technology name="_742792624">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792624.pdf" constant="no"/>
+<attribute name="IR1" value="1500mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792624 " constant="no"/>
+<attribute name="RDC-MAX" value="0.09Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="180Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="173Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="250Ohm" constant="no"/>
+</technology>
+<technology name="_742792625">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792625.pdf" constant="no"/>
+<attribute name="IR1" value="2000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792625 " constant="no"/>
+<attribute name="RDC-MAX" value="0.05Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="120Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="146Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="180Ohm" constant="no"/>
+</technology>
+<technology name="_742792641">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792641.pdf" constant="no"/>
+<attribute name="IR1" value="2000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792641 " constant="no"/>
+<attribute name="RDC-MAX" value="0.15Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="300Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="274Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="450Ohm" constant="no"/>
+</technology>
+<technology name="_742792645">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792645.pdf" constant="no"/>
+<attribute name="IR1" value="1000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792645 " constant="no"/>
+<attribute name="RDC-MAX" value="0.2Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="470Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="-" constant="no"/>
+<attribute name="ZMAX" value="600Ohm" constant="no"/>
+</technology>
+<technology name="_742792651">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792651.pdf" constant="no"/>
+<attribute name="IR1" value="1000mA" constant="no"/>
+<attribute name="IR2" value="-" constant="no"/>
+<attribute name="MOUNT" value="SMT" constant="no"/>
+<attribute name="PART-NUMBER" value=" 742792651 " constant="no"/>
+<attribute name="RDC-MAX" value="0.2Ohm" constant="no"/>
+<attribute name="TYPE" value="High Current" constant="no"/>
+<attribute name="VALUE" value="600Ohm@100MHz" constant="no"/>
+<attribute name="Z" value="258Ohm@1GMHz" constant="no"/>
+<attribute name="ZMAX" value="800Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
