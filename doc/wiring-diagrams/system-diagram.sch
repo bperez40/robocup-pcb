@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3468,136 +3468,11 @@ In this library you will find frames that can be used to help organize a schemat
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="RoboJackets-Supplies">
-<description>RoboJackets EAGLE Libraries - Supplies</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="+3.3V">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.635" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="+3.3V" prefix="SUPPLY">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="P" symbol="+3.3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="RoboJackets-Boards">
-<description>RoboJackets EAGLE Libraries - Boards</description>
-<packages>
-<package name="IMU-KIT">
-<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="3.81" drill="1.02"/>
-<pad name="2" x="-6.35" y="1.27" drill="1.02"/>
-<pad name="3" x="-6.35" y="-1.27" drill="1.02"/>
-<pad name="4" x="-6.35" y="-3.81" drill="1.02"/>
-<pad name="5" x="6.35" y="-3.81" drill="1.02" rot="R180"/>
-<pad name="6" x="6.35" y="-1.27" drill="1.02" rot="R180"/>
-<pad name="7" x="6.35" y="1.27" drill="1.02" rot="R180"/>
-<pad name="8" x="6.35" y="3.81" drill="1.02" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
-<circle x="-6.731" y="5.588" radius="0.283978125" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="IMU">
-<description>IMU</description>
-<pin name="GND" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="INT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="NC" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="+3.3V" x="12.7" y="7.62" length="middle" rot="R180"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<pin name="MOSI" x="-15.24" y="7.62" length="middle"/>
-<pin name="MISO" x="-15.24" y="2.54" length="middle"/>
-<pin name="SCK" x="-15.24" y="-2.54" length="middle"/>
-<pin name="!CS!" x="-15.24" y="-7.62" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IMU" prefix="KIT">
-<description>IMU breakout board</description>
-<gates>
-<gate name="G$1" symbol="IMU" x="15.24" y="2.54"/>
-</gates>
-<devices>
-<device name="IMU-KIT" package="IMU-KIT">
-<connects>
-<connect gate="G$1" pin="!CS!" pad="4"/>
-<connect gate="G$1" pin="+3.3V" pad="8"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="INT" pad="6"/>
-<connect gate="G$1" pin="MISO" pad="2"/>
-<connect gate="G$1" pin="MOSI" pad="1"/>
-<connect gate="G$1" pin="NC" pad="7"/>
-<connect gate="G$1" pin="SCK" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
-<attribute name="REVISION" value="1.0"/>
-<attribute name="SCH_DESC" value="Breakout board for the LSM9DS1"/>
-<attribute name="TEAM" value="RoboCup"/>
+<attribute name="REVISION" value="v1.0"/>
+<attribute name="SCH_DESC" value="High Level System Overview"/>
+<attribute name="TEAM" value="RoboCup SSL"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3605,162 +3480,18 @@ In this library you will find frames that can be used to help organize a schemat
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<modules>
-<module name="RADIO" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="5V" side="bottom" coord="-12.7" direction="io"/>
-<port name="GND" side="bottom" coord="-10.16" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="KICKER" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="MOTOR" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="CONTROL" prefix="" dx="50.8" dy="50.8">
-<ports>
-<port name="MISO_KICKER" side="left" coord="7.62" direction="io"/>
-<port name="MOSI_KICKER" side="left" coord="5.08" direction="io"/>
-<port name="SCK_KICKER" side="left" coord="2.54" direction="io"/>
-<port name="!KICKER_SELECT" side="left" coord="0" direction="io"/>
-<port name="!RESET_KICKER" side="left" coord="-2.54" direction="io"/>
-<port name="GND" side="left" coord="-5.08" direction="io"/>
-<port name="5V" side="left" coord="-7.62" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="MTRAIN" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-</modules>
 <parts>
 <part name="FRAME1" library="RoboJackets-Frames" deviceset="FRAME_A_L" device="">
-<attribute name="REVISION" value="1.0"/>
-<attribute name="SCH_DESC" value="High Level Connection Diagram for a Robot"/>
+<attribute name="REVISION" value="v1.0"/>
+<attribute name="SCH_DESC" value="High Level System Overview"/>
 <attribute name="TEAM" value="RoboCup SSL"/>
 </part>
-<part name="KIT1" library="RoboJackets-Boards" deviceset="IMU" device="IMU-KIT"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SUPPLY2" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
+<description>High Level System Overview</description>
 <plain>
-<wire x1="15.24" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="83.82" y1="175.26" x2="83.82" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="83.82" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="15.24" y1="137.16" x2="15.24" y2="175.26" width="0.1524" layer="97" style="shortdash"/>
-<text x="20.32" y="170.18" size="2.1844" layer="97">Board Header Pins</text>
 </plain>
-<moduleinsts>
-<moduleinst name="RADIO1" module="RADIO" x="104.14" y="165.1">
-<attribute name="NAME" x="104.14" y="165.1" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="KICKER1" module="KICKER" x="149.86" y="111.76">
-<attribute name="NAME" x="149.86" y="111.76" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR1" module="MOTOR" x="73.66" y="114.3">
-<attribute name="NAME" x="73.66" y="114.3" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR2" module="MOTOR" x="78.74" y="76.2">
-<attribute name="NAME" x="78.74" y="76.2" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR3" module="MOTOR" x="129.54" y="78.74">
-<attribute name="NAME" x="129.54" y="78.74" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR4" module="MOTOR" x="33.02" y="78.74">
-<attribute name="NAME" x="33.02" y="78.74" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="CONTROL1" module="CONTROL" x="193.04" y="185.42">
-<attribute name="NAME" x="193.04" y="185.42" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MTRAIN1" module="MTRAIN" x="198.12" y="147.32">
-<attribute name="NAME" x="198.12" y="147.32" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-</moduleinsts>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
@@ -3771,81 +3502,13 @@ In this library you will find frames that can be used to help organize a schemat
 <attribute name="REVISION" x="245.11" y="6.35" size="2.54" layer="94"/>
 <attribute name="TEAM" x="173.99" y="34.29" size="3.048" layer="94" ratio="10" align="top-left"/>
 </instance>
-<instance part="KIT1" gate="G$1" x="48.26" y="154.94" smashed="yes"/>
-<instance part="GND5" gate="1" x="68.58" y="147.32" smashed="yes" rot="R90">
-<attribute name="VALUE" x="71.12" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY2" gate="P" x="68.58" y="162.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="71.755" y="164.465" size="1.778" layer="96" rot="R270"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="KIT1" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3.3V" class="0">
-<segment>
-<pinref part="SUPPLY2" gate="P" pin="+3.3V"/>
-<pinref part="KIT1" gate="G$1" pin="+3.3V"/>
-<wire x1="66.04" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="KIT1" gate="G$1" pin="MOSI"/>
-<wire x1="33.02" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<label x="27.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="KIT1" gate="G$1" pin="MISO"/>
-<wire x1="33.02" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
-<label x="27.94" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CLK" class="0">
-<segment>
-<pinref part="KIT1" gate="G$1" pin="SCK"/>
-<wire x1="33.02" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
-<label x="27.94" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="INT" class="0">
-<segment>
-<label x="66.04" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="KIT1" gate="G$1" pin="INT"/>
-<wire x1="60.96" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!CS!" class="0">
-<segment>
-<pinref part="KIT1" gate="G$1" pin="!CS!"/>
-<wire x1="33.02" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
-<label x="27.94" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
