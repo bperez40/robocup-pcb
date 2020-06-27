@@ -24532,8 +24532,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="S3" library="RoboJackets-Switches" deviceset="34EWMSP12M6RT" device=""/>
-<part name="GND68" library="supply1" deviceset="GND" device=""/>
-<part name="GND69" library="supply1" deviceset="GND" device=""/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="D4" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
@@ -25783,13 +25781,6 @@ battery power</text>
 <attribute name="NAME" x="53.34" y="172.72" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="53.34" y="170.18" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="S3" gate="G$2" x="48.26" y="167.64" smashed="yes"/>
-<instance part="GND68" gate="1" x="45.72" y="160.02" smashed="yes">
-<attribute name="VALUE" x="43.18" y="157.48" size="1.778" layer="96"/>
-</instance>
-<instance part="GND69" gate="1" x="50.8" y="160.02" smashed="yes">
-<attribute name="VALUE" x="48.26" y="157.48" size="1.778" layer="96"/>
-</instance>
 <instance part="GND66" gate="1" x="30.48" y="160.02" smashed="yes">
 <attribute name="VALUE" x="27.94" y="157.48" size="1.778" layer="96"/>
 </instance>
@@ -25966,16 +25957,6 @@ battery power</text>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 <wire x1="22.86" y1="165.1" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="S3" gate="G$2" pin="LEG1"/>
-<pinref part="GND68" gate="1" pin="GND"/>
-<wire x1="45.72" y1="165.1" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="S3" gate="G$2" pin="LEG2"/>
-<pinref part="GND69" gate="1" pin="GND"/>
-<wire x1="50.8" y1="165.1" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND66" gate="1" pin="GND"/>
