@@ -19,7 +19,7 @@ Most CAD files found here are [EAGLE](http://www.cadsoftusa.com/) files. However
 
 ## Installation
 
-## RoboCup Files
+### RoboCup Files
 Once your computer is setup with git, the following lines can be used on any operating system within a *[terminal](http://en.wikipedia.org/wiki/Computer_terminal)* configured with git. Users who are using a GUI interface for git should simply add the respective repositories through the interface.
 
 ```
@@ -33,11 +33,8 @@ cd robocup-pcb
 git submodule update --init
 ```
 
-## EAGLE Libraries
+### EAGLE Libraries
 ```
-# Navigate back up
-cd ..
-
 # Download the initial files
 git clone https://github.com/RoboJackets/eagle-libraries.git
 
@@ -47,7 +44,7 @@ cd eagle-libraries
 # Follow the README.md file there
 ```
 
-## Updating Repository
+### Updating Repository
 ```
 # Check which files will removed
 git clean -d -x -n
