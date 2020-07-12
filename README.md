@@ -15,44 +15,49 @@ If you are a new member to the RoboCup electrical team and have never used *[git
 
 ## Using this Repository
 Most CAD files found here are [EAGLE](http://www.cadsoftusa.com/) files. However, very few older archived files were created using [PCB](http://pcb.geda-project.org) (a program that is part of the [gEDA project](http://www.geda-project.org)). Users will find the following items here:
-- Control, Kicker, and Radio files
-- RoboCup libraries
-- DRU rulesets (for checking for errors)
+- Control, Kicker, Breakbeam, and Radio files
 
+## Installation
 
-### Setup libraries in EAGLE
+## RoboCup Files
+Once your computer is setup with git, the following lines can be used on any operating system within a *[terminal](http://en.wikipedia.org/wiki/Computer_terminal)* configured with git. Users who are using a GUI interface for git should simply add the respective repositories through the interface.
 
-1. Downloading the libraries
+```
+# Download the initial files
+git clone https://github.com/robojackets/robocup-pcb
 
-	Once your computer is setup with git, the following lines can be used on any operating system within a *[terminal](http://en.wikipedia.org/wiki/Computer_terminal)* configured with git. Users who are using a GUI interface for git should simply add the respective repositories through the interface.
+# Go into our new directory
+cd robocup-pcb
 
-	```
-    # Download the initial files
-	git clone https://github.com/robojackets/robocup-pcb
+# Download additional mtrain pcbs
+git submodule update --init
+```
 
-    # Go into our new directory
-    cd robocup-pcb
+## EAGLE Libraries
+```
+# Navigate back up
+cd ..
 
-    # Download additional mtrain pcbs
-    git submodule update --init
-	```
+# Download the initial files
+git clone https://github.com/RoboJackets/eagle-libraries.git
 
-2. Add the new directory locations to EAGLE:
+# Go into our new directory
+cd eagle-libraries
 
-	From EAGLE's Control Panel, navigate to the *Directories* window: *Options -> Directories*.
+# Follow the README.md file there
+```
 
-    Find the *Libraries* text box, and add the directory paths where the repositories were cloned from step 1. Don't forget to also include the path for the *[RoboJackets libraries](https://github.com/RoboJackets/robocup-pcb/tree/master/lib)*!
+## Updating Repository
+```
+# Check which files will removed
+git clean -d -x -n
 
-### Updating Repository
+# After being sure which files are deleted
+git clean -d -x -f
 
-	# Check which files will removed
-	git clean -d -x -n
-
-	# After being sure which files are deleted
-	git clean -d -x -f
-
-	# Download additional mtrain pcbs
-	git submodule update --init
+# Download additional mtrain pcbs
+git submodule update --init
+```
 
 ## License
 
