@@ -18,10 +18,9 @@ Most CAD files found here are [EAGLE](http://www.cadsoftusa.com/) files. However
 - Control, Kicker, Breakbeam, and Radio files
 
 ## Installation
-
-### RoboCup Files
 Once your computer is setup with git, the following lines can be used on any operating system within a *[terminal](http://en.wikipedia.org/wiki/Computer_terminal)* configured with git. Users who are using a GUI interface for git should simply add the respective repositories through the interface.
 
+### RoboCup Files
 ```
 # Download the initial files
 git clone https://github.com/robojackets/robocup-pcb
