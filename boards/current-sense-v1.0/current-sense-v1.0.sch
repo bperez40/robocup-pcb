@@ -25765,6 +25765,9 @@ battery power</text>
 <wire x1="269.24" y1="127" x2="269.24" y2="132.08" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="124.46" x2="165.1" y2="73.66" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="73.66" x2="165.1" y2="63.5" width="0.254" layer="97" style="shortdash"/>
+<text x="167.64" y="119.38" size="1.778" layer="97">Low Dropout Regulators (LDO)</text>
+<text x="142.24" y="193.04" size="1.778" layer="97">Double Channel 
+High Side Driver</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -26344,6 +26347,8 @@ battery power</text>
 <wire x1="266.7" y1="63.5" x2="266.7" y2="43.18" width="0.254" layer="97" style="shortdash"/>
 <wire x1="266.7" y1="43.18" x2="127" y2="43.18" width="0.254" layer="97" style="shortdash"/>
 <wire x1="127" y1="43.18" x2="127" y2="63.5" width="0.254" layer="97" style="shortdash"/>
+<text x="20.32" y="193.04" size="1.778" layer="97">Digital Isolators</text>
+<text x="129.54" y="193.04" size="1.778" layer="97">Internal Temperature Sensor</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
