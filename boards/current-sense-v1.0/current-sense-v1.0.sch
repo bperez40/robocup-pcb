@@ -517,16 +517,16 @@ In this library you will find integrated circuits (ICs) that are directly involv
 <text x="-7.62" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-7.62" y="12.7" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
-<symbol name="TLV70450">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="IN" x="-12.7" y="5.08" length="middle" direction="in"/>
-<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
-<pin name="OUT" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
-<text x="-7.62" y="7.62" size="1.778" layer="97">&gt;NAME</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="97">&gt;VALUE</text>
+<symbol name="TLV70433">
+<pin name="IN" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="OUT" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -675,9 +675,9 @@ In this library you will find integrated circuits (ICs) that are directly involv
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV70450" prefix="U">
+<deviceset name="TLV70433">
 <gates>
-<gate name="G$1" symbol="TLV70450" x="0" y="0"/>
+<gate name="G$1" symbol="TLV70433" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-5">
@@ -687,10 +687,7 @@ In this library you will find integrated circuits (ICs) that are directly involv
 <connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="296-39287-1-ND" constant="no"/>
-<attribute name="MPN" value="TLV70450DBVR" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -24585,7 +24582,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF 50V"/>
 <part name="GND80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY42" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
-<part name="U9" library="RoboJackets-PowerICs" deviceset="TLV70450" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uf"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="ISO7241" device=""/>
@@ -24633,7 +24629,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U5" library="RoboJackets-PowerICs" deviceset="TLV70233" device="DBVR"/>
+<part name="U$1" library="RoboJackets-PowerICs" deviceset="TLV70433" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25751,7 +25747,7 @@ battery power</text>
 <wire x1="162.56" y1="127" x2="162.56" y2="200.66" width="0.254" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="200.66" x2="12.7" y2="200.66" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="200.66" x2="269.24" y2="200.66" width="0.254" layer="97" style="shortdash"/>
-<wire x1="269.24" y1="200.66" x2="269.24" y2="132.08" width="0.254" layer="97" style="shortdash"/>
+<wire x1="269.24" y1="200.66" x2="269.24" y2="127" width="0.254" layer="97" style="shortdash"/>
 <wire x1="269.24" y1="124.46" x2="165.1" y2="124.46" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="127" x2="165.1" y2="200.66" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="63.5" x2="269.24" y2="63.5" width="0.254" layer="97" style="shortdash"/>
@@ -25766,9 +25762,7 @@ battery power</text>
 <wire x1="43.18" y1="17.78" x2="43.18" y2="50.8" width="0.254" layer="97" style="shortdash"/>
 <wire x1="43.18" y1="50.8" x2="12.7" y2="50.8" width="0.254" layer="97" style="shortdash"/>
 <wire x1="165.1" y1="127" x2="269.24" y2="127" width="0.254" layer="97" style="shortdash"/>
-<wire x1="269.24" y1="127" x2="269.24" y2="132.08" width="0.254" layer="97" style="shortdash"/>
-<wire x1="165.1" y1="124.46" x2="165.1" y2="73.66" width="0.254" layer="97" style="shortdash"/>
-<wire x1="165.1" y1="73.66" x2="165.1" y2="63.5" width="0.254" layer="97" style="shortdash"/>
+<wire x1="165.1" y1="124.46" x2="165.1" y2="63.5" width="0.254" layer="97" style="shortdash"/>
 <text x="167.64" y="119.38" size="1.778" layer="97">Low Dropout Regulators (LDO)</text>
 <text x="142.24" y="193.04" size="1.778" layer="97">Double Channel 
 High Side Driver</text>
@@ -25952,16 +25946,16 @@ High Side Driver</text>
 <instance part="SUPPLY46" gate="+5V" x="195.58" y="177.8" smashed="yes">
 <attribute name="VALUE" x="193.675" y="180.975" size="1.778" layer="96"/>
 </instance>
-<instance part="GND75" gate="1" x="205.74" y="81.28" smashed="yes">
-<attribute name="VALUE" x="203.2" y="78.74" size="1.778" layer="96"/>
+<instance part="GND75" gate="1" x="208.28" y="81.28" smashed="yes">
+<attribute name="VALUE" x="205.74" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="C45" gate="G$1" x="241.3" y="93.98" smashed="yes">
 <attribute name="NAME" x="242.316" y="94.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.316" y="89.789" size="1.778" layer="96"/>
 </instance>
-<instance part="C42" gate="G$1" x="195.58" y="93.98" smashed="yes">
-<attribute name="NAME" x="196.596" y="94.615" size="1.778" layer="95"/>
-<attribute name="VALUE" x="196.596" y="89.789" size="1.778" layer="96"/>
+<instance part="C42" gate="G$1" x="190.5" y="93.98" smashed="yes">
+<attribute name="NAME" x="194.056" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="191.516" y="89.789" size="1.778" layer="96"/>
 </instance>
 <instance part="GND80" gate="1" x="241.3" y="83.82" smashed="yes">
 <attribute name="VALUE" x="238.76" y="81.28" size="1.778" layer="96"/>
@@ -25969,13 +25963,9 @@ High Side Driver</text>
 <instance part="SUPPLY42" gate="G$1" x="185.42" y="96.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="182.245" y="94.615" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U9" gate="G$1" x="220.98" y="91.44" smashed="yes">
-<attribute name="NAME" x="213.36" y="99.06" size="1.778" layer="97"/>
-<attribute name="VALUE" x="213.36" y="83.82" size="1.778" layer="97"/>
-</instance>
-<instance part="U5" gate="G$1" x="220.98" y="109.22" smashed="yes">
-<attribute name="VALUE" x="213.36" y="106.68" size="1.778" layer="96"/>
-<attribute name="NAME" x="213.36" y="121.92" size="1.778" layer="95" align="top-left"/>
+<instance part="U$1" gate="G$1" x="220.98" y="96.52" smashed="yes">
+<attribute name="NAME" x="213.36" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.36" y="86.36" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -26077,18 +26067,18 @@ High Side Driver</text>
 <pinref part="GND89" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="GND75" gate="1" pin="GND"/>
-<pinref part="C42" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="88.9" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
-<junction x="205.74" y="88.9"/>
-<pinref part="U9" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C45" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="88.9" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND80" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="88.9" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="208.28" y1="83.82" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="GND75" gate="1" pin="GND"/>
+<junction x="208.28" y="83.82"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -26170,11 +26160,10 @@ High Side Driver</text>
 </segment>
 <segment>
 <pinref part="C42" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<junction x="195.58" y="96.52"/>
+<wire x1="190.5" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
+<junction x="190.5" y="96.52"/>
 <pinref part="SUPPLY42" gate="G$1" pin="+18.5V"/>
-<pinref part="U9" gate="G$1" pin="IN"/>
+<wire x1="208.1276" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN-PWR-PRE" class="0">
@@ -26321,12 +26310,11 @@ High Side Driver</text>
 </net>
 <net name="ADC_3V3" class="0">
 <segment>
-<wire x1="233.68" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <junction x="241.3" y="96.52"/>
 <wire x1="241.3" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="251.46" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U9" gate="G$1" pin="OUT"/>
+<wire x1="233.8324" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
