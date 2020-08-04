@@ -24629,7 +24629,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$1" library="RoboJackets-PowerICs" deviceset="TLV70433" device=""/>
+<part name="U9" library="RoboJackets-PowerICs" deviceset="TLV70433" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24643,18 +24643,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="10.16" y1="5.08" x2="53.34" y2="5.08" width="0.254" layer="97" style="shortdash"/>
 <wire x1="53.34" y1="5.08" x2="53.34" y2="53.34" width="0.254" layer="97" style="shortdash"/>
 <wire x1="53.34" y1="53.34" x2="10.16" y2="53.34" width="0.254" layer="97" style="shortdash"/>
-<wire x1="58.42" y1="53.34" x2="104.14" y2="53.34" width="0.254" layer="97" style="shortdash"/>
-<wire x1="104.14" y1="53.34" x2="104.14" y2="5.08" width="0.254" layer="97" style="shortdash"/>
-<wire x1="104.14" y1="5.08" x2="58.42" y2="5.08" width="0.254" layer="97" style="shortdash"/>
-<wire x1="58.42" y1="5.08" x2="58.42" y2="53.34" width="0.254" layer="97" style="shortdash"/>
-<wire x1="106.68" y1="2.54" x2="152.4" y2="2.54" width="0.254" layer="97" style="shortdash"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="50.8" width="0.254" layer="97" style="shortdash"/>
+<wire x1="58.42" y1="2.54" x2="152.4" y2="2.54" width="0.254" layer="97" style="shortdash"/>
 <wire x1="152.4" y1="2.54" x2="152.4" y2="50.8" width="0.254" layer="97" style="shortdash"/>
-<wire x1="152.4" y1="50.8" x2="106.68" y2="50.8" width="0.254" layer="97" style="shortdash"/>
-<wire x1="106.68" y1="50.8" x2="106.68" y2="2.54" width="0.254" layer="97" style="shortdash"/>
+<wire x1="152.4" y1="50.8" x2="58.42" y2="50.8" width="0.254" layer="97" style="shortdash"/>
 <text x="91.44" y="203.2" size="1.778" layer="97">Main Driver</text>
 <text x="12.7" y="48.26" size="1.778" layer="97">Encoder</text>
-<text x="60.96" y="48.26" size="1.778" layer="97">Drill</text>
-<text x="109.22" y="45.72" size="1.778" layer="97">VSM</text>
+<text x="60.96" y="48.26" size="1.778" layer="97">Connectors</text>
 <text x="114.3" y="203.2" size="1.778" layer="97">Half Bridges</text>
 <wire x1="109.22" y1="53.34" x2="246.38" y2="53.34" width="0.254" layer="97" style="shortdash"/>
 <wire x1="246.38" y1="53.34" x2="246.38" y2="208.28" width="0.254" layer="97" style="shortdash"/>
@@ -25963,7 +25958,7 @@ High Side Driver</text>
 <instance part="SUPPLY42" gate="G$1" x="185.42" y="96.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="182.245" y="94.615" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="220.98" y="96.52" smashed="yes">
+<instance part="U9" gate="G$1" x="220.98" y="96.52" smashed="yes">
 <attribute name="NAME" x="213.36" y="99.06" size="1.778" layer="95"/>
 <attribute name="VALUE" x="213.36" y="86.36" size="1.778" layer="96"/>
 </instance>
@@ -26075,7 +26070,7 @@ High Side Driver</text>
 <pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="88.9" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 <wire x1="208.28" y1="83.82" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND75" gate="1" pin="GND"/>
 <junction x="208.28" y="83.82"/>
