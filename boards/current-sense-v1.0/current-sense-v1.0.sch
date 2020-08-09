@@ -26070,9 +26070,9 @@ High Side Driver</text>
 <pinref part="C42" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="88.9" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND"/>
-<wire x1="208.28" y1="83.82" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND75" gate="1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
+<wire x1="208.28" y1="91.44" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
 <junction x="208.28" y="83.82"/>
 </segment>
 </net>
@@ -26156,9 +26156,10 @@ High Side Driver</text>
 <segment>
 <pinref part="C42" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<junction x="190.5" y="96.52"/>
 <pinref part="SUPPLY42" gate="G$1" pin="+18.5V"/>
-<wire x1="208.1276" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="IN"/>
+<wire x1="190.5" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+<junction x="190.5" y="96.52"/>
 </segment>
 </net>
 <net name="EN-PWR-PRE" class="0">
@@ -26306,10 +26307,11 @@ High Side Driver</text>
 <net name="ADC_3V3" class="0">
 <segment>
 <pinref part="C45" gate="G$1" pin="1"/>
-<junction x="241.3" y="96.52"/>
 <wire x1="241.3" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="251.46" y="96.52" size="1.27" layer="95" xref="yes"/>
-<wire x1="233.8324" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="OUT"/>
+<wire x1="233.68" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
+<junction x="241.3" y="96.52"/>
 </segment>
 </net>
 </nets>
