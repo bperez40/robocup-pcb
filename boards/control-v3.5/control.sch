@@ -44353,15 +44353,15 @@ battery power</text>
 <attribute name="NAME" x="255.27" y="138.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.27" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="251.46" y="129.54" smashed="yes">
-<attribute name="NAME" x="252.476" y="130.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="252.476" y="125.349" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="251.46" y="132.08" smashed="yes">
+<attribute name="NAME" x="252.476" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.476" y="127.889" size="1.778" layer="96"/>
 </instance>
 <instance part="U$18" gate="G$1" x="266.7" y="142.24" smashed="yes">
 <attribute name="VALUE" x="264.795" y="145.415" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="266.7" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="269.24" y="121.92" size="1.778" layer="96" rot="R90"/>
+<instance part="GND11" gate="1" x="266.7" y="121.92" smashed="yes">
+<attribute name="VALUE" x="264.16" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY15" gate="P" x="254" y="121.92" smashed="yes" rot="R270">
 <attribute name="VALUE" x="257.175" y="123.825" size="1.778" layer="96" rot="R270"/>
@@ -44380,8 +44380,8 @@ battery power</text>
 <attribute name="NAME" x="196.215" y="136.144" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="191.389" y="136.144" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND13" gate="1" x="182.88" y="137.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="180.34" y="139.7" size="1.778" layer="96" rot="R270"/>
+<instance part="GND13" gate="1" x="182.88" y="132.08" smashed="yes">
+<attribute name="VALUE" x="180.34" y="129.54" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -44537,19 +44537,21 @@ battery power</text>
 <wire x1="203.2" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="251.46" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="246.38" y1="111.76" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="190.5" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="137.16" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="251.46" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="127" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -44903,7 +44905,7 @@ battery power</text>
 <junction x="246.38" y="132.08"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="137.16" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="137.16" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="137.16" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
 <junction x="246.38" y="137.16"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="254" y1="137.16" x2="251.46" y2="137.16" width="0.1524" layer="91"/>

@@ -15455,9 +15455,7 @@ Your Eurocircuits Team
 <contactref element="U1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="U$17" pad="P$4"/>
-<contactref element="C5" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="C8" pad="2"/>
 <contactref element="C61" pad="2"/>
 <contactref element="C81" pad="2"/>
 <contactref element="C65" pad="2"/>
@@ -15465,6 +15463,8 @@ Your Eurocircuits Team
 <contactref element="C80" pad="2"/>
 <contactref element="C82" pad="2"/>
 <contactref element="C56" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C5" pad="2"/>
 <wire x1="-105.15" y1="-397" x2="-105.15" y2="-402" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.15" y1="-392" x2="-105.15" y2="-397" width="0" layer="19" extent="1-1"/>
 <wire x1="-105.15" y1="-387" x2="-105.15" y2="-392" width="0" layer="19" extent="1-1"/>
