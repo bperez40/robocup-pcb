@@ -19974,7 +19974,9 @@ In this library you will find integrated circuits (ICs) that are directly involv
 <connect gate="G$1" pin="OUT@1" pad="P$8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DPKN" value="576-3114-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -39920,7 +39922,7 @@ ripple current from motors</text>
 <part name="D2" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0603" value="GRM188R6YA106MA73D"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF "/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="GND77" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="+5V" device=""/>
@@ -40025,7 +40027,7 @@ ripple current from motors</text>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150k"/>
 <part name="SUPPLY41" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
 <part name="SUPPLY63" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0805" value="0805L200SLTHYR"/>
+<part name="F1" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0805" value="2A"/>
 <part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
 <part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
 <part name="SUPPLY30" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
@@ -40057,7 +40059,7 @@ ripple current from motors</text>
 <part name="Q1" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3" value="BSS806NH6327XTSA1"/>
 <part name="Q2" library="RoboJackets-Discrete" deviceset="NMOS" device="SOT-23-3" value="BSS806NH6327XTSA1"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="rcl" deviceset="C-US" device="C0603" value="GRM188R6YA106MA73D"/>
+<part name="C25" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="D4" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-GREEN" value="GREEN"/>
@@ -40075,7 +40077,7 @@ ripple current from motors</text>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="29.4k"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150k"/>
 <part name="SUPPLY43" library="RoboJackets-Supplies" deviceset="+18.5V" device=""/>
-<part name="F2" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0805" value="0805L200SLTHYR"/>
+<part name="F2" library="RoboJackets-Fuses" deviceset="CHIP_FUSE" device="0805" value="2A"/>
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0"/>
 <part name="SUPPLY42" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="KIT2" library="RoboJackets-Boards" deviceset="IMU" device=""/>
@@ -40198,6 +40200,10 @@ ripple current from motors</text>
 <part name="SUPPLY14" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="D5" library="RoboJackets-LEDs" deviceset="LED-SMD" device="" technology="-RED" value="RED"/>
+<part name="SUPPLY16" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -40350,7 +40356,7 @@ ripple current from motors</text>
 <pinref part="SUPPLY5" gate="P" pin="+3.3V"/>
 </segment>
 </net>
-<net name="SENSE-BATT" class="0">
+<net name="SENSE-BATTERY" class="0">
 <segment>
 <wire x1="187.96" y1="152.4" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
 <label x="193.04" y="152.4" size="1.27" layer="95" xref="yes"/>
@@ -40450,14 +40456,14 @@ ripple current from motors</text>
 <pinref part="KIT1" gate="G$1" pin="P16"/>
 </segment>
 </net>
-<net name="!CS!-KICK" class="0">
+<net name="!CS!-KICKER" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="P8"/>
 <wire x1="91.44" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="86.36" y="152.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="!RST!-KICK" class="0">
+<net name="!RST!-KICKER" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="P7"/>
 <wire x1="91.44" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
@@ -40540,14 +40546,14 @@ ripple current from motors</text>
 <label x="193.04" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!RST!-WHISKERS" class="0">
+<net name="!RST!-SPI" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="P9"/>
 <wire x1="91.44" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
 <label x="86.36" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!CS!-WHISKERS" class="0">
+<net name="!CS!-SPI" class="0">
 <segment>
 <pinref part="KIT1" gate="G$1" pin="P10"/>
 <wire x1="91.44" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
@@ -40587,6 +40593,13 @@ ripple current from motors</text>
 <pinref part="KIT1" gate="G$1" pin="P3"/>
 <wire x1="91.44" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 <label x="86.36" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="INT-SPI" class="0">
+<segment>
+<pinref part="KIT1" gate="G$1" pin="P12"/>
+<wire x1="91.44" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
+<label x="86.36" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -43488,15 +43501,15 @@ pin. We will still use SPI after booting. </text>
 <description>User Interactions</description>
 <plain>
 <text x="86.36" y="114.3" size="1.778" layer="97">Buttons &amp; Switches</text>
-<wire x1="134.62" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="215.9" y1="60.96" x2="215.9" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="215.9" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="134.62" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="60.96" x2="248.92" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="248.92" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="134.62" y1="119.38" x2="134.62" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
-<text x="142.24" y="116.84" size="1.778" layer="97">Kicker Connectors</text>
+<text x="137.16" y="114.3" size="1.778" layer="97">Kicker Connectors</text>
 <wire x1="78.74" y1="60.96" x2="78.74" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="7.62" y1="119.38" x2="7.62" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
-<text x="12.7" y="111.76" size="1.778" layer="97">Radio Connector</text>
+<text x="12.7" y="114.3" size="1.778" layer="97">Radio Connector</text>
 <wire x1="7.62" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="271.78" y1="124.46" x2="271.78" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="271.78" y1="208.28" x2="129.54" y2="208.28" width="0.1524" layer="97" style="shortdash"/>
@@ -43515,7 +43528,7 @@ pin. We will still use SPI after booting. </text>
 <wire x1="78.74" y1="2.54" x2="78.74" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="7.62" y1="58.42" x2="7.62" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
-<text x="10.16" y="53.34" size="1.778" layer="97">IR Connector</text>
+<text x="10.16" y="53.34" size="1.778" layer="97">SPI Connector</text>
 <wire x1="7.62" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
@@ -43553,12 +43566,12 @@ pin. We will still use SPI after booting. </text>
 <instance part="GND61" gate="1" x="195.58" y="68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="198.12" y="66.04" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D1" gate="G$1" x="190.5" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="193.04" y="99.06" size="1.778" layer="95"/>
-<attribute name="VALUE" x="190.5" y="96.52" size="1.778" layer="96"/>
+<instance part="D1" gate="G$1" x="208.28" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="210.82" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY38" gate="P" x="198.12" y="106.68" smashed="yes">
-<attribute name="VALUE" x="196.215" y="109.855" size="1.778" layer="96"/>
+<instance part="SUPPLY38" gate="P" x="215.9" y="106.68" smashed="yes">
+<attribute name="VALUE" x="213.995" y="109.855" size="1.778" layer="96"/>
 </instance>
 <instance part="GND62" gate="1" x="193.04" y="152.4" smashed="yes">
 <attribute name="VALUE" x="190.5" y="149.86" size="1.778" layer="96"/>
@@ -43613,11 +43626,11 @@ pin. We will still use SPI after booting. </text>
 <instance part="SUPPLY34" gate="+5V" x="45.72" y="68.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="48.895" y="65.405" size="1.778" layer="96"/>
 </instance>
-<instance part="GND48" gate="1" x="45.72" y="40.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="48.26" y="38.1" size="1.778" layer="96" rot="R90"/>
+<instance part="GND48" gate="1" x="43.18" y="40.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="45.72" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY33" gate="P" x="48.26" y="35.56" smashed="yes" rot="R270">
-<attribute name="VALUE" x="51.435" y="34.925" size="1.778" layer="96"/>
+<instance part="SUPPLY33" gate="P" x="43.18" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="46.355" y="45.085" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="157.48" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.9814" y="151.13" size="1.778" layer="95" rot="R90"/>
@@ -43662,18 +43675,13 @@ pin. We will still use SPI after booting. </text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY38" gate="P" pin="+3.3V"/>
-<wire x1="195.58" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="101.6" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY30" gate="P" pin="+3.3V"/>
 <pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="165.1" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY33" gate="P" pin="+3.3V"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="35.56" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G2" pin="P$V+"/>
@@ -43734,11 +43742,6 @@ pin. We will still use SPI after booting. </text>
 <wire x1="43.18" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND48" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="35.56" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="149.86" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
@@ -43752,6 +43755,11 @@ pin. We will still use SPI after booting. </text>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="33.02" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND48" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="40.64" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HEX-0" class="0">
@@ -43837,8 +43845,8 @@ pin. We will still use SPI after booting. </text>
 <net name="LED-KICK" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="187.96" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="185.42" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.74" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<label x="200.66" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -43915,7 +43923,7 @@ pin. We will still use SPI after booting. </text>
 <label x="43.18" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!RST!-KICK" class="0">
+<net name="!RST!-KICKER" class="0">
 <segment>
 <wire x1="157.48" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <label x="162.56" y="88.9" size="1.27" layer="95" xref="yes"/>
@@ -43951,7 +43959,7 @@ pin. We will still use SPI after booting. </text>
 <label x="43.18" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!CS!-KICK" class="0">
+<net name="!CS!-KICKER" class="0">
 <segment>
 <wire x1="157.48" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="162.56" y="83.82" size="1.27" layer="95" xref="yes"/>
@@ -43972,14 +43980,14 @@ pin. We will still use SPI after booting. </text>
 <wire x1="231.14" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!CS!-WHISKERS" class="0">
+<net name="!CS!-SPI" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="35.56" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 <label x="43.18" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!RST!-WHISKERS" class="0">
+<net name="!RST!-SPI" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="35.56" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
@@ -44030,6 +44038,20 @@ pin. We will still use SPI after booting. </text>
 <pinref part="J3" gate="G$1" pin="5"/>
 <wire x1="33.02" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <label x="35.56" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="+3.3V" class="0">
+<segment>
+<pinref part="SUPPLY33" gate="P" pin="+3.3V"/>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="40.64" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="INT-SPI" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="35.56" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="43.18" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -44175,8 +44197,8 @@ battery power</text>
 <instance part="GND85" gate="1" x="187.96" y="58.42" smashed="yes">
 <attribute name="VALUE" x="185.42" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY48" gate="P" x="187.96" y="78.74" smashed="yes">
-<attribute name="VALUE" x="186.055" y="81.915" size="1.778" layer="96"/>
+<instance part="SUPPLY48" gate="P" x="177.8" y="76.2" smashed="yes">
+<attribute name="VALUE" x="175.895" y="79.375" size="1.778" layer="96"/>
 </instance>
 <instance part="GND88" gate="1" x="223.52" y="55.88" smashed="yes">
 <attribute name="VALUE" x="220.98" y="53.34" size="1.778" layer="96"/>
@@ -44383,6 +44405,20 @@ battery power</text>
 <instance part="GND13" gate="1" x="182.88" y="132.08" smashed="yes">
 <attribute name="VALUE" x="180.34" y="129.54" size="1.778" layer="96"/>
 </instance>
+<instance part="C9" gate="G$1" x="177.8" y="68.58" smashed="yes">
+<attribute name="NAME" x="178.816" y="69.215" size="1.778" layer="95"/>
+<attribute name="VALUE" x="178.816" y="64.389" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="177.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="175.26" y="55.88" size="1.778" layer="96"/>
+</instance>
+<instance part="D5" gate="G$1" x="256.54" y="71.12" smashed="yes">
+<attribute name="NAME" x="259.08" y="73.66" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="261.62" y="71.12" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY16" gate="P" x="256.54" y="81.28" smashed="yes">
+<attribute name="VALUE" x="254.635" y="84.455" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -44553,6 +44589,11 @@ battery power</text>
 <wire x1="251.46" y1="127" x2="266.7" y2="127" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="127" x2="266.7" y2="124.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="177.8" y1="63.5" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VBATT" class="0">
 <segment>
@@ -44702,13 +44743,16 @@ battery power</text>
 <net name="VCCO_0" class="0">
 <segment>
 <pinref part="SUPPLY48" gate="P" pin="+3.3V"/>
-<wire x1="187.96" y1="76.2" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="73.66" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
 <junction x="187.96" y="73.66"/>
 <pinref part="U1" gate="G$1" pin="V_IN"/>
 <pinref part="U1" gate="G$1" pin="!SHDN"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="73.66" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<junction x="177.8" y="73.66"/>
 </segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
@@ -44722,9 +44766,13 @@ battery power</text>
 </net>
 <net name="PWR-ERR" class="0">
 <segment>
-<wire x1="218.44" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="238.76" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PWRGD"/>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="243.84" y1="68.58" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="68.58" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
+<junction x="243.84" y="68.58"/>
+<label x="243.84" y="66.04" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="V_OUT" class="0">
@@ -44890,6 +44938,11 @@ battery power</text>
 <wire x1="200.66" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="142.24" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <junction x="200.66" y="137.16"/>
+</segment>
+<segment>
+<pinref part="SUPPLY16" gate="P" pin="+3.3V"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="256.54" y1="78.74" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">

@@ -2529,7 +2529,9 @@ Datasheet: https://www.onsemi.com/pub/Collateral/NCP161-D.PDF &lt;/p&gt;</descri
 <connect gate="G$1" pin="OUT@1" pad="P$8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DPKN" value="576-3114-1-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
