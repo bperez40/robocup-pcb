@@ -26337,7 +26337,7 @@ High Side Driver</text>
 <wire x1="266.7" y1="43.18" x2="127" y2="43.18" width="0.254" layer="97" style="shortdash"/>
 <wire x1="127" y1="43.18" x2="127" y2="63.5" width="0.254" layer="97" style="shortdash"/>
 <text x="20.32" y="193.04" size="1.778" layer="97">Digital Isolators</text>
-<text x="129.54" y="193.04" size="1.778" layer="97">Internal Temperature Sensor</text>
+<text x="129.54" y="193.04" size="1.778" layer="97">12-bit analog-to-digital converter</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
