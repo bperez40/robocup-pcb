@@ -39358,15 +39358,15 @@ ripple current from motors</text>
 <attribute name="NAME" x="187.96" y="104.14" size="1.778" layer="95"/>
 </instance>
 <instance part="C6" gate="G$1" x="104.14" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.505" y="138.176" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="103.505" y="140.716" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.696" y="138.049" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="104.14" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.505" y="122.936" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="103.505" y="125.476" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.696" y="122.809" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="104.14" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.505" y="107.696" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="103.505" y="110.236" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="107.696" y="107.569" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="149.86" y="63.5" smashed="yes">
@@ -40185,7 +40185,7 @@ ripple current from motors</text>
 <part name="X1" library="RoboJackets-FreqGen" deviceset="ASV-*" device="" technology="50.000MHZ-E-T"/>
 <part name="U1" library="RoboJackets-PowerICs" deviceset="MCP1824T*?" device="OT" technology="-1802E/"/>
 <part name="SUPPLY6" library="RoboJackets-Supplies" deviceset="+1.8V" device=""/>
-<part name="U$17" library="RoboJackets-PowerICs" deviceset="MIC47100-1.0YML-TR" device=""/>
+<part name="U6" library="RoboJackets-PowerICs" deviceset="MIC47100-1.0YML-TR" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY7" library="RoboJackets-Supplies" deviceset="+3.3V" device=""/>
@@ -41904,6 +41904,9 @@ pin. We will still use SPI after booting. </text>
 <wire x1="165.1" y1="170.18" x2="165.1" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="266.7" y1="170.18" x2="165.1" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
 <text x="167.64" y="165.1" size="1.778" layer="97">External Clock</text>
+<text x="-96.52" y="114.3" size="1.778" layer="97">RIGHT now VCC ADC enabled but
+connected to nothing, likely issues 
+in how it is enabled, check datasheet</text>
 </plain>
 <instances>
 <instance part="U8" gate="G$6" x="-12.7" y="109.22" smashed="yes">
@@ -43106,6 +43109,8 @@ pin. We will still use SPI after booting. </text>
 |  HIGH  |     LOW     ||    X   |
 |  HIGH  |     HIGH     ||  HIGH  |
 -------------------------------</text>
+<text x="172.72" y="111.76" size="1.778" layer="97">Add more I2C +SPI connections 
+put some camera high speed connection from fpga bank</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -44091,6 +44096,8 @@ battery power</text>
 <text x="38.1" y="109.22" size="1.778" layer="97">5V Regulator</text>
 <text x="38.1" y="55.88" size="1.778" layer="97">3.3V Regulator</text>
 <text x="208.28" y="109.22" size="1.778" layer="97">This part is fixed so pin 6 is FB</text>
+<text x="177.8" y="177.8" size="2.54" layer="97">Change DC-DC converters to linear? needs more amp rating </text>
+<text x="210.82" y="147.32" size="1.778" layer="97">INCREASE AMP RATING</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
@@ -44354,7 +44361,7 @@ battery power</text>
 <instance part="SUPPLY6" gate="G$1" x="233.68" y="78.74" smashed="yes">
 <attribute name="VALUE" x="231.775" y="81.915" size="1.778" layer="96"/>
 </instance>
-<instance part="U$17" gate="G$1" x="223.52" y="127" smashed="yes">
+<instance part="U6" gate="G$1" x="223.52" y="127" smashed="yes">
 <attribute name="NAME" x="210.82" y="140.716" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.82" y="116.84" size="1.778" layer="96"/>
 </instance>
@@ -44569,7 +44576,7 @@ battery power</text>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="U$17" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="203.2" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -44913,7 +44920,7 @@ battery power</text>
 </net>
 <net name="+3.3V" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="BIAS"/>
+<pinref part="U6" gate="G$1" pin="BIAS"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="121.92" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
@@ -44922,7 +44929,7 @@ battery power</text>
 <junction x="200.66" y="121.92"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="EN"/>
+<pinref part="U6" gate="G$1" pin="EN"/>
 <pinref part="SUPPLY15" gate="P" pin="+3.3V"/>
 <wire x1="241.3" y1="121.92" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -44931,7 +44938,7 @@ battery power</text>
 <junction x="246.38" y="121.92"/>
 </segment>
 <segment>
-<pinref part="U$17" gate="G$1" pin="IN@0"/>
+<pinref part="U6" gate="G$1" pin="IN@0"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="P" pin="+3.3V"/>
@@ -44947,12 +44954,12 @@ battery power</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="FB/ADJ"/>
+<pinref part="U6" gate="G$1" pin="FB/ADJ"/>
 <wire x1="241.3" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT@0"/>
+<pinref part="U6" gate="G$1" pin="OUT@0"/>
 <wire x1="241.3" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="137.16" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="OUT@1"/>
+<pinref part="U6" gate="G$1" pin="OUT@1"/>
 <wire x1="246.38" y1="132.08" x2="246.38" y2="127" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
 <junction x="246.38" y="132.08"/>
